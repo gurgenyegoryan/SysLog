@@ -1779,4 +1779,125 @@
 [ 7339.463108] ipheth 3-2:4.2: Apple iPhone USB Ethernet now disconnected
 [ 7340.028130] xhci_hcd 0000:3b:00.0: remove, state 4
 [ 7340.028134] usb usb4: USB disconnect, device number 1
-[ 7340.111239] pcieport 0000:06:00.0: can't change power state from D3cold to D0 (config space inaccessible) $
+[ 7340.111239] pcieport 0000:06:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[ 7344.591014] xhci_hcd 0000:3b:00.0: xHCI host controller not responding, assume dead
+[ 7344.591041] xhci_hcd 0000:3b:00.0: Timeout while waiting for configure endpoint command
+[ 7344.591538] xhci_hcd 0000:3b:00.0: USB bus 4 deregistered
+[ 7344.591557] xhci_hcd 0000:3b:00.0: remove, state 1
+[ 7344.591565] usb usb3: USB disconnect, device number 1
+[ 7344.592459] xhci_hcd 0000:3b:00.0: Host halt failed, -19
+[ 7344.592465] xhci_hcd 0000:3b:00.0: Host not accessible, reset failed.
+[ 7344.592748] xhci_hcd 0000:3b:00.0: USB bus 3 deregistered
+[ 7344.594041] pcieport 0000:06:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[ 7344.595072] pci_bus 0000:07: busn_res: [bus 07] is released
+[ 7344.595163] pci_bus 0000:08: busn_res: [bus 08-3a] is released
+[ 7344.883420] ACPI BIOS Error (bug): Failure creating named object [\_GPE._E4C.SPRT], AE_ALREADY_EXISTS (20200528/dswload2-326)
+[ 7344.883427] No Local Variables are initialized for Method [_E4C]
+[ 7344.883428] No Arguments are initialized for method [_E4C]
+[ 7344.883429] ACPI Error: AE_ALREADY_EXISTS, During name lookup/catalog (20200528/psobject-220)
+[ 7344.883431] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
+[ 7344.883434] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
+[ 7344.883439] ACPI Error: AE_ALREADY_EXISTS, while evaluating GPE method [_E4C] (20200528/evgpe-511)
+[ 7344.883600] pci_bus 0000:3b: busn_res: [bus 3b] is released
+[ 7344.883694] pci_bus 0000:3c: busn_res: [bus 3c-6f] is released
+[ 7344.883770] pci_bus 0000:06: busn_res: [bus 06-6f] is released
+[ 7351.240710] pcieport 0000:00:1b.0: AER: Multiple Corrected error received: 0000:02:00.0
+[ 7351.240990] nvme 0000:02:00.0: AER: PCIe Bus Error: severity=Corrected, type=Transaction Layer, (Receiver ID)
+[ 7351.240993] nvme 0000:02:00.0: AER:   device [1179:010f] error status/mask=00002000/00000000
+[ 7351.240994] nvme 0000:02:00.0: AER:    [13] NonFatalErr           
+[ 7351.263208] pci 0000:05:00.0: [8086:1578] type 01 class 0x060400
+[ 7351.263262] pci 0000:05:00.0: enabling Extended Tags
+[ 7351.263340] pci 0000:05:00.0: supports D1 D2
+[ 7351.263341] pci 0000:05:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[ 7351.263664] pci 0000:06:00.0: [8086:1578] type 01 class 0x060400
+[ 7351.263724] pci 0000:06:00.0: enabling Extended Tags
+[ 7351.263805] pci 0000:06:00.0: supports D1 D2
+[ 7351.263806] pci 0000:06:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[ 7351.263926] pci 0000:06:01.0: [8086:1578] type 01 class 0x060400
+[ 7351.263986] pci 0000:06:01.0: enabling Extended Tags
+[ 7351.264072] pci 0000:06:01.0: supports D1 D2
+[ 7351.264074] pci 0000:06:01.0: PME# supported from D0 D1 D2 D3hot D3cold
+[ 7351.264180] pci 0000:06:02.0: [8086:1578] type 01 class 0x060400
+[ 7351.264236] pci 0000:06:02.0: enabling Extended Tags
+[ 7351.264314] pci 0000:06:02.0: supports D1 D2
+[ 7351.264315] pci 0000:06:02.0: PME# supported from D0 D1 D2 D3hot D3cold
+[ 7351.264439] pci 0000:06:04.0: [8086:1578] type 01 class 0x060400
+[ 7351.264499] pci 0000:06:04.0: enabling Extended Tags
+[ 7351.264580] pci 0000:06:04.0: supports D1 D2
+[ 7351.264581] pci 0000:06:04.0: PME# supported from D0 D1 D2 D3hot D3cold
+[ 7351.264695] pci 0000:05:00.0: PCI bridge to [bus 06-6f]
+[ 7351.264703] pci 0000:05:00.0:   bridge window [mem 0xb4000000-0xe20fffff]
+[ 7351.264707] pci 0000:05:00.0:   bridge window [mem 0x50000000-0x99ffffff 64bit pref]
+[ 7351.264748] pci 0000:06:00.0: PCI bridge to [bus 07]
+[ 7351.264756] pci 0000:06:00.0:   bridge window [mem 0xe2000000-0xe20fffff]
+[ 7351.264803] pci 0000:06:01.0: PCI bridge to [bus 08-3a]
+[ 7351.264810] pci 0000:06:01.0:   bridge window [mem 0xb4000000-0xcbefffff]
+[ 7351.264815] pci 0000:06:01.0:   bridge window [mem 0x50000000-0x6fffffff 64bit pref]
+[ 7351.264885] pci 0000:3b:00.0: [8086:15b6] type 00 class 0x0c0330
+[ 7351.264919] pci 0000:3b:00.0: reg 0x10: [mem 0xcbf00000-0xcbf0ffff]
+[ 7351.264990] pci 0000:3b:00.0: enabling Extended Tags
+[ 7351.265091] pci 0000:3b:00.0: supports D1 D2
+[ 7351.265092] pci 0000:3b:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[ 7351.265169] pci 0000:3b:00.0: 8.000 Gb/s available PCIe bandwidth, limited by 2.5 GT/s PCIe x4 link at 0000:06:02.0 (capable of 31.504 Gb/s with 8.0 GT/s PCIe x4 link)
+[ 7351.265289] pci 0000:06:02.0: PCI bridge to [bus 3b]
+[ 7351.265296] pci 0000:06:02.0:   bridge window [mem 0xcbf00000-0xcbffffff]
+[ 7351.265340] pci 0000:06:04.0: PCI bridge to [bus 3c-6f]
+[ 7351.265348] pci 0000:06:04.0:   bridge window [mem 0xcc000000-0xe1ffffff]
+[ 7351.265353] pci 0000:06:04.0:   bridge window [mem 0x70000000-0x99ffffff 64bit pref]
+[ 7351.265381] pci_bus 0000:06: Allocating resources
+[ 7351.265400] pci 0000:06:01.0: bridge window [io  0x1000-0x0fff] to [bus 08-3a] add_size 1000
+[ 7351.265403] pci 0000:06:04.0: bridge window [io  0x1000-0x0fff] to [bus 3c-6f] add_size 1000
+[ 7351.265405] pci 0000:05:00.0: bridge window [io  0x1000-0x0fff] to [bus 06-6f] add_size 3000
+[ 7351.265409] pci 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
+[ 7351.265410] pci 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
+[ 7351.265412] pci 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
+[ 7351.265414] pci 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
+[ 7351.265416] pci 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
+[ 7351.265418] pci 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
+[ 7351.265419] pci 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
+[ 7351.265421] pci 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
+[ 7351.265424] pci 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
+[ 7351.265425] pci 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
+[ 7351.265426] pci 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
+[ 7351.265427] pci 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
+[ 7351.265429] pci 0000:06:00.0: PCI bridge to [bus 07]
+[ 7351.265435] pci 0000:06:00.0:   bridge window [mem 0xe2000000-0xe20fffff]
+[ 7351.265444] pci 0000:06:01.0: PCI bridge to [bus 08-3a]
+[ 7351.265449] pci 0000:06:01.0:   bridge window [mem 0xb4000000-0xcbefffff]
+[ 7351.265452] pci 0000:06:01.0:   bridge window [mem 0x50000000-0x6fffffff 64bit pref]
+[ 7351.265458] pci 0000:06:02.0: PCI bridge to [bus 3b]
+[ 7351.265464] pci 0000:06:02.0:   bridge window [mem 0xcbf00000-0xcbffffff]
+[ 7351.265472] pci 0000:06:04.0: PCI bridge to [bus 3c-6f]
+[ 7351.265476] pci 0000:06:04.0:   bridge window [mem 0xcc000000-0xe1ffffff]
+[ 7351.265481] pci 0000:06:04.0:   bridge window [mem 0x70000000-0x99ffffff 64bit pref]
+[ 7351.265487] pci 0000:05:00.0: PCI bridge to [bus 06-6f]
+[ 7351.265492] pci 0000:05:00.0:   bridge window [mem 0xb4000000-0xe20fffff]
+[ 7351.265496] pci 0000:05:00.0:   bridge window [mem 0x50000000-0x99ffffff 64bit pref]
+[ 7351.267100] xhci_hcd 0000:3b:00.0: xHCI Host Controller
+[ 7351.267107] xhci_hcd 0000:3b:00.0: new USB bus registered, assigned bus number 3
+[ 7351.268231] xhci_hcd 0000:3b:00.0: hcc params 0x200077c1 hci version 0x110 quirks 0x0000000200009810
+[ 7351.268427] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.08
+[ 7351.268428] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[ 7351.268429] usb usb3: Product: xHCI Host Controller
+[ 7351.268430] usb usb3: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
+[ 7351.268430] usb usb3: SerialNumber: 0000:3b:00.0
+[ 7351.268598] hub 3-0:1.0: USB hub found
+[ 7351.268608] hub 3-0:1.0: 2 ports detected
+[ 7351.269246] xhci_hcd 0000:3b:00.0: xHCI Host Controller
+[ 7351.269250] xhci_hcd 0000:3b:00.0: new USB bus registered, assigned bus number 4
+[ 7351.269253] xhci_hcd 0000:3b:00.0: Host supports USB 3.1 Enhanced SuperSpeed
+[ 7351.269290] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.08
+[ 7351.269292] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[ 7351.269293] usb usb4: Product: xHCI Host Controller
+[ 7351.269294] usb usb4: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
+[ 7351.269295] usb usb4: SerialNumber: 0000:3b:00.0
+[ 7351.269430] hub 4-0:1.0: USB hub found
+[ 7351.269438] hub 4-0:1.0: 2 ports detected
+[ 7351.602991] usb 3-2: new high-speed USB device number 2 using xhci_hcd
+[ 7351.754561] usb 3-2: New USB device found, idVendor=05ac, idProduct=12a8, bcdDevice=13.02
+[ 7351.754567] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 7351.754570] usb 3-2: Product: iPhone
+[ 7351.754573] usb 3-2: Manufacturer: Apple Inc.
+[ 7351.754576] usb 3-2: SerialNumber: 000081010001402008E1401E
+[ 7351.867763] ipheth 3-2:4.2: Apple iPhone USB Ethernet device attached
+[ 7351.877155] ipheth 3-2:4.2 enxa2fbc5057cae: renamed from eth0 $
