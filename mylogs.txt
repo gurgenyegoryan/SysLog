@@ -2424,4 +2424,35 @@
 [ 9400.061429] usb usb4: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
 [ 9400.061429] usb usb4: SerialNumber: 0000:3b:00.0
 [ 9400.061577] hub 4-0:1.0: USB hub found
-[ 9400.061588] hub 4-0:1.0: 2 ports detected $
+[ 9400.061588] hub 4-0:1.0: 2 ports detected
+[ 9455.107426] pcieport 0000:00:1c.4: AER: Corrected error received: 0000:00:1c.4
+[ 9455.107437] pcieport 0000:00:1c.4: AER: PCIe Bus Error: severity=Corrected, type=Physical Layer, (Receiver ID)
+[ 9455.107446] pcieport 0000:00:1c.4: AER:   device [8086:a114] error status/mask=00000001/00002000
+[ 9455.107451] pcieport 0000:00:1c.4: AER:    [ 0] RxErr                 
+[ 9455.647528] pcieport 0000:06:02.0: can't change power state from D3cold to D0 (config space inaccessible)
+[ 9455.647547] xhci_hcd 0000:3b:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[ 9455.647554] xhci_hcd 0000:3b:00.0: can't change power state from D3hot to D0 (config space inaccessible)
+[ 9455.647572] xhci_hcd 0000:3b:00.0: Controller not ready at resume -19
+[ 9455.647573] xhci_hcd 0000:3b:00.0: PCI post-resume error -19!
+[ 9455.647574] xhci_hcd 0000:3b:00.0: HC died; cleaning up
+[ 9455.647598] xhci_hcd 0000:3b:00.0: remove, state 4
+[ 9455.647599] usb usb4: USB disconnect, device number 1
+[ 9455.647819] xhci_hcd 0000:3b:00.0: USB bus 4 deregistered
+[ 9455.647824] xhci_hcd 0000:3b:00.0: remove, state 4
+[ 9455.647825] usb usb3: USB disconnect, device number 1
+[ 9455.648001] xhci_hcd 0000:3b:00.0: Host halt failed, -19
+[ 9455.648002] xhci_hcd 0000:3b:00.0: Host not accessible, reset failed.
+[ 9455.648090] xhci_hcd 0000:3b:00.0: USB bus 3 deregistered
+[ 9455.648406] pcieport 0000:06:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[ 9455.648662] pci_bus 0000:07: busn_res: [bus 07] is released
+[ 9455.648754] pci_bus 0000:08: busn_res: [bus 08-3a] is released
+[ 9455.648943] pci_bus 0000:3b: busn_res: [bus 3b] is released
+[ 9455.649038] pci_bus 0000:3c: busn_res: [bus 3c-6f] is released
+[ 9455.649108] pci_bus 0000:06: busn_res: [bus 06-6f] is released
+[ 9460.523400] ACPI BIOS Error (bug): Failure creating named object [\_GPE._E4C.SPRT], AE_ALREADY_EXISTS (20200528/dswload2-326)
+[ 9460.523426] No Local Variables are initialized for Method [_E4C]
+[ 9460.523430] No Arguments are initialized for method [_E4C]
+[ 9460.523433] ACPI Error: AE_ALREADY_EXISTS, During name lookup/catalog (20200528/psobject-220)
+[ 9460.523442] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
+[ 9460.523454] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
+[ 9460.523472] ACPI Error: AE_ALREADY_EXISTS, while evaluating GPE method [_E4C] (20200528/evgpe-511) $
