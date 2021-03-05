@@ -1,42 +1,3 @@
-[    3.923586] workingset: timestamp_bits=36 max_order=22 bucket_order=0
-[    3.924665] zbud: loaded
-[    3.924877] squashfs: version 4.0 (2009/01/31) Phillip Lougher
-[    3.924999] fuse: init (API version 7.31)
-[    3.925108] integrity: Platform Keyring initialized
-[    3.932769] Key type asymmetric registered
-[    3.932769] Asymmetric key parser 'x509' registered
-[    3.932775] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 244)
-[    3.932804] io scheduler mq-deadline registered
-[    3.933245] pcieport 0000:00:1b.0: AER: enabled with IRQ 122
-[    3.933427] pcieport 0000:00:1c.0: AER: enabled with IRQ 123
-[    3.933609] pcieport 0000:00:1c.1: AER: enabled with IRQ 124
-[    3.933786] pcieport 0000:00:1c.4: AER: enabled with IRQ 125
-[    3.933851] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
-[    3.933889] vesafb: mode is 640x480x32, linelength=2560, pages=0
-[    3.933889] vesafb: scrolling: redraw
-[    3.933891] vesafb: Truecolor: size=8:8:8:8, shift=24:16:8:0
-[    3.933898] vesafb: framebuffer at 0xb1000000, mapped to 0x0000000032d1e50b, using 1216k, total 1216k
-[    3.933935] fbcon: Deferring console take-over
-[    3.933935] fb0: VESA VGA frame buffer device
-[    3.933945] intel_idle: MWAIT substates: 0x11142120
-[    3.933946] intel_idle: v0.5.1 model 0x5E
-[    3.934313] intel_idle: Local APIC timer is reliable in all C-states
-[    3.934598] ACPI: AC Adapter [AC] (off-line)
-[    3.934648] input: Sleep Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input0
-[    3.934660] ACPI: Sleep Button [SLPB]
-[    3.934678] input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0D:00/input/input1
-[    3.934687] ACPI: Lid Switch [LID]
-[    3.934707] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input2
-[    3.934726] ACPI: Power Button [PWRF]
-[    3.941935] thermal LNXTHERM:00: registered as thermal_zone0
-[    3.941935] ACPI: Thermal Zone [CPUZ] (0 C)
-[    3.948251] thermal LNXTHERM:01: registered as thermal_zone1
-[    3.948252] ACPI: Thermal Zone [GFXZ] (23 C)
-[    3.951316] thermal LNXTHERM:02: registered as thermal_zone2
-[    3.951317] ACPI: Thermal Zone [EXTZ] (0 C)
-[    3.955041] thermal LNXTHERM:03: registered as thermal_zone3
-[    3.955042] ACPI: Thermal Zone [LOCZ] (20 C)
-[    3.959069] thermal LNXTHERM:04: registered as thermal_zone4
 [    3.959070] ACPI: Thermal Zone [BATZ] (21 C)
 [    3.959393] thermal LNXTHERM:05: registered as thermal_zone5
 [    3.959394] ACPI: Thermal Zone [PCHZ] (127 C)
@@ -2460,4 +2421,28 @@
 [10499.344767] usb usb4: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
 [10499.344768] usb usb4: SerialNumber: 0000:3b:00.0
 [10499.344914] hub 4-0:1.0: USB hub found
-[10499.344924] hub 4-0:1.0: 2 ports detected $
+[10499.344924] hub 4-0:1.0: 2 ports detected
+[12242.230224] pcieport 0000:00:1c.4: AER: Corrected error received: 0000:00:1c.4
+[12242.230235] pcieport 0000:00:1c.4: AER: PCIe Bus Error: severity=Corrected, type=Physical Layer, (Receiver ID)
+[12242.230243] pcieport 0000:00:1c.4: AER:   device [8086:a114] error status/mask=00000001/00002000
+[12242.230249] pcieport 0000:00:1c.4: AER:    [ 0] RxErr                 
+[12242.754398] pcieport 0000:06:02.0: can't change power state from D3cold to D0 (config space inaccessible)
+[12242.754417] xhci_hcd 0000:3b:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[12242.754425] xhci_hcd 0000:3b:00.0: can't change power state from D3hot to D0 (config space inaccessible)
+[12242.754441] xhci_hcd 0000:3b:00.0: Controller not ready at resume -19
+[12242.754442] xhci_hcd 0000:3b:00.0: PCI post-resume error -19!
+[12242.754443] xhci_hcd 0000:3b:00.0: HC died; cleaning up
+[12242.754451] xhci_hcd 0000:3b:00.0: remove, state 4
+[12242.754453] usb usb4: USB disconnect, device number 1
+[12242.754647] xhci_hcd 0000:3b:00.0: USB bus 4 deregistered
+[12242.754652] xhci_hcd 0000:3b:00.0: remove, state 4
+[12242.754653] usb usb3: USB disconnect, device number 1
+[12242.754833] xhci_hcd 0000:3b:00.0: Host halt failed, -19
+[12242.754835] xhci_hcd 0000:3b:00.0: Host not accessible, reset failed.
+[12242.754915] xhci_hcd 0000:3b:00.0: USB bus 3 deregistered
+[12242.755213] pcieport 0000:06:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[12242.755528] pci_bus 0000:07: busn_res: [bus 07] is released
+[12242.755597] pci_bus 0000:08: busn_res: [bus 08-3a] is released
+[12242.755766] pci_bus 0000:3b: busn_res: [bus 3b] is released
+[12242.755847] pci_bus 0000:3c: busn_res: [bus 3c-6f] is released
+[12242.755908] pci_bus 0000:06: busn_res: [bus 06-6f] is released $
