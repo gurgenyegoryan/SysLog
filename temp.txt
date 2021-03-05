@@ -1633,11 +1633,4 @@
 [ 5511.618637] usb usb4: SerialNumber: 0000:3b:00.0
 [ 5511.619175] hub 4-0:1.0: USB hub found
 [ 5511.619186] hub 4-0:1.0: 2 ports detected
-[ 5511.951012] usb 3-2: new high-speed USB device number 2 using xhci_hcd
-[ 5512.102797] usb 3-2: New USB device found, idVendor=05ac, idProduct=12a8, bcdDevice=13.02
-[ 5512.102802] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
-[ 5512.102806] usb 3-2: Product: iPhone
-[ 5512.102809] usb 3-2: Manufacturer: Apple Inc.
-[ 5512.102812] usb 3-2: SerialNumber: 000081010001402008E1401E
-[ 5512.240946] ipheth 3-2:4.2: Apple iPhone USB Ethernet device attached
-[ 5512.251394] ipheth 3-2:4.2 enxa2fbc5057cae: renamed from eth0 $
+[ 5511.951012] usb 3-2: new high-speed USB device number 2 using xhci_hcd $
