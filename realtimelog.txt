@@ -1770,4 +1770,13 @@
 [ 7088.151550] usb 3-2: Manufacturer: Apple Inc.
 [ 7088.151553] usb 3-2: SerialNumber: 000081010001402008E1401E
 [ 7088.247637] ipheth 3-2:4.2: Apple iPhone USB Ethernet device attached
-[ 7088.255068] ipheth 3-2:4.2 enxa2fbc5057cae: renamed from eth0 $
+[ 7088.255068] ipheth 3-2:4.2 enxa2fbc5057cae: renamed from eth0
+[ 7339.442634] apple-mfi-fastcharge 3-2: USB disconnect, device number 2
+[ 7339.462978] pcieport 0000:00:1c.4: AER: Corrected error received: 0000:00:1c.4
+[ 7339.462985] pcieport 0000:00:1c.4: AER: PCIe Bus Error: severity=Corrected, type=Physical Layer, (Receiver ID)
+[ 7339.462988] pcieport 0000:00:1c.4: AER:   device [8086:a114] error status/mask=00000001/00002000
+[ 7339.462991] pcieport 0000:00:1c.4: AER:    [ 0] RxErr                 
+[ 7339.463108] ipheth 3-2:4.2: Apple iPhone USB Ethernet now disconnected
+[ 7340.028130] xhci_hcd 0000:3b:00.0: remove, state 4
+[ 7340.028134] usb usb4: USB disconnect, device number 1
+[ 7340.111239] pcieport 0000:06:00.0: can't change power state from D3cold to D0 (config space inaccessible) $
