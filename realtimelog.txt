@@ -1640,4 +1640,34 @@
 [ 5512.102809] usb 3-2: Manufacturer: Apple Inc.
 [ 5512.102812] usb 3-2: SerialNumber: 000081010001402008E1401E
 [ 5512.240946] ipheth 3-2:4.2: Apple iPhone USB Ethernet device attached
-[ 5512.251394] ipheth 3-2:4.2 enxa2fbc5057cae: renamed from eth0 $
+[ 5512.251394] ipheth 3-2:4.2 enxa2fbc5057cae: renamed from eth0
+[ 7077.082833] apple-mfi-fastcharge 3-2: USB disconnect, device number 2
+[ 7077.103391] pcieport 0000:00:1c.4: AER: Corrected error received: 0000:00:1c.4
+[ 7077.103397] pcieport 0000:00:1c.4: AER: PCIe Bus Error: severity=Corrected, type=Physical Layer, (Receiver ID)
+[ 7077.103399] pcieport 0000:00:1c.4: AER:   device [8086:a114] error status/mask=00002001/00002000
+[ 7077.103401] pcieport 0000:00:1c.4: AER:    [ 0] RxErr                 
+[ 7077.135798] ipheth 3-2:4.2: Apple iPhone USB Ethernet now disconnected
+[ 7077.319692] xhci_hcd 0000:3b:00.0: xHCI host controller not responding, assume dead
+[ 7077.319713] xhci_hcd 0000:3b:00.0: HC died; cleaning up
+[ 7077.319871] xhci_hcd 0000:3b:00.0: Timeout while waiting for configure endpoint command
+[ 7077.640958] xhci_hcd 0000:3b:00.0: remove, state 4
+[ 7077.640980] usb usb4: USB disconnect, device number 1
+[ 7077.641231] xhci_hcd 0000:3b:00.0: USB bus 4 deregistered
+[ 7077.641236] xhci_hcd 0000:3b:00.0: remove, state 1
+[ 7077.641238] usb usb3: USB disconnect, device number 1
+[ 7077.641496] xhci_hcd 0000:3b:00.0: Host halt failed, -19
+[ 7077.641509] xhci_hcd 0000:3b:00.0: Host not accessible, reset failed.
+[ 7077.641601] xhci_hcd 0000:3b:00.0: USB bus 3 deregistered
+[ 7077.641933] pcieport 0000:06:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[ 7077.642207] pci_bus 0000:07: busn_res: [bus 07] is released
+[ 7077.642270] pci_bus 0000:08: busn_res: [bus 08-3a] is released
+[ 7077.642483] pci_bus 0000:3b: busn_res: [bus 3b] is released
+[ 7077.642582] pci_bus 0000:3c: busn_res: [bus 3c-6f] is released
+[ 7077.642635] pci_bus 0000:06: busn_res: [bus 06-6f] is released
+[ 7082.524754] ACPI BIOS Error (bug): Failure creating named object [\_GPE._E4C.SPRT], AE_ALREADY_EXISTS (20200528/dswload2-326)
+[ 7082.524780] No Local Variables are initialized for Method [_E4C]
+[ 7082.524783] No Arguments are initialized for method [_E4C]
+[ 7082.524786] ACPI Error: AE_ALREADY_EXISTS, During name lookup/catalog (20200528/psobject-220)
+[ 7082.524795] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
+[ 7082.524808] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
+[ 7082.524827] ACPI Error: AE_ALREADY_EXISTS, while evaluating GPE method [_E4C] (20200528/evgpe-511) $
