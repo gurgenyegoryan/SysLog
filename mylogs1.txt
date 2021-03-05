@@ -1,42 +1,3 @@
-[    3.657203] pci 0000:00:1c.4: PCI bridge to [bus 05-6f]
-[    3.657207] pci 0000:00:1c.4:   bridge window [mem 0xb4000000-0xe20fffff]
-[    3.657210] pci 0000:00:1c.4:   bridge window [mem 0x50000000-0x99ffffff 64bit pref]
-[    3.658674] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 10 *11 12 14 15)
-[    3.658737] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 *10 11 12 14 15)
-[    3.658796] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 10 *11 12 14 15)
-[    3.658858] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 10 *11 12 14 15)
-[    3.658921] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 10 *11 12 14 15)
-[    3.658981] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 10 *11 12 14 15)
-[    3.659040] ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 10 *11 12 14 15)
-[    3.659099] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 10 *11 12 14 15)
-[    3.659509] ACPI: EC: interrupt unblocked
-[    3.659510] ACPI: EC: event unblocked
-[    3.659517] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
-[    3.659517] ACPI: EC: GPE=0x6e
-[    3.659519] ACPI: \_SB_.PCI0.LPCB.EC0_: Boot DSDT EC initialization complete
-[    3.659520] ACPI: \_SB_.PCI0.LPCB.EC0_: EC: Used to handle transactions and events
-[    3.659581] iommu: Default domain type: Translated 
-[    3.659581] SCSI subsystem initialized
-[    3.659581] libata version 3.00 loaded.
-[    3.659581] pci 0000:01:00.0: vgaarb: setting as boot VGA device
-[    3.659581] pci 0000:01:00.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
-[    3.659581] pci 0000:01:00.0: vgaarb: bridge control possible
-[    3.659581] vgaarb: loaded
-[    3.659581] ACPI: bus type USB registered
-[    3.659581] usbcore: registered new interface driver usbfs
-[    3.659581] usbcore: registered new interface driver hub
-[    3.659581] usbcore: registered new device driver usb
-[    3.659581] pps_core: LinuxPPS API ver. 1 registered
-[    3.659581] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
-[    3.659581] PTP clock support registered
-[    3.659581] EDAC MC: Ver: 3.0.0
-[    3.659756] NetLabel: Initializing
-[    3.659756] NetLabel:  domain hash size = 128
-[    3.659756] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
-[    3.659756] NetLabel:  unlabeled traffic allowed by default
-[    3.659756] PCI: Using ACPI for IRQ routing
-[    3.665533] PCI: pci_cache_line_size set to 64 bytes
-[    3.666690] e820: reserve RAM buffer [mem 0x00091c00-0x0009ffff]
 [    3.666692] e820: reserve RAM buffer [mem 0x3387c000-0x33ffffff]
 [    3.666693] e820: reserve RAM buffer [mem 0x33c57000-0x33ffffff]
 [    3.666694] e820: reserve RAM buffer [mem 0x3d003000-0x3fffffff]
@@ -2485,4 +2446,28 @@
 [10097.081136] usb usb4: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
 [10097.081137] usb usb4: SerialNumber: 0000:3b:00.0
 [10097.081261] hub 4-0:1.0: USB hub found
-[10097.081269] hub 4-0:1.0: 2 ports detected $
+[10097.081269] hub 4-0:1.0: 2 ports detected
+[10207.624379] pcieport 0000:00:1c.4: AER: Corrected error received: 0000:00:1c.4
+[10207.624390] pcieport 0000:00:1c.4: AER: PCIe Bus Error: severity=Corrected, type=Physical Layer, (Receiver ID)
+[10207.624399] pcieport 0000:00:1c.4: AER:   device [8086:a114] error status/mask=00000001/00002000
+[10207.624404] pcieport 0000:00:1c.4: AER:    [ 0] RxErr                 
+[10208.146152] pcieport 0000:06:02.0: can't change power state from D3cold to D0 (config space inaccessible)
+[10208.146172] xhci_hcd 0000:3b:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[10208.146180] xhci_hcd 0000:3b:00.0: can't change power state from D3hot to D0 (config space inaccessible)
+[10208.146195] xhci_hcd 0000:3b:00.0: Controller not ready at resume -19
+[10208.146197] xhci_hcd 0000:3b:00.0: PCI post-resume error -19!
+[10208.146198] xhci_hcd 0000:3b:00.0: HC died; cleaning up
+[10208.146233] xhci_hcd 0000:3b:00.0: remove, state 4
+[10208.146235] usb usb4: USB disconnect, device number 1
+[10208.146461] xhci_hcd 0000:3b:00.0: USB bus 4 deregistered
+[10208.146466] xhci_hcd 0000:3b:00.0: remove, state 4
+[10208.146467] usb usb3: USB disconnect, device number 1
+[10208.146684] xhci_hcd 0000:3b:00.0: Host halt failed, -19
+[10208.146686] xhci_hcd 0000:3b:00.0: Host not accessible, reset failed.
+[10208.146793] xhci_hcd 0000:3b:00.0: USB bus 3 deregistered
+[10208.147129] pcieport 0000:06:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[10208.147377] pci_bus 0000:07: busn_res: [bus 07] is released
+[10208.147423] pci_bus 0000:08: busn_res: [bus 08-3a] is released
+[10208.160850] pci_bus 0000:3b: busn_res: [bus 3b] is released
+[10208.160961] pci_bus 0000:3c: busn_res: [bus 3c-6f] is released
+[10208.161035] pci_bus 0000:06: busn_res: [bus 06-6f] is released $
