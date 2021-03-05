@@ -1,711 +1,3 @@
-[    3.666692] e820: reserve RAM buffer [mem 0x3387c000-0x33ffffff]
-[    3.666693] e820: reserve RAM buffer [mem 0x33c57000-0x33ffffff]
-[    3.666694] e820: reserve RAM buffer [mem 0x3d003000-0x3fffffff]
-[    3.666694] e820: reserve RAM buffer [mem 0x3df00000-0x3fffffff]
-[    3.666695] e820: reserve RAM buffer [mem 0x4be000000-0x4bfffffff]
-[    3.667445] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0
-[    3.667448] hpet0: 8 comparators, 64-bit 24.000000 MHz counter
-[    3.669502] clocksource: Switched to clocksource tsc-early
-[    3.678272] VFS: Disk quotas dquot_6.6.0
-[    3.678284] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
-[    3.678369] AppArmor: AppArmor Filesystem Enabled
-[    3.678390] pnp: PnP ACPI init
-[    3.678585] system 00:00: [mem 0xfd000000-0xfdabffff] has been reserved
-[    3.678587] system 00:00: [mem 0xfdad0000-0xfdadffff] has been reserved
-[    3.678588] system 00:00: [mem 0xfdb00000-0xfdffffff] has been reserved
-[    3.678589] system 00:00: [mem 0xfe000000-0xfe01ffff] has been reserved
-[    3.678589] system 00:00: [mem 0xfe03d000-0xfe3fffff] has been reserved
-[    3.678593] system 00:00: Plug and Play ACPI device, IDs PNP0c02 (active)
-[    3.678900] system 00:01: [io  0x2000-0x20fe] has been reserved
-[    3.678902] system 00:01: Plug and Play ACPI device, IDs PNP0c02 (active)
-[    3.679033] system 00:02: [io  0x0680-0x069f] has been reserved
-[    3.679034] system 00:02: [io  0xffff] has been reserved
-[    3.679035] system 00:02: [io  0xffff] has been reserved
-[    3.679036] system 00:02: [io  0xffff] has been reserved
-[    3.679037] system 00:02: [io  0x1800-0x18fe] has been reserved
-[    3.679038] system 00:02: [io  0x164e-0x164f] has been reserved
-[    3.679040] system 00:02: Plug and Play ACPI device, IDs PNP0c02 (active)
-[    3.679125] system 00:03: [io  0x0800-0x087f] has been reserved
-[    3.679128] system 00:03: Plug and Play ACPI device, IDs PNP0c02 (active)
-[    3.679144] pnp 00:04: Plug and Play ACPI device, IDs PNP0b00 (active)
-[    3.679176] system 00:05: [io  0x1854-0x1857] has been reserved
-[    3.679178] system 00:05: Plug and Play ACPI device, IDs INT3f0d PNP0c02 (active)
-[    3.679195] pnp 00:06: Plug and Play ACPI device, IDs HPQ8002 PNP0303 (active)
-[    3.679208] pnp 00:07: Plug and Play ACPI device, IDs SYN3040 SYN0100 SYN0002 PNP0f13 (active)
-[    3.679271] system 00:08: [io  0x0200-0x023f] has been reserved
-[    3.679272] system 00:08: [mem 0xfedf0000-0xfedfffff] has been reserved
-[    3.679274] system 00:08: Plug and Play ACPI device, IDs PNP0c02 (active)
-[    3.679613] system 00:09: [mem 0xfed10000-0xfed17fff] has been reserved
-[    3.679614] system 00:09: [mem 0xfed18000-0xfed18fff] has been reserved
-[    3.679615] system 00:09: [mem 0xfed19000-0xfed19fff] has been reserved
-[    3.679616] system 00:09: [mem 0xf0000000-0xf7ffffff] has been reserved
-[    3.679617] system 00:09: [mem 0xfed20000-0xfed3ffff] has been reserved
-[    3.679618] system 00:09: [mem 0xfed90000-0xfed93fff] could not be reserved
-[    3.679619] system 00:09: [mem 0xfed45000-0xfed8ffff] could not be reserved
-[    3.679620] system 00:09: [mem 0xff000000-0xffffffff] could not be reserved
-[    3.679621] system 00:09: [mem 0xfee00000-0xfeefffff] could not be reserved
-[    3.679622] system 00:09: [mem 0x40000000-0x4001ffff] has been reserved
-[    3.679624] system 00:09: Plug and Play ACPI device, IDs PNP0c02 (active)
-[    3.679910] pnp 00:0a: Plug and Play ACPI device, IDs IFX0102 PNP0c31 (active)
-[    3.679971] pnp: PnP ACPI: found 11 devices
-[    3.685401] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
-[    3.685455] NET: Registered protocol family 2
-[    3.685625] tcp_listen_portaddr_hash hash table entries: 8192 (order: 5, 131072 bytes, linear)
-[    3.685724] TCP established hash table entries: 131072 (order: 8, 1048576 bytes, linear)
-[    3.685897] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes, linear)
-[    3.685973] TCP: Hash tables configured (established 131072 bind 65536)
-[    3.686072] UDP hash table entries: 8192 (order: 6, 262144 bytes, linear)
-[    3.686113] UDP-Lite hash table entries: 8192 (order: 6, 262144 bytes, linear)
-[    3.686176] NET: Registered protocol family 1
-[    3.686180] NET: Registered protocol family 44
-[    3.686184] pci 0000:01:00.0: can't claim BAR 6 [mem 0xfff80000-0xffffffff pref]: no compatible bridge window
-[    3.686191] pci 0000:00:1c.1: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 04] add_size 200000 add_align 100000
-[    3.686193] pci 0000:00:1c.4: bridge window [io  0x1000-0x0fff] to [bus 05-6f] add_size 1000
-[    3.686200] pci 0000:00:1c.1: BAR 15: assigned [mem 0x40100000-0x402fffff 64bit pref]
-[    3.686202] pci 0000:00:1c.4: BAR 13: assigned [io  0x7000-0x7fff]
-[    3.686204] pci 0000:01:00.0: BAR 6: assigned [mem 0xe4080000-0xe40fffff pref]
-[    3.686205] pci 0000:00:01.0: PCI bridge to [bus 01]
-[    3.686207] pci 0000:00:01.0:   bridge window [io  0x3000-0x3fff]
-[    3.686209] pci 0000:00:01.0:   bridge window [mem 0xe3000000-0xe40fffff]
-[    3.686211] pci 0000:00:01.0:   bridge window [mem 0xa0000000-0xb1ffffff 64bit pref]
-[    3.686214] pci 0000:00:1b.0: PCI bridge to [bus 02]
-[    3.686217] pci 0000:00:1b.0:   bridge window [mem 0xe4100000-0xe41fffff]
-[    3.686222] pci 0000:00:1c.0: PCI bridge to [bus 03]
-[    3.686225] pci 0000:00:1c.0:   bridge window [mem 0xe4200000-0xe42fffff]
-[    3.686230] pci 0000:00:1c.1: PCI bridge to [bus 04]
-[    3.686231] pci 0000:00:1c.1:   bridge window [io  0x4000-0x5fff]
-[    3.686234] pci 0000:00:1c.1:   bridge window [mem 0xe4300000-0xe43fffff]
-[    3.686236] pci 0000:00:1c.1:   bridge window [mem 0x40100000-0x402fffff 64bit pref]
-[    3.686239] pci 0000:00:1c.4: PCI bridge to [bus 05-6f]
-[    3.686241] pci 0000:00:1c.4:   bridge window [io  0x7000-0x7fff]
-[    3.686244] pci 0000:00:1c.4:   bridge window [mem 0xb4000000-0xe20fffff]
-[    3.686246] pci 0000:00:1c.4:   bridge window [mem 0x50000000-0x99ffffff 64bit pref]
-[    3.686251] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
-[    3.686252] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
-[    3.686252] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
-[    3.686253] pci_bus 0000:00: resource 7 [mem 0x40000000-0xefffffff window]
-[    3.686254] pci_bus 0000:00: resource 8 [mem 0xfd000000-0xfe7fffff window]
-[    3.686255] pci_bus 0000:01: resource 0 [io  0x3000-0x3fff]
-[    3.686256] pci_bus 0000:01: resource 1 [mem 0xe3000000-0xe40fffff]
-[    3.686257] pci_bus 0000:01: resource 2 [mem 0xa0000000-0xb1ffffff 64bit pref]
-[    3.686258] pci_bus 0000:02: resource 1 [mem 0xe4100000-0xe41fffff]
-[    3.686259] pci_bus 0000:03: resource 1 [mem 0xe4200000-0xe42fffff]
-[    3.686260] pci_bus 0000:04: resource 0 [io  0x4000-0x5fff]
-[    3.686260] pci_bus 0000:04: resource 1 [mem 0xe4300000-0xe43fffff]
-[    3.686261] pci_bus 0000:04: resource 2 [mem 0x40100000-0x402fffff 64bit pref]
-[    3.686262] pci_bus 0000:05: resource 0 [io  0x7000-0x7fff]
-[    3.686263] pci_bus 0000:05: resource 1 [mem 0xb4000000-0xe20fffff]
-[    3.686264] pci_bus 0000:05: resource 2 [mem 0x50000000-0x99ffffff 64bit pref]
-[    3.786719] pci 0000:00:14.0: quirk_usb_early_handoff+0x0/0x670 took 97959 usecs
-[    3.786763] pci 0000:01:00.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
-[    3.786774] pci 0000:01:00.1: D0 power state depends on 0000:01:00.0
-[    3.787327] PCI: CLS 0 bytes, default 64
-[    3.787390] Trying to unpack rootfs image as initramfs...
-[    3.899821] Freeing initrd memory: 50836K
-[    3.922877] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
-[    3.922878] software IO TLB: mapped [mem 0x39003000-0x3d003000] (64MB)
-[    3.923141] check: Scanning for low memory corruption every 60 seconds
-[    3.923549] Initialise system trusted keyrings
-[    3.923560] Key type blacklist registered
-[    3.923586] workingset: timestamp_bits=36 max_order=22 bucket_order=0
-[    3.924665] zbud: loaded
-[    3.924877] squashfs: version 4.0 (2009/01/31) Phillip Lougher
-[    3.924999] fuse: init (API version 7.31)
-[    3.925108] integrity: Platform Keyring initialized
-[    3.932769] Key type asymmetric registered
-[    3.932769] Asymmetric key parser 'x509' registered
-[    3.932775] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 244)
-[    3.932804] io scheduler mq-deadline registered
-[    3.933245] pcieport 0000:00:1b.0: AER: enabled with IRQ 122
-[    3.933427] pcieport 0000:00:1c.0: AER: enabled with IRQ 123
-[    3.933609] pcieport 0000:00:1c.1: AER: enabled with IRQ 124
-[    3.933786] pcieport 0000:00:1c.4: AER: enabled with IRQ 125
-[    3.933851] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
-[    3.933889] vesafb: mode is 640x480x32, linelength=2560, pages=0
-[    3.933889] vesafb: scrolling: redraw
-[    3.933891] vesafb: Truecolor: size=8:8:8:8, shift=24:16:8:0
-[    3.933898] vesafb: framebuffer at 0xb1000000, mapped to 0x0000000032d1e50b, using 1216k, total 1216k
-[    3.933935] fbcon: Deferring console take-over
-[    3.933935] fb0: VESA VGA frame buffer device
-[    3.933945] intel_idle: MWAIT substates: 0x11142120
-[    3.933946] intel_idle: v0.5.1 model 0x5E
-[    3.934313] intel_idle: Local APIC timer is reliable in all C-states
-[    3.934598] ACPI: AC Adapter [AC] (off-line)
-[    3.934648] input: Sleep Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input0
-[    3.934660] ACPI: Sleep Button [SLPB]
-[    3.934678] input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0D:00/input/input1
-[    3.934687] ACPI: Lid Switch [LID]
-[    3.934707] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input2
-[    3.934726] ACPI: Power Button [PWRF]
-[    3.941935] thermal LNXTHERM:00: registered as thermal_zone0
-[    3.941935] ACPI: Thermal Zone [CPUZ] (0 C)
-[    3.948251] thermal LNXTHERM:01: registered as thermal_zone1
-[    3.948252] ACPI: Thermal Zone [GFXZ] (23 C)
-[    3.951316] thermal LNXTHERM:02: registered as thermal_zone2
-[    3.951317] ACPI: Thermal Zone [EXTZ] (0 C)
-[    3.955041] thermal LNXTHERM:03: registered as thermal_zone3
-[    3.955042] ACPI: Thermal Zone [LOCZ] (20 C)
-[    3.959069] thermal LNXTHERM:04: registered as thermal_zone4
-[    3.959070] ACPI: Thermal Zone [BATZ] (21 C)
-[    3.959393] thermal LNXTHERM:05: registered as thermal_zone5
-[    3.959394] ACPI: Thermal Zone [PCHZ] (127 C)
-[    3.959584] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
-[    3.985824] 0000:00:16.3: ttyS4 at I/O 0x6040 (irq = 19, base_baud = 115200) is a 16550A
-[    3.987244] Linux agpgart interface v0.103
-[    3.989974] tpm_tis 00:0a: 1.2 TPM (device-id 0x1B, rev-id 16)
-[    3.992951] battery: ACPI: Battery Slot [BAT0] (battery present)
-[    4.004658] tpm tpm0: TPM is disabled/deactivated (0x7)
-[    4.004667] tpm tpm0: tpm_read_log_acpi: TCPA log area empty
-[    4.010170] loop: module loaded
-[    4.010395] libphy: Fixed MDIO Bus: probed
-[    4.010395] tun: Universal TUN/TAP device driver, 1.6
-[    4.010450] PPP generic driver version 2.4.2
-[    4.010554] VFIO - User Level meta-driver version: 0.3
-[    4.010761] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
-[    4.010762] ehci-pci: EHCI PCI platform driver
-[    4.010768] ehci-platform: EHCI generic platform driver
-[    4.010773] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
-[    4.010774] ohci-pci: OHCI PCI platform driver
-[    4.010779] ohci-platform: OHCI generic platform driver
-[    4.010783] uhci_hcd: USB Universal Host Controller Interface driver
-[    4.010813] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f13:PS2M] at 0x60,0x64 irq 1,12
-[    4.012137] i8042: Detected active multiplexing controller, rev 1.1
-[    4.012375] serio: i8042 KBD port at 0x60,0x64 irq 1
-[    4.012378] serio: i8042 AUX0 port at 0x60,0x64 irq 12
-[    4.012394] serio: i8042 AUX1 port at 0x60,0x64 irq 12
-[    4.012404] serio: i8042 AUX2 port at 0x60,0x64 irq 12
-[    4.012414] serio: i8042 AUX3 port at 0x60,0x64 irq 12
-[    4.012554] mousedev: PS/2 mouse device common for all mice
-[    4.012744] rtc_cmos 00:04: RTC can wake from S4
-[    4.013220] rtc_cmos 00:04: registered as rtc0
-[    4.013350] rtc_cmos 00:04: setting system clock to 2021-03-05T05:11:43 UTC (1614921103)
-[    4.013363] rtc_cmos 00:04: alarms up to one month, y3k, 242 bytes nvram, hpet irqs
-[    4.013368] i2c /dev entries driver
-[    4.013423] device-mapper: uevent: version 1.0.3
-[    4.013558] device-mapper: ioctl: 4.42.0-ioctl (2020-02-27) initialised: dm-devel@redhat.com
-[    4.013600] platform eisa.0: Probing EISA bus 0
-[    4.013600] platform eisa.0: EISA: Cannot allocate resource for mainboard
-[    4.013601] platform eisa.0: Cannot allocate resource for EISA slot 1
-[    4.013602] platform eisa.0: Cannot allocate resource for EISA slot 2
-[    4.013602] platform eisa.0: Cannot allocate resource for EISA slot 3
-[    4.013603] platform eisa.0: Cannot allocate resource for EISA slot 4
-[    4.013604] platform eisa.0: Cannot allocate resource for EISA slot 5
-[    4.013604] platform eisa.0: Cannot allocate resource for EISA slot 6
-[    4.013605] platform eisa.0: Cannot allocate resource for EISA slot 7
-[    4.013605] platform eisa.0: Cannot allocate resource for EISA slot 8
-[    4.013606] platform eisa.0: EISA: Detected 0 cards
-[    4.013608] intel_pstate: Intel P-state driver initializing
-[    4.014298] intel_pstate: HWP enabled
-[    4.014534] ledtrig-cpu: registered to indicate activity on CPUs
-[    4.014573] intel_pmc_core INT33A1:00:  initialized
-[    4.014641] drop_monitor: Initializing network drop monitor service
-[    4.014789] NET: Registered protocol family 10
-[    4.019777] Segment Routing with IPv6
-[    4.019805] NET: Registered protocol family 17
-[    4.019977] Key type dns_resolver registered
-[    4.020747] microcode: sig=0x506e3, pf=0x20, revision=0xe2
-[    4.020975] microcode: Microcode Update Driver: v2.2.
-[    4.020978] IPI shorthand broadcast: enabled
-[    4.020986] sched_clock: Marking stable (4020333846, 638676)->(4033005557, -12033035)
-[    4.021095] registered taskstats version 1
-[    4.021103] Loading compiled-in X.509 certificates
-[    4.021737] Loaded X.509 cert 'Build time autogenerated kernel key: a3e9eb9032099963d398e4d4d5991ce491952397'
-[    4.021759] zswap: loaded using pool lzo/zbud
-[    4.021895] Key type ._fscrypt registered
-[    4.021896] Key type .fscrypt registered
-[    4.021896] Key type fscrypt-provisioning registered
-[    4.021950] Key type trusted registered
-[    4.024115] Key type encrypted registered
-[    4.024118] AppArmor: AppArmor sha1 policy hashing enabled
-[    4.024126] ima: Allocated hash algorithm: sha1
-[    4.026508] ima: Error Communicating to TPM chip
-[    4.029293] ima: Error Communicating to TPM chip
-[    4.032144] ima: Error Communicating to TPM chip
-[    4.034996] ima: Error Communicating to TPM chip
-[    4.037259] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input3
-[    4.037949] ima: Error Communicating to TPM chip
-[    4.040671] ima: Error Communicating to TPM chip
-[    4.043611] ima: Error Communicating to TPM chip
-[    4.046555] ima: Error Communicating to TPM chip
-[    4.050621] ima: No architecture policies found
-[    4.050636] evm: Initialising EVM extended attributes:
-[    4.050637] evm: security.selinux
-[    4.050638] evm: security.SMACK64
-[    4.050638] evm: security.SMACK64EXEC
-[    4.050639] evm: security.SMACK64TRANSMUTE
-[    4.050639] evm: security.SMACK64MMAP
-[    4.050639] evm: security.apparmor
-[    4.050640] evm: security.ima
-[    4.050640] evm: security.capability
-[    4.050641] evm: HMAC attrs: 0x1
-[    4.052714] PM:   Magic number: 13:499:162
-[    4.052763] acpi device:29: hash matches
-[    4.053089] RAS: Correctable Errors collector initialized.
-[    4.054256] Freeing unused decrypted memory: 2040K
-[    4.054781] Freeing unused kernel image (initmem) memory: 2640K
-[    4.087027] Write protecting the kernel read-only data: 22528k
-[    4.088238] Freeing unused kernel image (text/rodata gap) memory: 2044K
-[    4.088733] Freeing unused kernel image (rodata/data gap) memory: 756K
-[    4.165851] x86/mm: Checked W+X mappings: passed, no W+X pages found.
-[    4.165852] x86/mm: Checking user space page tables
-[    4.208303] x86/mm: Checked W+X mappings: passed, no W+X pages found.
-[    4.208306] Run /init as init process
-[    4.208307]   with arguments:
-[    4.208308]     /init
-[    4.208308]     splash
-[    4.208309]   with environment:
-[    4.208309]     HOME=/
-[    4.208309]     TERM=linux
-[    4.208310]     BOOT_IMAGE=/boot/vmlinuz-5.8.0-44-generic
-[    4.280741] ACPI: Video Device [PEGP] (multi-head: yes  rom: yes  post: no)
-[    4.283933] acpi device:06: registered as cooling_device8
-[    4.284093] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:05/LNXVIDEO:00/input/input8
-[    4.300469] acpi PNP0C14:01: duplicate WMI GUID 05901221-D566-11D1-B2F0-00A0C9062910 (first instance was on PNP0C14:00)
-[    4.300571] acpi PNP0C14:02: duplicate WMI GUID 05901221-D566-11D1-B2F0-00A0C9062910 (first instance was on PNP0C14:00)
-[    4.300743] acpi PNP0C14:03: duplicate WMI GUID 05901221-D566-11D1-B2F0-00A0C9062910 (first instance was on PNP0C14:00)
-[    4.301950] ahci 0000:00:17.0: version 3.0
-[    4.302794] ahci 0000:00:17.0: controller can't do SNTF, turning off CAP_SNTF
-[    4.302861] ahci 0000:00:17.0: SSS flag set, parallel bus scan disabled
-[    4.304114] i801_smbus 0000:00:1f.4: SMBus using PCI interrupt
-[    4.304803] xhci_hcd 0000:00:14.0: xHCI Host Controller
-[    4.304810] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 1
-[    4.305869] xhci_hcd 0000:00:14.0: hcc params 0x200077c1 hci version 0x100 quirks 0x0000000001109810
-[    4.307102] xhci_hcd 0000:00:14.0: cache line size of 64 is not supported
-[    4.307275] i2c i2c-0: 1/4 memory slots populated (from DMI)
-[    4.307289] e1000e: Intel(R) PRO/1000 Network Driver - 3.2.6-k
-[    4.307290] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
-[    4.307312] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.08
-[    4.307314] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
-[    4.307315] usb usb1: Product: xHCI Host Controller
-[    4.307316] usb usb1: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
-[    4.307317] usb usb1: SerialNumber: 0000:00:14.0
-[    4.308207] hub 1-0:1.0: USB hub found
-[    4.308231] hub 1-0:1.0: 16 ports detected
-[    4.308233] e1000e 0000:00:1f.6: Interrupt Throttling Rate (ints/sec) set to dynamic conservative mode
-[    4.308234] i2c i2c-0: Successfully instantiated SPD at 0x53
-[    4.309933] xhci_hcd 0000:00:14.0: xHCI Host Controller
-[    4.309939] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 2
-[    4.309942] xhci_hcd 0000:00:14.0: Host supports USB 3.0 SuperSpeed
-[    4.309993] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.08
-[    4.309995] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
-[    4.309996] usb usb2: Product: xHCI Host Controller
-[    4.309997] usb usb2: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
-[    4.309999] usb usb2: SerialNumber: 0000:00:14.0
-[    4.310293] hub 2-0:1.0: USB hub found
-[    4.310306] hub 2-0:1.0: 10 ports detected
-[    4.310415] usb: port power management may be unreliable
-[    4.312943] ahci 0000:00:17.0: AHCI 0001.0301 32 slots 2 ports 6 Gbps 0xa impl RAID mode
-[    4.312946] ahci 0000:00:17.0: flags: 64bit ncq stag pm led clo only pio slum part ems deso sadm sds apst 
-[    4.314764] nvme nvme0: pci function 0000:02:00.0
-[    4.320237] nvme nvme0: 7/0/0 default/read/poll queues
-[    4.320696]  nvme0n1: p1 p2 < p5 >
-[    4.327773] scsi host0: ahci
-[    4.327960] scsi host1: ahci
-[    4.328163] scsi host2: ahci
-[    4.328280] scsi host3: ahci
-[    4.328363] ata1: DUMMY
-[    4.328366] ata2: SATA max UDMA/133 abar m2048@0xe444d000 port 0xe444d180 irq 127
-[    4.328367] ata3: DUMMY
-[    4.328369] ata4: SATA max UDMA/133 abar m2048@0xe444d000 port 0xe444d280 irq 127
-[    4.493727] e1000e 0000:00:1f.6 0000:00:1f.6 (uninitialized): registered PHC clock
-[    4.559988] e1000e 0000:00:1f.6 eth0: (PCI Express:2.5GT/s:Width x1) a0:8c:fd:4c:16:3b
-[    4.559995] e1000e 0000:00:1f.6 eth0: Intel(R) PRO/1000 Network Connection
-[    4.560094] e1000e 0000:00:1f.6 eth0: MAC: 12, PHY: 12, PBA No: FFFFFF-0FF
-[    4.565709] e1000e 0000:00:1f.6 enp0s31f6: renamed from eth0
-[    4.643022] usb 1-7: new high-speed USB device number 2 using xhci_hcd
-[    4.643279] ata2: SATA link down (SStatus 4 SControl 300)
-[    4.824536] usb 1-7: New USB device found, idVendor=04ca, idProduct=7054, bcdDevice= 0.09
-[    4.824541] usb 1-7: New USB device strings: Mfr=3, Product=1, SerialNumber=2
-[    4.824545] usb 1-7: Product: HP HD Camera
-[    4.824548] usb 1-7: Manufacturer: DETNR019I2320G
-[    4.824551] usb 1-7: SerialNumber: 200901010001
-[    4.947042] tsc: Refined TSC clocksource calibration: 2711.971 MHz
-[    4.947058] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x27176af2e6f, max_idle_ns: 440795209338 ns
-[    4.947129] clocksource: Switched to clocksource tsc
-[    4.955026] usb 1-8: new full-speed USB device number 3 using xhci_hcd
-[    4.955043] ata4: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
-[    4.955439] ata4.00: ACPI cmd f5/00:00:00:00:00:e0 (SECURITY FREEZE LOCK) filtered out
-[    4.955445] ata4.00: ACPI cmd b1/c1:00:00:00:00:e0 (DEVICE CONFIGURATION OVERLAY) filtered out
-[    4.955744] ata4.00: ATA-11: Patriot Burst, SBFMJ1.3, max UDMA/133
-[    4.955749] ata4.00: 468862128 sectors, multi 16: LBA48 NCQ (depth 32), AA
-[    4.956275] ata4.00: ACPI cmd f5/00:00:00:00:00:e0 (SECURITY FREEZE LOCK) filtered out
-[    4.956281] ata4.00: ACPI cmd b1/c1:00:00:00:00:e0 (DEVICE CONFIGURATION OVERLAY) filtered out
-[    4.956536] ata4.00: configured for UDMA/133
-[    4.956815] scsi 3:0:0:0: Direct-Access     ATA      Patriot Burst    J1.3 PQ: 0 ANSI: 5
-[    4.957361] sd 3:0:0:0: [sda] 468862128 512-byte logical blocks: (240 GB/224 GiB)
-[    4.957366] sd 3:0:0:0: Attached scsi generic sg0 type 0
-[    4.957381] sd 3:0:0:0: [sda] Write Protect is off
-[    4.957385] sd 3:0:0:0: [sda] Mode Sense: 00 3a 00 00
-[    4.957413] sd 3:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
-[    4.975045]  sda: sda1 sda2
-[    4.976124] sd 3:0:0:0: [sda] Attached SCSI disk
-[    5.105389] usb 1-8: New USB device found, idVendor=138a, idProduct=003f, bcdDevice= 1.04
-[    5.105395] usb 1-8: New USB device strings: Mfr=0, Product=0, SerialNumber=1
-[    5.105398] usb 1-8: SerialNumber: 00a02a683c9c
-[    5.221065] input: PS/2 Generic Mouse as /devices/platform/i8042/serio2/input/input10
-[    5.235029] usb 1-12: new full-speed USB device number 4 using xhci_hcd
-[    5.384988] usb 1-12: New USB device found, idVendor=8087, idProduct=0a2b, bcdDevice= 0.01
-[    5.384993] usb 1-12: New USB device strings: Mfr=0, Product=0, SerialNumber=0
-[    5.466544] fbcon: Taking over console
-[    5.466613] Console: switching to colour frame buffer device 80x30
-[    5.474761] EXT4-fs (nvme0n1p5): mounted filesystem with ordered data mode. Opts: (null)
-[    5.574557] systemd[1]: Inserted module 'autofs4'
-[    5.585564] systemd[1]: systemd 245.4-4ubuntu3.4 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN2 -IDN +PCRE2 default-hierarchy=hybrid)
-[    5.603198] systemd[1]: Detected architecture x86-64.
-[    5.628064] systemd[1]: Set hostname to <Zbook>.
-[    5.693341] systemd[1]: /lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
-[    5.701599] systemd[1]: /lib/systemd/system/vpnagentd.service:10: PIDFile= references a path below legacy directory /var/run/, updating /var/run/vpnagentd.pid → /run/vpnagentd.pid; please update the unit file accordingly.
-[    5.735852] systemd[1]: Created slice system-modprobe.slice.
-[    5.736019] systemd[1]: Created slice system-systemd\x2dfsck.slice.
-[    5.736139] systemd[1]: Created slice User and Session Slice.
-[    5.736182] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
-[    5.736296] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
-[    5.736323] systemd[1]: Reached target User and Group Name Lookups.
-[    5.736335] systemd[1]: Reached target Remote File Systems.
-[    5.736341] systemd[1]: Reached target Slices.
-[    5.736909] systemd[1]: Listening on Syslog Socket.
-[    5.736969] systemd[1]: Listening on fsck to fsckd communication Socket.
-[    5.737003] systemd[1]: Listening on initctl Compatibility Named Pipe.
-[    5.737123] systemd[1]: Listening on Journal Audit Socket.
-[    5.737184] systemd[1]: Listening on Journal Socket (/dev/log).
-[    5.737252] systemd[1]: Listening on Journal Socket.
-[    5.737315] systemd[1]: Listening on udev Control Socket.
-[    5.737363] systemd[1]: Listening on udev Kernel Socket.
-[    5.737999] systemd[1]: Mounting Huge Pages File System...
-[    5.738664] systemd[1]: Mounting POSIX Message Queue File System...
-[    5.739490] systemd[1]: Mounting Kernel Debug File System...
-[    5.740224] systemd[1]: Mounting Kernel Trace File System...
-[    5.741714] systemd[1]: Starting Journal Service...
-[    5.742499] systemd[1]: Starting Set the console keyboard layout...
-[    5.743607] systemd[1]: Starting Create list of static device nodes for the current kernel...
-[    5.744475] systemd[1]: Starting Load Kernel Module drm...
-[    5.744931] systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
-[    5.744983] systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
-[    5.746055] systemd[1]: Starting Load Kernel Modules...
-[    5.747141] systemd[1]: Starting Remount Root and Kernel File Systems...
-[    5.748022] systemd[1]: Starting udev Coldplug all Devices...
-[    5.749127] systemd[1]: Starting Uncomplicated firewall...
-[    5.751188] systemd[1]: Mounted Huge Pages File System.
-[    5.751320] systemd[1]: Mounted POSIX Message Queue File System.
-[    5.751456] systemd[1]: Mounted Kernel Debug File System.
-[    5.751587] systemd[1]: Mounted Kernel Trace File System.
-[    5.752193] systemd[1]: Finished Create list of static device nodes for the current kernel.
-[    5.752994] systemd[1]: Finished Uncomplicated firewall.
-[    5.755253] EXT4-fs (nvme0n1p5): re-mounted. Opts: errors=remount-ro
-[    5.756588] systemd[1]: Finished Remount Root and Kernel File Systems.
-[    5.757356] systemd[1]: Activating swap /swapfile...
-[    5.758281] systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
-[    5.758339] systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
-[    5.759139] systemd[1]: Starting Load/Save Random Seed...
-[    5.760152] systemd[1]: Starting Create System Users...
-[    5.760640] systemd[1]: modprobe@drm.service: Succeeded.
-[    5.760711] lp: driver loaded but no devices found
-[    5.760972] systemd[1]: Finished Load Kernel Module drm.
-[    5.764296] ppdev: user-space parallel port driver
-[    5.768249] systemd[1]: Finished Load Kernel Modules.
-[    5.769175] systemd[1]: Mounting FUSE Control File System...
-[    5.770233] systemd[1]: Mounting Kernel Configuration File System...
-[    5.771400] systemd[1]: Starting Apply Kernel Variables...
-[    5.773641] systemd[1]: Mounted FUSE Control File System.
-[    5.773812] systemd[1]: Mounted Kernel Configuration File System.
-[    5.781456] systemd[1]: Finished Load/Save Random Seed.
-[    5.783319] systemd[1]: Finished Create System Users.
-[    5.784162] systemd[1]: Starting Create Static Device Nodes in /dev...
-[    5.786773] systemd[1]: Finished Apply Kernel Variables.
-[    5.790862] Adding 2097148k swap on /swapfile.  Priority:-2 extents:6 across:2260988k SSFS
-[    5.790921] systemd[1]: Activated swap /swapfile.
-[    5.791047] systemd[1]: Reached target Swap.
-[    5.793966] systemd[1]: Finished Create Static Device Nodes in /dev.
-[    5.794923] systemd[1]: Starting udev Kernel Device Manager...
-[    5.824665] systemd[1]: Finished Set the console keyboard layout.
-[    5.824835] systemd[1]: Reached target Local File Systems (Pre).
-[    5.826791] systemd[1]: Mounting Mount unit for code, revision 55...
-[    5.828295] systemd[1]: Mounting Mount unit for core, revision 10823...
-[    5.829682] systemd[1]: Mounting Mount unit for core18, revision 1988...
-[    5.831153] systemd[1]: Mounting Mount unit for gnome-3-34-1804, revision 66...
-[    5.832644] systemd[1]: Mounting Mount unit for gtk-common-themes, revision 1514...
-[    5.833995] systemd[1]: Mounting Mount unit for snap-store, revision 518...
-[    5.835464] systemd[1]: Mounting Mount unit for snapd, revision 11036...
-[    5.837325] systemd[1]: Mounting Mount unit for vlc, revision 2103...
-[    5.837651] systemd[1]: Started Journal Service.
-[    5.844758] systemd-journald[300]: Received client request to flush runtime journal.
-[    5.954555] psmouse serio3: synaptics: queried max coordinates: x [..5664], y [..4742]
-[    5.977132] input: HP Wireless hotkeys as /devices/virtual/input/input12
-[    5.982174] hp_accel: hardware type HPZBook17 found
-[    5.983638] psmouse serio3: synaptics: queried min coordinates: x [1280..], y [1110..]
-[    5.983645] psmouse serio3: synaptics: Your touchpad (PNP: SYN3040 SYN0100 SYN0002 PNP0f13) says it can support a different bus. If i2c-hid and hid-rmi are not used, you might want to try setting psmouse.synaptics_intertouch to 1 and report this to linux-input@vger.kernel.org.
-[    6.036475] psmouse serio3: synaptics: Touchpad model: 1, fw: 8.2, id: 0x1e2b1, caps: 0xf40223/0x840300/0x2e800/0x0, board id: 2706, fw id: 2017334
-[    6.069831] input: SynPS/2 Synaptics TouchPad as /devices/platform/i8042/serio3/input/input11
-[    6.099614] mei_me 0000:00:16.0: enabling device (0000 -> 0002)
-[    6.103810] mc: Linux media interface: v0.10
-[    6.104792] ee1004 0-0053: 512 byte EE1004-compliant SPD EEPROM, read-only
-[    6.111673] lis3lv02d: 8 bits 3DC sensor found
-[    6.117051] Bluetooth: Core ver 2.22
-[    6.117068] NET: Registered protocol family 31
-[    6.117068] Bluetooth: HCI device and connection manager initialized
-[    6.117072] Bluetooth: HCI socket layer initialized
-[    6.117074] Bluetooth: L2CAP socket layer initialized
-[    6.117091] Bluetooth: SCO socket layer initialized
-[    6.117209] videodev: Linux video capture interface: v2.00
-[    6.119551] cfg80211: Loading compiled-in X.509 certificates for regulatory database
-[    6.123652] ACPI Error: Needed [Buffer/String/Package], found [Integer] 000000005b5cbb60 (20200528/exresop-557)
-[    6.123659] ACPI Error: AE_AML_OPERAND_TYPE, While resolving operands for [Index] (20200528/dswexec-431)
-[    6.123667] 
-               Initialized Local Variables for Method [WVPO]:
-[    6.123668]   Local1: 00000000fdd12bfa <Obj>           Buffer(12) 00 00 00 00 00 00 00 00
-[    6.123677] Initialized Arguments for Method [WVPO]:  (2 arguments defined for method invocation)
-[    6.123678]   Arg0:   00000000e6156564 <Obj>           Integer 0000000000000004
-[    6.123682]   Arg1:   000000005b5cbb60 <Obj>           Integer 0000000000000000
-[    6.123688] ACPI Error: Aborting method \_SB.WMIV.WVPO due to previous error (AE_AML_OPERAND_TYPE) (20200528/psparse-529)
-[    6.123704] ACPI Error: Aborting method \_SB.WMIV.WMPV due to previous error (AE_AML_OPERAND_TYPE) (20200528/psparse-529)
-[    6.124045] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
-[    6.125598] ACPI Error: Needed [Buffer/String/Package], found [Integer] 00000000a065bfe6 (20200528/exresop-557)
-[    6.125603] ACPI Error: AE_AML_OPERAND_TYPE, While resolving operands for [Index] (20200528/dswexec-431)
-[    6.125610] 
-               Initialized Local Variables for Method [WVPO]:
-[    6.125611]   Local1: 000000001fd8063e <Obj>           Buffer(12) 00 00 00 00 00 00 00 00
-[    6.125619] Initialized Arguments for Method [WVPO]:  (2 arguments defined for method invocation)
-[    6.125620]   Arg0:   0000000034243b4c <Obj>           Integer 0000000000000004
-[    6.125624]   Arg1:   00000000a065bfe6 <Obj>           Integer 0000000000000000
-[    6.125629] ACPI Error: Aborting method \_SB.WMIV.WVPO due to previous error (AE_AML_OPERAND_TYPE) (20200528/psparse-529)
-[    6.125638] ACPI Error: Aborting method \_SB.WMIV.WMPV due to previous error (AE_AML_OPERAND_TYPE) (20200528/psparse-529)
-[    6.129013] ACPI Error: Needed [Buffer/String/Package], found [Integer] 00000000d6b9fea7 (20200528/exresop-557)
-[    6.129020] ACPI Error: AE_AML_OPERAND_TYPE, While resolving operands for [Index] (20200528/dswexec-431)
-[    6.129027] 
-               Initialized Local Variables for Method [WVPO]:
-[    6.129028]   Local1: 000000007df0c8f2 <Obj>           Buffer(136) 00 00 00 00 00 00 00 00
-[    6.129039] Initialized Arguments for Method [WVPO]:  (2 arguments defined for method invocation)
-[    6.129040]   Arg0:   00000000ee9de53e <Obj>           Integer 0000000000000080
-[    6.129043]   Arg1:   00000000d6b9fea7 <Obj>           Integer 0000000000000000
-[    6.129047] ACPI Error: Aborting method \_SB.WMIV.WVPO due to previous error (AE_AML_OPERAND_TYPE) (20200528/psparse-529)
-[    6.129054] ACPI Error: Aborting method \_SB.WMIV.WMPV due to previous error (AE_AML_OPERAND_TYPE) (20200528/psparse-529)
-[    6.129101] input: HP WMI hotkeys as /devices/virtual/input/input14
-[    6.140569] ACPI Error: Needed [Buffer/String/Package], found [Integer] 000000006bfcc9f5 (20200528/exresop-557)
-[    6.140577] ACPI Error: AE_AML_OPERAND_TYPE, While resolving operands for [Index] (20200528/dswexec-431)
-[    6.140586] 
-               Initialized Local Variables for Method [WVPO]:
-[    6.140587]   Local1: 00000000d0dfb004 <Obj>           Buffer(136) 00 00 00 00 00 00 00 00
-[    6.140599] Initialized Arguments for Method [WVPO]:  (2 arguments defined for method invocation)
-[    6.140600]   Arg0:   000000007c9084da <Obj>           Integer 0000000000000080
-[    6.140604]   Arg1:   000000006bfcc9f5 <Obj>           Integer 0000000000000000
-[    6.140610] ACPI Error: Aborting method \_SB.WMIV.WVPO due to previous error (AE_AML_OPERAND_TYPE) (20200528/psparse-529)
-[    6.140621] ACPI Error: Aborting method \_SB.WMIV.WMPV due to previous error (AE_AML_OPERAND_TYPE) (20200528/psparse-529)
-[    6.167577] usbcore: registered new interface driver btusb
-[    6.170858] Bluetooth: hci0: Bootloader revision 0.0 build 2 week 52 2014
-[    6.172129] Intel(R) Wireless WiFi driver for Linux
-[    6.174299] RAPL PMU: API unit is 2^-32 Joules, 3 fixed counters, 655360 ms ovfl timer
-[    6.174301] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
-[    6.174302] RAPL PMU: hw unit of domain package 2^-14 Joules
-[    6.174302] RAPL PMU: hw unit of domain dram 2^-14 Joules
-[    6.177671] Bluetooth: hci0: Device revision is 5
-[    6.177673] Bluetooth: hci0: Secure boot is enabled
-[    6.177674] Bluetooth: hci0: OTP lock is enabled
-[    6.177675] Bluetooth: hci0: API lock is enabled
-[    6.177675] Bluetooth: hci0: Debug lock is disabled
-[    6.177677] Bluetooth: hci0: Minimum firmware build 1 week 10 2014
-[    6.178918] Bluetooth: hci0: Found device firmware: intel/ibt-11-5.sfi
-[    6.186713] cryptd: max_cpu_qlen set to 1000
-[    6.187424] iwlwifi 0000:03:00.0: Found debug destination: EXTERNAL_DRAM
-[    6.187426] iwlwifi 0000:03:00.0: Found debug configuration: 0
-[    6.187984] iwlwifi 0000:03:00.0: loaded firmware version 36.77d01142.0 8000C-36.ucode op_mode iwlmvm
-[    6.188018] iwlwifi 0000:03:00.0: Direct firmware load for iwl-debug-yoyo.bin failed with error -2
-[    6.213162] uvcvideo: Found UVC 1.00 device HP HD Camera (04ca:7054)
-[    6.216965] AVX2 version of gcm_enc/dec engaged.
-[    6.216966] AES CTR mode by8 optimization enabled
-[    6.226553] input: HP HD Camera: HP HD Camera as /devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.0/input/input15
-[    6.226802] usbcore: registered new interface driver uvcvideo
-[    6.226803] USB Video Class driver (1.1.1)
-[    6.239469] iwlwifi 0000:03:00.0: Detected Intel(R) Dual Band Wireless AC 8260, REV=0x208
-[    6.247730] iwlwifi 0000:03:00.0: Applying debug destination EXTERNAL_DRAM
-[    6.248246] iwlwifi 0000:03:00.0: Allocated 0x00400000 bytes for firmware monitor.
-[    6.303799] audit: type=1400 audit(1614921105.777:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-xpdfimport" pid=525 comm="apparmor_parser"
-[    6.303802] audit: type=1400 audit(1614921105.777:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=528 comm="apparmor_parser"
-[    6.303805] audit: type=1400 audit(1614921105.777:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=528 comm="apparmor_parser"
-[    6.303807] audit: type=1400 audit(1614921105.781:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=521 comm="apparmor_parser"
-[    6.303809] audit: type=1400 audit(1614921105.781:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=521 comm="apparmor_parser"
-[    6.303811] audit: type=1400 audit(1614921105.781:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=521 comm="apparmor_parser"
-[    6.303813] audit: type=1400 audit(1614921105.781:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=524 comm="apparmor_parser"
-[    6.303816] audit: type=1400 audit(1614921105.781:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=524 comm="apparmor_parser"
-[    6.305246] audit: type=1400 audit(1614921105.785:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/mysqld" pid=523 comm="apparmor_parser"
-[    6.306151] audit: type=1400 audit(1614921105.785:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=526 comm="apparmor_parser"
-[    6.314172] snd_hda_intel 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
-[    6.316634] snd_hda_intel 0000:01:00.1: Disabling MSI
-[    6.316641] snd_hda_intel 0000:01:00.1: Handle vga_switcheroo audio client
-[    6.339038] MXM: GUID detected in BIOS
-[    6.339785] ACPI Warning: \_SB.PCI0.PEG0.PEGP._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20200528/nsarguments-59)
-[    6.341009] ACPI: \_SB_.PCI0.PEG0.PEGP: failed to evaluate _DSM
-[    6.341049] iwlwifi 0000:03:00.0: base HW address: e4:b3:18:d2:11:3a
-[    6.341213] checking generic (b1000000 130000) vs hw (e3000000 1000000)
-[    6.341215] checking generic (b1000000 130000) vs hw (a0000000 10000000)
-[    6.341216] checking generic (b1000000 130000) vs hw (b0000000 2000000)
-[    6.341217] fb0: switching to nouveaufb from VESA VGA
-[    6.342679] Console: switching to colour dummy device 80x25
-[    6.342720] nouveau 0000:01:00.0: vgaarb: deactivate vga console
-[    6.342814] nouveau 0000:01:00.0: NVIDIA GM204 (124390a1)
-[    6.357820] snd_hda_codec_conexant hdaudioC0D0: CX20724: BIOS auto-probing.
-[    6.360516] snd_hda_codec_conexant hdaudioC0D0: autoconfig for CX20724: line_outs=1 (0x17/0x0/0x0/0x0/0x0) type:speaker
-[    6.360518] snd_hda_codec_conexant hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
-[    6.360520] snd_hda_codec_conexant hdaudioC0D0:    hp_outs=1 (0x16/0x0/0x0/0x0/0x0)
-[    6.360521] snd_hda_codec_conexant hdaudioC0D0:    mono: mono_out=0x0
-[    6.360522] snd_hda_codec_conexant hdaudioC0D0:    inputs:
-[    6.360524] snd_hda_codec_conexant hdaudioC0D0:      Internal Mic=0x1a
-[    6.360525] snd_hda_codec_conexant hdaudioC0D0:      Mic=0x19
-[    6.370405] input: HDA Intel PCH Mic as /devices/pci0000:00/0000:00:1f.3/sound/card0/input16
-[    6.370469] input: HDA Intel PCH Headphone as /devices/pci0000:00/0000:00:1f.3/sound/card0/input17
-[    6.408093] input: HDA NVidia HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:01.0/0000:01:00.1/sound/card1/input18
-[    6.408135] input: HDA NVidia HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:01.0/0000:01:00.1/sound/card1/input19
-[    6.408173] input: HDA NVidia HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:01.0/0000:01:00.1/sound/card1/input20
-[    6.408208] input: HDA NVidia HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:01.0/0000:01:00.1/sound/card1/input21
-[    6.408250] input: HDA NVidia HDMI/DP,pcm=10 as /devices/pci0000:00/0000:00:01.0/0000:01:00.1/sound/card1/input22
-[    6.416966] ieee80211 phy0: Selected rate control algorithm 'iwl-mvm-rs'
-[    6.418104] thermal thermal_zone7: failed to read out thermal zone (-61)
-[    6.418379] nouveau 0000:01:00.0: bios: version 84.04.49.00.14
-[    6.447777] nouveau 0000:01:00.0: mxm: BIOS version 3.0
-[    6.476419] nouveau 0000:01:00.0: fb: 4096 MiB GDDR5
-[    6.476444] nouveau 0000:01:00.0: bus: MMIO read of 00000000 FAULT at 022554 [ IBUS ]
-[    6.495055] iwlwifi 0000:03:00.0 wlp3s0: renamed from wlan0
-[    6.554326] intel_rapl_common: Found RAPL domain package
-[    6.554332] intel_rapl_common: Found RAPL domain core
-[    6.554351] intel_rapl_common: Found RAPL domain dram
-[    6.558479] [TTM] Zone  kernel: Available graphics memory: 8157406 KiB
-[    6.558480] [TTM] Zone   dma32: Available graphics memory: 2097152 KiB
-[    6.558481] [TTM] Initializing pool allocator
-[    6.558484] [TTM] Initializing DMA pool allocator
-[    6.558501] nouveau 0000:01:00.0: DRM: VRAM: 4096 MiB
-[    6.558502] nouveau 0000:01:00.0: DRM: GART: 1048576 MiB
-[    6.558506] nouveau 0000:01:00.0: DRM: TMDS table version 2.0
-[    6.558507] nouveau 0000:01:00.0: DRM: DCB version 4.1
-[    6.558508] nouveau 0000:01:00.0: DRM: DCB outp 03: 04813f96 04400020
-[    6.558510] nouveau 0000:01:00.0: DRM: DCB outp 04: 04013f92 00020020
-[    6.558511] nouveau 0000:01:00.0: DRM: DCB outp 05: 04824f86 04400010
-[    6.558511] nouveau 0000:01:00.0: DRM: DCB outp 06: 04024f82 00020010
-[    6.558512] nouveau 0000:01:00.0: DRM: DCB outp 08: 02846f76 04400020
-[    6.558513] nouveau 0000:01:00.0: DRM: DCB outp 09: 02046f72 00020020
-[    6.558514] nouveau 0000:01:00.0: DRM: DCB outp 10: 02857f66 04410014
-[    6.558515] nouveau 0000:01:00.0: DRM: DCB conn 00: 08000040
-[    6.558516] nouveau 0000:01:00.0: DRM: DCB conn 01: 00001161
-[    6.558517] nouveau 0000:01:00.0: DRM: DCB conn 02: 00001231
-[    6.558518] nouveau 0000:01:00.0: DRM: DCB conn 03: 02000346
-[    6.558519] nouveau 0000:01:00.0: DRM: DCB conn 04: 01000446
-[    6.558519] nouveau 0000:01:00.0: DRM: DCB conn 05: 01000531
-[    6.558520] nouveau 0000:01:00.0: DRM: DCB conn 06: 00020646
-[    6.558521] nouveau 0000:01:00.0: DRM: DCB conn 07: 00010747
-[    6.558522] nouveau 0000:01:00.0: DRM: DCB conn 09: 00000900
-[    6.558523] nouveau 0000:01:00.0: DRM: DCB conn 15: 00000f70
-[    6.558980] nouveau 0000:01:00.0: DRM: MM: using COPY for buffer copies
-[    6.675840] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
-[    6.675842] Bluetooth: BNEP filters: protocol multicast
-[    6.675846] Bluetooth: BNEP socket layer initialized
-[    6.928361] snd_hda_intel 0000:01:00.1: bound 0000:01:00.0 (ops nv50_audio_component_bind_ops [nouveau])
-[    6.928381] [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
-[    7.002217] bpfilter: Loaded bpfilter_umh pid 803
-[    7.002358] Started bpfilter
-[    7.002917] iwlwifi 0000:03:00.0: Applying debug destination EXTERNAL_DRAM
-[    7.159032] iwlwifi 0000:03:00.0: Applying debug destination EXTERNAL_DRAM
-[    7.223632] nouveau 0000:01:00.0: DRM: allocated 1920x1080 fb: 0xa0000, bo 000000000233dc76
-[    7.224878] fbcon: nouveaudrmfb (fb0) is primary device
-[    7.224977] Console: switching to colour frame buffer device 240x67
-[    7.225012] nouveau 0000:01:00.0: fb0: nouveaudrmfb frame buffer device
-[    7.241406] iwlwifi 0000:03:00.0: FW already configured (0) - re-configuring
-[    7.447225] [drm] Initialized nouveau 1.3.1 20120801 for 0000:01:00.0 on minor 0
-[    7.447233] nouveau 0000:01:00.0: DRM: Disabling PCI power management to avoid bug
-[    7.606930] input: ST LIS3LV02DL Accelerometer as /devices/platform/lis3lv02d/input/input23
-[    7.857733] Bluetooth: hci0: Waiting for firmware download to complete
-[    7.857734] Bluetooth: hci0: Firmware loaded in 1648496 usecs
-[    7.857804] Bluetooth: hci0: Waiting for device to boot
-[    7.868737] Bluetooth: hci0: Device booted in 10729 usecs
-[    7.869243] Bluetooth: hci0: Found Intel DDC parameters: intel/ibt-11-5.ddc
-[    7.872735] Bluetooth: hci0: Applying Intel DDC parameters completed
-[    7.873736] Bluetooth: hci0: Firmware revision 0.0 build 10 week 41 2018
-[    7.922816] NET: Registered protocol family 38
-[   10.995003] wlp3s0: authenticate with 00:3a:9a:84:18:00
-[   11.003871] wlp3s0: send auth to 00:3a:9a:84:18:00 (try 1/3)
-[   11.010261] wlp3s0: authenticated
-[   11.010849] wlp3s0: associate with 00:3a:9a:84:18:00 (try 1/3)
-[   11.013802] wlp3s0: RX AssocResp from 00:3a:9a:84:18:00 (capab=0x421 status=0 aid=6)
-[   11.023660] wlp3s0: associated
-[   11.024342] IPv6: ADDRCONF(NETDEV_CHANGE): wlp3s0: link becomes ready
-[   11.426035] rfkill: input handler disabled
-[   15.630382] Bluetooth: RFCOMM TTY layer initialized
-[   15.630388] Bluetooth: RFCOMM socket layer initialized
-[   15.630392] Bluetooth: RFCOMM ver 1.11
-[   15.818377] rfkill: input handler enabled
-[   18.838289] rfkill: input handler disabled
-[   19.007280] kauditd_printk_skb: 36 callbacks suppressed
-[   19.007282] audit: type=1400 audit(1614921118.489:48): apparmor="DENIED" operation="capable" profile="/usr/lib/snapd/snap-confine" pid=1932 comm="snap-confine" capability=4  capname="fsetid"
-[   20.854366] audit: type=1326 audit(1614921120.333:49): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="snap-store" exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=314 compat=0 ip=0x7ff9b889b639 code=0x50000
-[   21.131000] audit: type=1107 audit(1614921120.613:50): pid=617 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/NetworkManager" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.12" pid=1932 label="snap.snap-store.ubuntu-software" peer_pid=618 peer_label="unconfined"
-                exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
-[   23.235962] ACPI BIOS Error (bug): Failure creating named object [\_GPE._E4C.SPRT], AE_ALREADY_EXISTS (20200528/dswload2-326)
-[   23.235986] No Local Variables are initialized for Method [_E4C]
-[   23.235989] No Arguments are initialized for method [_E4C]
-[   23.235993] ACPI Error: AE_ALREADY_EXISTS, During name lookup/catalog (20200528/psobject-220)
-[   23.236000] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
-[   23.236012] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
-[   23.236028] ACPI Error: AE_ALREADY_EXISTS, while evaluating GPE method [_E4C] (20200528/evgpe-511)
-[   23.549079] pcieport 0000:00:1b.0: AER: Multiple Corrected error received: 0000:02:00.0
-[   23.549352] nvme 0000:02:00.0: AER: PCIe Bus Error: severity=Corrected, type=Transaction Layer, (Receiver ID)
-[   23.549358] nvme 0000:02:00.0: AER:   device [1179:010f] error status/mask=00002000/00000000
-[   23.549360] nvme 0000:02:00.0: AER:    [13] NonFatalErr           
-[   23.571171] pci 0000:05:00.0: [8086:1578] type 01 class 0x060400
-[   23.571225] pci 0000:05:00.0: enabling Extended Tags
-[   23.571316] pci 0000:05:00.0: supports D1 D2
-[   23.571317] pci 0000:05:00.0: PME# supported from D0 D1 D2 D3hot D3cold
-[   23.571628] pci 0000:06:00.0: [8086:1578] type 01 class 0x060400
-[   23.571696] pci 0000:06:00.0: enabling Extended Tags
-[   23.571773] pci 0000:06:00.0: supports D1 D2
-[   23.571774] pci 0000:06:00.0: PME# supported from D0 D1 D2 D3hot D3cold
-[   23.571918] pci 0000:06:01.0: [8086:1578] type 01 class 0x060400
-[   23.571992] pci 0000:06:01.0: enabling Extended Tags
-[   23.572071] pci 0000:06:01.0: supports D1 D2
-[   23.572072] pci 0000:06:01.0: PME# supported from D0 D1 D2 D3hot D3cold
-[   23.572211] pci 0000:06:02.0: [8086:1578] type 01 class 0x060400
-[   23.572268] pci 0000:06:02.0: enabling Extended Tags
-[   23.572349] pci 0000:06:02.0: supports D1 D2
-[   23.572350] pci 0000:06:02.0: PME# supported from D0 D1 D2 D3hot D3cold
-[   23.572482] pci 0000:06:04.0: [8086:1578] type 01 class 0x060400
-[   23.572544] pci 0000:06:04.0: enabling Extended Tags
-[   23.572626] pci 0000:06:04.0: supports D1 D2
-[   23.572627] pci 0000:06:04.0: PME# supported from D0 D1 D2 D3hot D3cold
-[   23.572754] pci 0000:05:00.0: PCI bridge to [bus 06-6f]
-[   23.572762] pci 0000:05:00.0:   bridge window [mem 0xb4000000-0xe20fffff]
-[   23.572767] pci 0000:05:00.0:   bridge window [mem 0x50000000-0x99ffffff 64bit pref]
-[   23.572827] pci 0000:07:00.0: [8086:1577] type 00 class 0x088000
-[   23.572860] pci 0000:07:00.0: reg 0x10: [mem 0xe2000000-0xe203ffff]
-[   23.572871] pci 0000:07:00.0: reg 0x14: [mem 0xe2040000-0xe2040fff]
-[   23.572928] pci 0000:07:00.0: enabling Extended Tags
-[   23.573030] pci 0000:07:00.0: supports D1 D2
-[   23.573031] pci 0000:07:00.0: PME# supported from D0 D1 D2 D3hot D3cold
-[   23.573199] pci 0000:06:00.0: PCI bridge to [bus 07]
-[   23.573207] pci 0000:06:00.0:   bridge window [mem 0xe2000000-0xe20fffff]
-[   23.573258] pci 0000:06:01.0: PCI bridge to [bus 08-3a]
-[   23.573266] pci 0000:06:01.0:   bridge window [mem 0xb4000000-0xcbefffff]
-[   23.573271] pci 0000:06:01.0:   bridge window [mem 0x50000000-0x6fffffff 64bit pref]
-[   23.573348] pci 0000:3b:00.0: [8086:15b6] type 00 class 0x0c0330
-[   23.573382] pci 0000:3b:00.0: reg 0x10: [mem 0xcbf00000-0xcbf0ffff]
-[   23.573554] pci 0000:3b:00.0: supports D1 D2
-[   23.573555] pci 0000:3b:00.0: PME# supported from D0 D1 D2 D3hot D3cold
-[   23.573633] pci 0000:3b:00.0: 8.000 Gb/s available PCIe bandwidth, limited by 2.5 GT/s PCIe x4 link at 0000:06:02.0 (capable of 31.504 Gb/s with 8.0 GT/s PCIe x4 link)
-[   23.573769] pci 0000:06:02.0: PCI bridge to [bus 3b]
-[   23.573777] pci 0000:06:02.0:   bridge window [mem 0xcbf00000-0xcbffffff]
-[   23.573827] pci 0000:06:04.0: PCI bridge to [bus 3c-6f]
-[   23.573835] pci 0000:06:04.0:   bridge window [mem 0xcc000000-0xe1ffffff]
-[   23.573840] pci 0000:06:04.0:   bridge window [mem 0x70000000-0x99ffffff 64bit pref]
-[   23.573866] pci_bus 0000:06: Allocating resources
-[   23.573886] pci 0000:06:01.0: bridge window [io  0x1000-0x0fff] to [bus 08-3a] add_size 1000
-[   23.573887] pci 0000:06:04.0: bridge window [io  0x1000-0x0fff] to [bus 3c-6f] add_size 1000
-[   23.573889] pci 0000:05:00.0: bridge window [io  0x1000-0x0fff] to [bus 06-6f] add_size 3000
-[   23.573891] pci 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
-[   23.573892] pci 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
-[   23.573893] pci 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
-[   23.573894] pci 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
-[   23.573896] pci 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
-[   23.573897] pci 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
-[   23.573898] pci 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
-[   23.573898] pci 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
-[   23.573899] pci 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
-[   23.573900] pci 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
-[   23.573901] pci 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
 [   23.573902] pci 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
 [   23.573903] pci 0000:06:00.0: PCI bridge to [bus 07]
 [   23.573908] pci 0000:06:00.0:   bridge window [mem 0xe2000000-0xe20fffff]
@@ -2470,4 +1762,455 @@
 [10208.147423] pci_bus 0000:08: busn_res: [bus 08-3a] is released
 [10208.160850] pci_bus 0000:3b: busn_res: [bus 3b] is released
 [10208.160961] pci_bus 0000:3c: busn_res: [bus 3c-6f] is released
-[10208.161035] pci_bus 0000:06: busn_res: [bus 06-6f] is released $
+[10208.161035] pci_bus 0000:06: busn_res: [bus 06-6f] is released
+[10499.027819] ACPI BIOS Error (bug): Failure creating named object [\_GPE._E4C.SPRT], AE_ALREADY_EXISTS (20200528/dswload2-326)
+[10499.027846] No Local Variables are initialized for Method [_E4C]
+[10499.027850] No Arguments are initialized for method [_E4C]
+[10499.027853] ACPI Error: AE_ALREADY_EXISTS, During name lookup/catalog (20200528/psobject-220)
+[10499.027861] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
+[10499.027874] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
+[10499.027893] ACPI Error: AE_ALREADY_EXISTS, while evaluating GPE method [_E4C] (20200528/evgpe-511)
+[10499.316714] pcieport 0000:00:1b.0: AER: Multiple Corrected error received: 0000:02:00.0
+[10499.317009] nvme 0000:02:00.0: AER: PCIe Bus Error: severity=Corrected, type=Transaction Layer, (Receiver ID)
+[10499.317012] nvme 0000:02:00.0: AER:   device [1179:010f] error status/mask=00002000/00000000
+[10499.317013] nvme 0000:02:00.0: AER:    [13] NonFatalErr           
+[10499.338853] pci 0000:05:00.0: [8086:1578] type 01 class 0x060400
+[10499.338907] pci 0000:05:00.0: enabling Extended Tags
+[10499.338983] pci 0000:05:00.0: supports D1 D2
+[10499.338983] pci 0000:05:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[10499.339339] pci 0000:06:00.0: [8086:1578] type 01 class 0x060400
+[10499.339395] pci 0000:06:00.0: enabling Extended Tags
+[10499.339506] pci 0000:06:00.0: supports D1 D2
+[10499.339507] pci 0000:06:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[10499.339647] pci 0000:06:01.0: [8086:1578] type 01 class 0x060400
+[10499.339719] pci 0000:06:01.0: enabling Extended Tags
+[10499.339806] pci 0000:06:01.0: supports D1 D2
+[10499.339807] pci 0000:06:01.0: PME# supported from D0 D1 D2 D3hot D3cold
+[10499.339908] pci 0000:06:02.0: [8086:1578] type 01 class 0x060400
+[10499.339982] pci 0000:06:02.0: enabling Extended Tags
+[10499.340073] pci 0000:06:02.0: supports D1 D2
+[10499.340074] pci 0000:06:02.0: PME# supported from D0 D1 D2 D3hot D3cold
+[10499.340200] pci 0000:06:04.0: [8086:1578] type 01 class 0x060400
+[10499.340260] pci 0000:06:04.0: enabling Extended Tags
+[10499.340341] pci 0000:06:04.0: supports D1 D2
+[10499.340342] pci 0000:06:04.0: PME# supported from D0 D1 D2 D3hot D3cold
+[10499.340458] pci 0000:05:00.0: PCI bridge to [bus 06-6f]
+[10499.340465] pci 0000:05:00.0:   bridge window [mem 0xb4000000-0xe20fffff]
+[10499.340470] pci 0000:05:00.0:   bridge window [mem 0x50000000-0x99ffffff 64bit pref]
+[10499.340512] pci 0000:06:00.0: PCI bridge to [bus 07]
+[10499.340519] pci 0000:06:00.0:   bridge window [mem 0xe2000000-0xe20fffff]
+[10499.340565] pci 0000:06:01.0: PCI bridge to [bus 08-3a]
+[10499.340572] pci 0000:06:01.0:   bridge window [mem 0xb4000000-0xcbefffff]
+[10499.340577] pci 0000:06:01.0:   bridge window [mem 0x50000000-0x6fffffff 64bit pref]
+[10499.340647] pci 0000:3b:00.0: [8086:15b6] type 00 class 0x0c0330
+[10499.340680] pci 0000:3b:00.0: reg 0x10: [mem 0xcbf00000-0xcbf0ffff]
+[10499.340752] pci 0000:3b:00.0: enabling Extended Tags
+[10499.340853] pci 0000:3b:00.0: supports D1 D2
+[10499.340854] pci 0000:3b:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[10499.340930] pci 0000:3b:00.0: 8.000 Gb/s available PCIe bandwidth, limited by 2.5 GT/s PCIe x4 link at 0000:06:02.0 (capable of 31.504 Gb/s with 8.0 GT/s PCIe x4 link)
+[10499.341051] pci 0000:06:02.0: PCI bridge to [bus 3b]
+[10499.341059] pci 0000:06:02.0:   bridge window [mem 0xcbf00000-0xcbffffff]
+[10499.341104] pci 0000:06:04.0: PCI bridge to [bus 3c-6f]
+[10499.341111] pci 0000:06:04.0:   bridge window [mem 0xcc000000-0xe1ffffff]
+[10499.341116] pci 0000:06:04.0:   bridge window [mem 0x70000000-0x99ffffff 64bit pref]
+[10499.341141] pci_bus 0000:06: Allocating resources
+[10499.341156] pci 0000:06:01.0: bridge window [io  0x1000-0x0fff] to [bus 08-3a] add_size 1000
+[10499.341158] pci 0000:06:04.0: bridge window [io  0x1000-0x0fff] to [bus 3c-6f] add_size 1000
+[10499.341159] pci 0000:05:00.0: bridge window [io  0x1000-0x0fff] to [bus 06-6f] add_size 3000
+[10499.341161] pci 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
+[10499.341162] pci 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
+[10499.341163] pci 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
+[10499.341164] pci 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
+[10499.341165] pci 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
+[10499.341166] pci 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
+[10499.341167] pci 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
+[10499.341167] pci 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
+[10499.341168] pci 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
+[10499.341169] pci 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
+[10499.341170] pci 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
+[10499.341171] pci 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
+[10499.341172] pci 0000:06:00.0: PCI bridge to [bus 07]
+[10499.341176] pci 0000:06:00.0:   bridge window [mem 0xe2000000-0xe20fffff]
+[10499.341183] pci 0000:06:01.0: PCI bridge to [bus 08-3a]
+[10499.341187] pci 0000:06:01.0:   bridge window [mem 0xb4000000-0xcbefffff]
+[10499.341190] pci 0000:06:01.0:   bridge window [mem 0x50000000-0x6fffffff 64bit pref]
+[10499.341195] pci 0000:06:02.0: PCI bridge to [bus 3b]
+[10499.341198] pci 0000:06:02.0:   bridge window [mem 0xcbf00000-0xcbffffff]
+[10499.341205] pci 0000:06:04.0: PCI bridge to [bus 3c-6f]
+[10499.341209] pci 0000:06:04.0:   bridge window [mem 0xcc000000-0xe1ffffff]
+[10499.341212] pci 0000:06:04.0:   bridge window [mem 0x70000000-0x99ffffff 64bit pref]
+[10499.341216] pci 0000:05:00.0: PCI bridge to [bus 06-6f]
+[10499.341220] pci 0000:05:00.0:   bridge window [mem 0xb4000000-0xe20fffff]
+[10499.341223] pci 0000:05:00.0:   bridge window [mem 0x50000000-0x99ffffff 64bit pref]
+[10499.342576] xhci_hcd 0000:3b:00.0: xHCI Host Controller
+[10499.342581] xhci_hcd 0000:3b:00.0: new USB bus registered, assigned bus number 3
+[10499.343707] xhci_hcd 0000:3b:00.0: hcc params 0x200077c1 hci version 0x110 quirks 0x0000000200009810
+[10499.343924] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.08
+[10499.343926] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[10499.343927] usb usb3: Product: xHCI Host Controller
+[10499.343929] usb usb3: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
+[10499.343930] usb usb3: SerialNumber: 0000:3b:00.0
+[10499.344087] hub 3-0:1.0: USB hub found
+[10499.344095] hub 3-0:1.0: 2 ports detected
+[10499.344720] xhci_hcd 0000:3b:00.0: xHCI Host Controller
+[10499.344723] xhci_hcd 0000:3b:00.0: new USB bus registered, assigned bus number 4
+[10499.344726] xhci_hcd 0000:3b:00.0: Host supports USB 3.1 Enhanced SuperSpeed
+[10499.344763] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.08
+[10499.344764] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[10499.344766] usb usb4: Product: xHCI Host Controller
+[10499.344767] usb usb4: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
+[10499.344768] usb usb4: SerialNumber: 0000:3b:00.0
+[10499.344914] hub 4-0:1.0: USB hub found
+[10499.344924] hub 4-0:1.0: 2 ports detected
+[12242.230224] pcieport 0000:00:1c.4: AER: Corrected error received: 0000:00:1c.4
+[12242.230235] pcieport 0000:00:1c.4: AER: PCIe Bus Error: severity=Corrected, type=Physical Layer, (Receiver ID)
+[12242.230243] pcieport 0000:00:1c.4: AER:   device [8086:a114] error status/mask=00000001/00002000
+[12242.230249] pcieport 0000:00:1c.4: AER:    [ 0] RxErr                 
+[12242.754398] pcieport 0000:06:02.0: can't change power state from D3cold to D0 (config space inaccessible)
+[12242.754417] xhci_hcd 0000:3b:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[12242.754425] xhci_hcd 0000:3b:00.0: can't change power state from D3hot to D0 (config space inaccessible)
+[12242.754441] xhci_hcd 0000:3b:00.0: Controller not ready at resume -19
+[12242.754442] xhci_hcd 0000:3b:00.0: PCI post-resume error -19!
+[12242.754443] xhci_hcd 0000:3b:00.0: HC died; cleaning up
+[12242.754451] xhci_hcd 0000:3b:00.0: remove, state 4
+[12242.754453] usb usb4: USB disconnect, device number 1
+[12242.754647] xhci_hcd 0000:3b:00.0: USB bus 4 deregistered
+[12242.754652] xhci_hcd 0000:3b:00.0: remove, state 4
+[12242.754653] usb usb3: USB disconnect, device number 1
+[12242.754833] xhci_hcd 0000:3b:00.0: Host halt failed, -19
+[12242.754835] xhci_hcd 0000:3b:00.0: Host not accessible, reset failed.
+[12242.754915] xhci_hcd 0000:3b:00.0: USB bus 3 deregistered
+[12242.755213] pcieport 0000:06:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[12242.755528] pci_bus 0000:07: busn_res: [bus 07] is released
+[12242.755597] pci_bus 0000:08: busn_res: [bus 08-3a] is released
+[12242.755766] pci_bus 0000:3b: busn_res: [bus 3b] is released
+[12242.755847] pci_bus 0000:3c: busn_res: [bus 3c-6f] is released
+[12242.755908] pci_bus 0000:06: busn_res: [bus 06-6f] is released
+[14631.034382] ACPI BIOS Error (bug): Failure creating named object [\_GPE._E4C.SPRT], AE_ALREADY_EXISTS (20200528/dswload2-326)
+[14631.034408] No Local Variables are initialized for Method [_E4C]
+[14631.034412] No Arguments are initialized for method [_E4C]
+[14631.034415] ACPI Error: AE_ALREADY_EXISTS, During name lookup/catalog (20200528/psobject-220)
+[14631.034423] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
+[14631.034437] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
+[14631.034455] ACPI Error: AE_ALREADY_EXISTS, while evaluating GPE method [_E4C] (20200528/evgpe-511)
+[14631.323281] pcieport 0000:00:1b.0: AER: Multiple Corrected error received: 0000:02:00.0
+[14631.323554] nvme 0000:02:00.0: AER: PCIe Bus Error: severity=Corrected, type=Transaction Layer, (Receiver ID)
+[14631.323558] nvme 0000:02:00.0: AER:   device [1179:010f] error status/mask=00002000/00000000
+[14631.323560] nvme 0000:02:00.0: AER:    [13] NonFatalErr           
+[14631.345412] pci 0000:05:00.0: [8086:1578] type 01 class 0x060400
+[14631.345468] pci 0000:05:00.0: enabling Extended Tags
+[14631.345555] pci 0000:05:00.0: supports D1 D2
+[14631.345556] pci 0000:05:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[14631.345922] pci 0000:06:00.0: [8086:1578] type 01 class 0x060400
+[14631.345980] pci 0000:06:00.0: enabling Extended Tags
+[14631.346067] pci 0000:06:00.0: supports D1 D2
+[14631.346068] pci 0000:06:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[14631.346190] pci 0000:06:01.0: [8086:1578] type 01 class 0x060400
+[14631.346250] pci 0000:06:01.0: enabling Extended Tags
+[14631.346338] pci 0000:06:01.0: supports D1 D2
+[14631.346339] pci 0000:06:01.0: PME# supported from D0 D1 D2 D3hot D3cold
+[14631.346446] pci 0000:06:02.0: [8086:1578] type 01 class 0x060400
+[14631.346502] pci 0000:06:02.0: enabling Extended Tags
+[14631.346579] pci 0000:06:02.0: supports D1 D2
+[14631.346580] pci 0000:06:02.0: PME# supported from D0 D1 D2 D3hot D3cold
+[14631.346704] pci 0000:06:04.0: [8086:1578] type 01 class 0x060400
+[14631.346763] pci 0000:06:04.0: enabling Extended Tags
+[14631.346846] pci 0000:06:04.0: supports D1 D2
+[14631.346846] pci 0000:06:04.0: PME# supported from D0 D1 D2 D3hot D3cold
+[14631.346963] pci 0000:05:00.0: PCI bridge to [bus 06-6f]
+[14631.346971] pci 0000:05:00.0:   bridge window [mem 0xb4000000-0xe20fffff]
+[14631.346976] pci 0000:05:00.0:   bridge window [mem 0x50000000-0x99ffffff 64bit pref]
+[14631.347016] pci 0000:06:00.0: PCI bridge to [bus 07]
+[14631.347023] pci 0000:06:00.0:   bridge window [mem 0xe2000000-0xe20fffff]
+[14631.347066] pci 0000:06:01.0: PCI bridge to [bus 08-3a]
+[14631.347073] pci 0000:06:01.0:   bridge window [mem 0xb4000000-0xcbefffff]
+[14631.347078] pci 0000:06:01.0:   bridge window [mem 0x50000000-0x6fffffff 64bit pref]
+[14631.347143] pci 0000:3b:00.0: [8086:15b6] type 00 class 0x0c0330
+[14631.347176] pci 0000:3b:00.0: reg 0x10: [mem 0xcbf00000-0xcbf0ffff]
+[14631.347249] pci 0000:3b:00.0: enabling Extended Tags
+[14631.347352] pci 0000:3b:00.0: supports D1 D2
+[14631.347352] pci 0000:3b:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[14631.347430] pci 0000:3b:00.0: 8.000 Gb/s available PCIe bandwidth, limited by 2.5 GT/s PCIe x4 link at 0000:06:02.0 (capable of 31.504 Gb/s with 8.0 GT/s PCIe x4 link)
+[14631.347545] pci 0000:06:02.0: PCI bridge to [bus 3b]
+[14631.347552] pci 0000:06:02.0:   bridge window [mem 0xcbf00000-0xcbffffff]
+[14631.347599] pci 0000:06:04.0: PCI bridge to [bus 3c-6f]
+[14631.347606] pci 0000:06:04.0:   bridge window [mem 0xcc000000-0xe1ffffff]
+[14631.347612] pci 0000:06:04.0:   bridge window [mem 0x70000000-0x99ffffff 64bit pref]
+[14631.347637] pci_bus 0000:06: Allocating resources
+[14631.347652] pci 0000:06:01.0: bridge window [io  0x1000-0x0fff] to [bus 08-3a] add_size 1000
+[14631.347654] pci 0000:06:04.0: bridge window [io  0x1000-0x0fff] to [bus 3c-6f] add_size 1000
+[14631.347655] pci 0000:05:00.0: bridge window [io  0x1000-0x0fff] to [bus 06-6f] add_size 3000
+[14631.347657] pci 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
+[14631.347658] pci 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
+[14631.347659] pci 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
+[14631.347660] pci 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
+[14631.347662] pci 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
+[14631.347662] pci 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
+[14631.347663] pci 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
+[14631.347664] pci 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
+[14631.347665] pci 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
+[14631.347666] pci 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
+[14631.347666] pci 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
+[14631.347667] pci 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
+[14631.347668] pci 0000:06:00.0: PCI bridge to [bus 07]
+[14631.347672] pci 0000:06:00.0:   bridge window [mem 0xe2000000-0xe20fffff]
+[14631.347680] pci 0000:06:01.0: PCI bridge to [bus 08-3a]
+[14631.347684] pci 0000:06:01.0:   bridge window [mem 0xb4000000-0xcbefffff]
+[14631.347686] pci 0000:06:01.0:   bridge window [mem 0x50000000-0x6fffffff 64bit pref]
+[14631.347691] pci 0000:06:02.0: PCI bridge to [bus 3b]
+[14631.347695] pci 0000:06:02.0:   bridge window [mem 0xcbf00000-0xcbffffff]
+[14631.347702] pci 0000:06:04.0: PCI bridge to [bus 3c-6f]
+[14631.347706] pci 0000:06:04.0:   bridge window [mem 0xcc000000-0xe1ffffff]
+[14631.347709] pci 0000:06:04.0:   bridge window [mem 0x70000000-0x99ffffff 64bit pref]
+[14631.347714] pci 0000:05:00.0: PCI bridge to [bus 06-6f]
+[14631.347718] pci 0000:05:00.0:   bridge window [mem 0xb4000000-0xe20fffff]
+[14631.347721] pci 0000:05:00.0:   bridge window [mem 0x50000000-0x99ffffff 64bit pref]
+[14631.349240] xhci_hcd 0000:3b:00.0: xHCI Host Controller
+[14631.349245] xhci_hcd 0000:3b:00.0: new USB bus registered, assigned bus number 3
+[14631.350347] xhci_hcd 0000:3b:00.0: hcc params 0x200077c1 hci version 0x110 quirks 0x0000000200009810
+[14631.350526] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.08
+[14631.350527] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[14631.350528] usb usb3: Product: xHCI Host Controller
+[14631.350529] usb usb3: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
+[14631.350530] usb usb3: SerialNumber: 0000:3b:00.0
+[14631.350644] hub 3-0:1.0: USB hub found
+[14631.350653] hub 3-0:1.0: 2 ports detected
+[14631.351089] xhci_hcd 0000:3b:00.0: xHCI Host Controller
+[14631.351092] xhci_hcd 0000:3b:00.0: new USB bus registered, assigned bus number 4
+[14631.351094] xhci_hcd 0000:3b:00.0: Host supports USB 3.1 Enhanced SuperSpeed
+[14631.351121] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.08
+[14631.351121] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[14631.351123] usb usb4: Product: xHCI Host Controller
+[14631.351123] usb usb4: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
+[14631.351124] usb usb4: SerialNumber: 0000:3b:00.0
+[14631.351281] hub 4-0:1.0: USB hub found
+[14631.351290] hub 4-0:1.0: 2 ports detected
+[14635.174132] pcieport 0000:00:1c.4: AER: Corrected error received: 0000:00:1c.4
+[14635.174143] pcieport 0000:00:1c.4: AER: PCIe Bus Error: severity=Corrected, type=Physical Layer, (Receiver ID)
+[14635.174151] pcieport 0000:00:1c.4: AER:   device [8086:a114] error status/mask=00000001/00002000
+[14635.174157] pcieport 0000:00:1c.4: AER:    [ 0] RxErr                 
+[14635.909059] pcieport 0000:06:02.0: can't change power state from D3cold to D0 (config space inaccessible)
+[14635.909128] pcieport 0000:06:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[14636.358224] ACPI BIOS Error (bug): Failure creating named object [\_GPE._E4C.SPRT], AE_ALREADY_EXISTS (20200528/dswload2-326)
+[14636.358250] No Local Variables are initialized for Method [_E4C]
+[14636.358254] No Arguments are initialized for method [_E4C]
+[14636.358257] ACPI Error: AE_ALREADY_EXISTS, During name lookup/catalog (20200528/psobject-220)
+[14636.358266] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
+[14636.358278] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
+[14636.358297] ACPI Error: AE_ALREADY_EXISTS, while evaluating GPE method [_E4C] (20200528/evgpe-511)
+[14641.451354] pcieport 0000:00:1b.0: AER: Multiple Corrected error received: 0000:02:00.0
+[14641.451636] nvme 0000:02:00.0: AER: PCIe Bus Error: severity=Corrected, type=Transaction Layer, (Receiver ID)
+[14641.451639] nvme 0000:02:00.0: AER:   device [1179:010f] error status/mask=00002000/00000000
+[14641.451641] nvme 0000:02:00.0: AER:    [13] NonFatalErr           
+[14643.556957] pcieport 0000:06:02.0: Data Link Layer Link Active not set in 1000 msec
+[14643.556995] xhci_hcd 0000:3b:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[14643.557022] xhci_hcd 0000:3b:00.0: can't change power state from D3hot to D0 (config space inaccessible)
+[14643.557053] xhci_hcd 0000:3b:00.0: Controller not ready at resume -19
+[14643.557056] xhci_hcd 0000:3b:00.0: PCI post-resume error -19!
+[14643.557060] xhci_hcd 0000:3b:00.0: HC died; cleaning up
+[14643.557089] xhci_hcd 0000:3b:00.0: remove, state 4
+[14643.557095] usb usb4: USB disconnect, device number 1
+[14643.557671] xhci_hcd 0000:3b:00.0: USB bus 4 deregistered
+[14643.557688] xhci_hcd 0000:3b:00.0: remove, state 4
+[14643.557693] usb usb3: USB disconnect, device number 1
+[14643.558218] xhci_hcd 0000:3b:00.0: Host halt failed, -19
+[14643.558225] xhci_hcd 0000:3b:00.0: Host not accessible, reset failed.
+[14643.558399] xhci_hcd 0000:3b:00.0: USB bus 3 deregistered
+[14643.559475] pci_bus 0000:06: Allocating resources
+[14643.559504] pcieport 0000:06:01.0: bridge window [io  0x1000-0x0fff] to [bus 08-3a] add_size 1000
+[14643.559509] pcieport 0000:06:04.0: bridge window [io  0x1000-0x0fff] to [bus 3c-6f] add_size 1000
+[14643.559514] pcieport 0000:05:00.0: bridge window [io  0x1000-0x0fff] to [bus 06-6f] add_size 3000
+[14643.559523] pcieport 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
+[14643.559526] pcieport 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
+[14643.559530] pcieport 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
+[14643.559533] pcieport 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
+[14643.559539] pcieport 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
+[14643.559542] pcieport 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
+[14643.559545] pcieport 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
+[14643.559547] pcieport 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
+[14643.559551] pcieport 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
+[14643.559554] pcieport 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
+[14643.559557] pcieport 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
+[14643.559560] pcieport 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
+[14646.594926] pcieport 0000:00:1b.0: AER: Multiple Corrected error received: 0000:02:00.0
+[14646.595216] nvme 0000:02:00.0: AER: PCIe Bus Error: severity=Corrected, type=Transaction Layer, (Receiver ID)
+[14646.595235] nvme 0000:02:00.0: AER:   device [1179:010f] error status/mask=00002000/00000000
+[14646.595237] nvme 0000:02:00.0: AER:    [13] NonFatalErr           
+[14646.657678] pci 0000:3b:00.0: [8086:15b6] type 00 class 0x0c0330
+[14646.657742] pci 0000:3b:00.0: reg 0x10: [mem 0xcbf00000-0xcbf0ffff]
+[14646.657852] pci 0000:3b:00.0: enabling Extended Tags
+[14646.658034] pci 0000:3b:00.0: supports D1 D2
+[14646.658038] pci 0000:3b:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[14646.658147] pci 0000:3b:00.0: 8.000 Gb/s available PCIe bandwidth, limited by 2.5 GT/s PCIe x4 link at 0000:06:02.0 (capable of 31.504 Gb/s with 8.0 GT/s PCIe x4 link)
+[14646.658618] pci_bus 0000:06: Allocating resources
+[14646.658661] pcieport 0000:06:01.0: bridge window [io  0x1000-0x0fff] to [bus 08-3a] add_size 1000
+[14646.658668] pcieport 0000:06:04.0: bridge window [io  0x1000-0x0fff] to [bus 3c-6f] add_size 1000
+[14646.658673] pcieport 0000:05:00.0: bridge window [io  0x1000-0x0fff] to [bus 06-6f] add_size 3000
+[14646.658681] pcieport 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
+[14646.658684] pcieport 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
+[14646.658688] pcieport 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
+[14646.658691] pcieport 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
+[14646.658697] pcieport 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
+[14646.658699] pcieport 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
+[14646.658702] pcieport 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
+[14646.658705] pcieport 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
+[14646.658709] pcieport 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
+[14646.658712] pcieport 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
+[14646.658715] pcieport 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
+[14646.658717] pcieport 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
+[14646.659492] xhci_hcd 0000:3b:00.0: xHCI Host Controller
+[14646.659504] xhci_hcd 0000:3b:00.0: new USB bus registered, assigned bus number 3
+[14646.660680] xhci_hcd 0000:3b:00.0: hcc params 0x200077c1 hci version 0x110 quirks 0x0000000200009810
+[14646.661594] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.08
+[14646.661599] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[14646.661602] usb usb3: Product: xHCI Host Controller
+[14646.661605] usb usb3: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
+[14646.661608] usb usb3: SerialNumber: 0000:3b:00.0
+[14646.661956] hub 3-0:1.0: USB hub found
+[14646.661975] hub 3-0:1.0: 2 ports detected
+[14646.663244] xhci_hcd 0000:3b:00.0: xHCI Host Controller
+[14646.663252] xhci_hcd 0000:3b:00.0: new USB bus registered, assigned bus number 4
+[14646.663258] xhci_hcd 0000:3b:00.0: Host supports USB 3.1 Enhanced SuperSpeed
+[14646.663337] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.08
+[14646.663340] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[14646.663343] usb usb4: Product: xHCI Host Controller
+[14646.663346] usb usb4: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
+[14646.663349] usb usb4: SerialNumber: 0000:3b:00.0
+[14646.663694] hub 4-0:1.0: USB hub found
+[14646.663711] hub 4-0:1.0: 2 ports detected
+[14647.000857] usb 3-2: new high-speed USB device number 2 using xhci_hcd
+[14647.152761] usb 3-2: New USB device found, idVendor=05ac, idProduct=12a8, bcdDevice=13.02
+[14647.152767] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[14647.152770] usb 3-2: Product: iPhone
+[14647.152773] usb 3-2: Manufacturer: Apple Inc.
+[14647.152776] usb 3-2: SerialNumber: 000081010001402008E1401E
+[14647.228445] ipheth 3-2:4.2: Apple iPhone USB Ethernet device attached
+[14647.236642] ipheth 3-2:4.2 enxa2fbc5057cae: renamed from eth0
+[14767.074439] apple-mfi-fastcharge 3-2: USB disconnect, device number 2
+[14767.094991] pcieport 0000:00:1c.4: AER: Corrected error received: 0000:00:1c.4
+[14767.094996] pcieport 0000:00:1c.4: AER: PCIe Bus Error: severity=Corrected, type=Physical Layer, (Receiver ID)
+[14767.094998] pcieport 0000:00:1c.4: AER:   device [8086:a114] error status/mask=00000001/00002000
+[14767.095000] pcieport 0000:00:1c.4: AER:    [ 0] RxErr                 
+[14767.123268] ipheth 3-2:4.2: Apple iPhone USB Ethernet now disconnected
+[14767.191323] xhci_hcd 0000:3b:00.0: xHCI host controller not responding, assume dead
+[14767.191344] xhci_hcd 0000:3b:00.0: HC died; cleaning up
+[14767.191463] xhci_hcd 0000:3b:00.0: Timeout while waiting for configure endpoint command
+[14767.624412] xhci_hcd 0000:3b:00.0: remove, state 4
+[14767.624415] usb usb4: USB disconnect, device number 1
+[14767.624623] xhci_hcd 0000:3b:00.0: USB bus 4 deregistered
+[14767.624628] xhci_hcd 0000:3b:00.0: remove, state 1
+[14767.624631] usb usb3: USB disconnect, device number 1
+[14767.624873] xhci_hcd 0000:3b:00.0: Host halt failed, -19
+[14767.624875] xhci_hcd 0000:3b:00.0: Host not accessible, reset failed.
+[14767.624970] xhci_hcd 0000:3b:00.0: USB bus 3 deregistered
+[14767.625339] pcieport 0000:06:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[14767.625622] pci_bus 0000:07: busn_res: [bus 07] is released
+[14767.625691] pci_bus 0000:08: busn_res: [bus 08-3a] is released
+[14767.643406] pci_bus 0000:3b: busn_res: [bus 3b] is released
+[14767.643829] pci_bus 0000:3c: busn_res: [bus 3c-6f] is released
+[14767.644227] pci_bus 0000:06: busn_res: [bus 06-6f] is released
+[14770.988794] pcieport 0000:00:1c.4: AER: Corrected error received: 0000:00:1c.4
+[14770.988805] pcieport 0000:00:1c.4: AER: PCIe Bus Error: severity=Corrected, type=Physical Layer, (Receiver ID)
+[14770.988813] pcieport 0000:00:1c.4: AER:   device [8086:a114] error status/mask=00000001/00002000
+[14770.988820] pcieport 0000:00:1c.4: AER:    [ 0] RxErr                 
+[15462.849129] wlp3s0: deauthenticating from 00:3a:9a:84:18:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[15473.711230] wlp3s0: authenticate with 00:3a:9a:84:18:00
+[15473.718516] wlp3s0: send auth to 00:3a:9a:84:18:00 (try 1/3)
+[15473.721259] wlp3s0: authenticated
+[15473.724450] wlp3s0: associate with 00:3a:9a:84:18:00 (try 1/3)
+[15473.728375] wlp3s0: RX AssocResp from 00:3a:9a:84:18:00 (capab=0x421 status=0 aid=6)
+[15473.731847] wlp3s0: associated
+[15473.732821] IPv6: ADDRCONF(NETDEV_CHANGE): wlp3s0: link becomes ready
+[16972.171784] audit: type=1326 audit(1614938072.528:94): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=18858 comm="snap-store" exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=314 compat=0 ip=0x7fee2d104639 code=0x50000
+[16977.335014] audit: type=1400 audit(1614938077.692:95): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/gdm/greeter/applications/gnome-initial-setup.desktop" pid=1932 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[16977.366351] audit: type=1400 audit(1614938077.724:96): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/gdm/greeter/applications/gnome-initial-setup.desktop" pid=1932 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[16977.393058] audit: type=1326 audit(1614938077.748:97): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=93 compat=0 ip=0x7ff9b88914e7 code=0x50000
+[16995.550221] audit: type=1326 audit(1614938095.909:98): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[16995.550244] audit: type=1326 audit(1614938095.909:99): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17001.646552] audit: type=1326 audit(1614938102.005:100): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17001.646556] audit: type=1326 audit(1614938102.005:101): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17036.464050] audit: type=1326 audit(1614938136.817:102): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17036.464054] audit: type=1326 audit(1614938136.817:103): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17039.174052] audit: type=1326 audit(1614938139.529:104): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17039.174069] audit: type=1326 audit(1614938139.529:105): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17041.329456] audit: type=1326 audit(1614938141.685:106): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17041.329473] audit: type=1326 audit(1614938141.685:107): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17046.875748] audit: type=1326 audit(1614938147.229:108): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17046.875757] audit: type=1326 audit(1614938147.229:109): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17048.473900] audit: type=1326 audit(1614938148.829:110): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17048.473903] audit: type=1326 audit(1614938148.829:111): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17049.210367] audit: type=1326 audit(1614938149.565:112): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17049.210369] audit: type=1326 audit(1614938149.565:113): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17049.709926] audit: type=1326 audit(1614938150.065:114): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17049.709928] audit: type=1326 audit(1614938150.065:115): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17050.461996] audit: type=1326 audit(1614938150.817:116): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17050.462000] audit: type=1326 audit(1614938150.817:117): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17053.680294] kauditd_printk_skb: 4 callbacks suppressed
+[17053.680299] audit: type=1326 audit(1614938154.038:122): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17053.680307] audit: type=1326 audit(1614938154.038:123): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17058.225756] audit: type=1326 audit(1614938158.582:124): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17058.225758] audit: type=1326 audit(1614938158.582:125): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17086.723167] audit: type=1326 audit(1614938187.078:126): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17086.723171] audit: type=1326 audit(1614938187.078:127): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17103.753377] audit: type=1326 audit(1614938204.110:128): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17103.753393] audit: type=1326 audit(1614938204.110:129): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17118.357879] audit: type=1326 audit(1614938218.714:130): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17118.357891] audit: type=1326 audit(1614938218.714:131): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17124.640302] audit: type=1400 audit(1614938224.999:132): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.skype" pid=19717 comm="apparmor_parser"
+[17124.640560] audit: type=1400 audit(1614938224.999:133): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.skype.skype" pid=19719 comm="apparmor_parser"
+[17124.642601] audit: type=1400 audit(1614938224.999:134): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.skype.hook.configure" pid=19718 comm="apparmor_parser"
+[17124.737726] audit: type=1326 audit(1614938225.095:135): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17124.737733] audit: type=1326 audit(1614938225.095:136): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="pool-org.gnome." exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=251 compat=0 ip=0x7ff9b889b639 code=0x50000
+[17126.751798] audit: type=1400 audit(1614938227.111:137): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/11107/usr/lib/snapd/snap-confine" pid=19859 comm="apparmor_parser"
+[17126.751801] audit: type=1400 audit(1614938227.111:138): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/11107/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=19859 comm="apparmor_parser"
+[17126.897778] audit: type=1400 audit(1614938227.255:139): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.skype.hook.configure" pid=19862 comm="apparmor_parser"
+[17127.174286] audit: type=1400 audit(1614938227.531:140): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.skype" pid=19861 comm="apparmor_parser"
+[17127.382437] audit: type=1400 audit(1614938227.739:141): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.skype.skype" pid=19863 comm="apparmor_parser"
+[17148.056574] audit: type=1107 audit(1614938248.415:142): pid=617 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/" interface="org.freedesktop.DBus.ObjectManager" member="GetManagedObjects" mask="send" name="org.bluez" pid=20008 label="snap.skype.skype" peer_pid=610 peer_label="unconfined"
+                exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+[17150.691147] audit: type=1107 audit(1614938251.051:143): pid=617 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="Inhibit" mask="send" name="org.freedesktop.login1" pid=20008 label="snap.skype.skype" peer_pid=652 peer_label="unconfined"
+                exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+[17151.003296] audit: type=1107 audit(1614938251.363:144): pid=617 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/login1" interface="org.freedesktop.login1.Manager" member="Inhibit" mask="send" name="org.freedesktop.login1" pid=20008 label="snap.skype.skype" peer_pid=652 peer_label="unconfined"
+                exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+[17153.143950] audit: type=1400 audit(1614938253.503:145): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/virtual/dmi/id/board_vendor" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[17186.453711] audit: type=1400 audit(1614938286.812:146): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/virtual/net/lo/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[17186.453763] audit: type=1400 audit(1614938286.812:147): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1f.6/net/enp0s31f6/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[17186.453765] audit: type=1400 audit(1614938286.812:148): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/net/wlp3s0/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[17189.654815] audit: type=1400 audit(1614938290.016:149): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/etc/issue" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[17235.808490] audit: type=1107 audit(1614938336.168:150): pid=617 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/" interface="org.freedesktop.DBus.ObjectManager" member="GetManagedObjects" mask="send" name="org.bluez" pid=20479 label="snap.skype.skype" peer_pid=610 peer_label="unconfined"
+                exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+[17573.894000] audit: type=1400 audit(1614938674.258:151): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/virtual/net/lo/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[17573.894113] audit: type=1400 audit(1614938674.258:152): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1f.6/net/enp0s31f6/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[17573.894213] audit: type=1400 audit(1614938674.258:153): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/net/wlp3s0/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[18099.017094] audit: type=1400 audit(1614939199.390:154): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/virtual/net/lo/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[18099.017220] audit: type=1400 audit(1614939199.390:155): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1f.6/net/enp0s31f6/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[18099.017250] audit: type=1400 audit(1614939199.390:156): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/net/wlp3s0/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[18623.913614] audit: type=1400 audit(1614939724.294:157): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/virtual/net/lo/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[18623.913794] audit: type=1400 audit(1614939724.294:158): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1f.6/net/enp0s31f6/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[18623.913817] audit: type=1400 audit(1614939724.294:159): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/net/wlp3s0/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[19148.816782] audit: type=1400 audit(1614940249.206:160): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/virtual/net/lo/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[19148.816958] audit: type=1400 audit(1614940249.206:161): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1f.6/net/enp0s31f6/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[19148.817057] audit: type=1400 audit(1614940249.206:162): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/net/wlp3s0/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[19674.946192] audit: type=1400 audit(1614940775.342:163): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/virtual/net/lo/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[19674.946315] audit: type=1400 audit(1614940775.342:164): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1f.6/net/enp0s31f6/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[19674.946427] audit: type=1400 audit(1614940775.342:165): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/net/wlp3s0/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[20198.810615] audit: type=1400 audit(1614941299.215:166): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/virtual/net/lo/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[20198.810723] audit: type=1400 audit(1614941299.215:167): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1f.6/net/enp0s31f6/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[20198.810824] audit: type=1400 audit(1614941299.215:168): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/net/wlp3s0/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[20723.726761] audit: type=1400 audit(1614941824.139:169): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/virtual/net/lo/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[20723.726837] audit: type=1400 audit(1614941824.139:170): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1f.6/net/enp0s31f6/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[20723.727011] audit: type=1400 audit(1614941824.143:171): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/net/wlp3s0/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[21248.817844] audit: type=1400 audit(1614942349.239:172): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/virtual/net/lo/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[21248.818045] audit: type=1400 audit(1614942349.239:173): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1f.6/net/enp0s31f6/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[21248.818151] audit: type=1400 audit(1614942349.239:174): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/net/wlp3s0/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[21773.734967] audit: type=1400 audit(1614942874.167:175): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/virtual/net/lo/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[21773.735152] audit: type=1400 audit(1614942874.167:176): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1f.6/net/enp0s31f6/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[21773.735275] audit: type=1400 audit(1614942874.167:177): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/net/wlp3s0/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[22020.459398] audit: type=1107 audit(1614943120.895:178): pid=617 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/" interface="org.freedesktop.DBus.ObjectManager" member="GetManagedObjects" mask="send" name="org.bluez" pid=22452 label="snap.skype.skype" peer_pid=610 peer_label="unconfined"
+                exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+[22298.837364] audit: type=1400 audit(1614943399.275:179): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/virtual/net/lo/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[22298.837502] audit: type=1400 audit(1614943399.275:180): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1f.6/net/enp0s31f6/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[22298.837594] audit: type=1400 audit(1614943399.275:181): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/net/wlp3s0/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[22823.726583] audit: type=1400 audit(1614943924.176:182): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/virtual/net/lo/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[22823.726776] audit: type=1400 audit(1614943924.176:183): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1f.6/net/enp0s31f6/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[22823.726920] audit: type=1400 audit(1614943924.176:184): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/net/wlp3s0/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0 $
