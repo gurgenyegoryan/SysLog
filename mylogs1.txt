@@ -1,216 +1,3 @@
-[   23.573902] pci 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
-[   23.573903] pci 0000:06:00.0: PCI bridge to [bus 07]
-[   23.573908] pci 0000:06:00.0:   bridge window [mem 0xe2000000-0xe20fffff]
-[   23.573915] pci 0000:06:01.0: PCI bridge to [bus 08-3a]
-[   23.573920] pci 0000:06:01.0:   bridge window [mem 0xb4000000-0xcbefffff]
-[   23.573923] pci 0000:06:01.0:   bridge window [mem 0x50000000-0x6fffffff 64bit pref]
-[   23.573928] pci 0000:06:02.0: PCI bridge to [bus 3b]
-[   23.573932] pci 0000:06:02.0:   bridge window [mem 0xcbf00000-0xcbffffff]
-[   23.573939] pci 0000:06:04.0: PCI bridge to [bus 3c-6f]
-[   23.573943] pci 0000:06:04.0:   bridge window [mem 0xcc000000-0xe1ffffff]
-[   23.573946] pci 0000:06:04.0:   bridge window [mem 0x70000000-0x99ffffff 64bit pref]
-[   23.573951] pci 0000:05:00.0: PCI bridge to [bus 06-6f]
-[   23.573955] pci 0000:05:00.0:   bridge window [mem 0xb4000000-0xe20fffff]
-[   23.573958] pci 0000:05:00.0:   bridge window [mem 0x50000000-0x99ffffff 64bit pref]
-[   23.575385] xhci_hcd 0000:3b:00.0: xHCI Host Controller
-[   23.575389] xhci_hcd 0000:3b:00.0: new USB bus registered, assigned bus number 3
-[   23.576495] xhci_hcd 0000:3b:00.0: hcc params 0x200077c1 hci version 0x110 quirks 0x0000000200009810
-[   23.576687] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.08
-[   23.576688] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
-[   23.576689] usb usb3: Product: xHCI Host Controller
-[   23.576690] usb usb3: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
-[   23.576691] usb usb3: SerialNumber: 0000:3b:00.0
-[   23.576836] hub 3-0:1.0: USB hub found
-[   23.576844] hub 3-0:1.0: 2 ports detected
-[   23.577278] xhci_hcd 0000:3b:00.0: xHCI Host Controller
-[   23.577281] xhci_hcd 0000:3b:00.0: new USB bus registered, assigned bus number 4
-[   23.577283] xhci_hcd 0000:3b:00.0: Host supports USB 3.1 Enhanced SuperSpeed
-[   23.577312] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.08
-[   23.577313] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
-[   23.577314] usb usb4: Product: xHCI Host Controller
-[   23.577315] usb usb4: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
-[   23.577316] usb usb4: SerialNumber: 0000:3b:00.0
-[   23.577453] hub 4-0:1.0: USB hub found
-[   23.577461] hub 4-0:1.0: 2 ports detected
-[   23.767729] thunderbolt 0-0: ignoring unnecessary extra entries in DROM
-[   24.043473] audit: type=1107 audit(1614921123.525:51): pid=617 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.7" pid=1932 label="snap.snap-store.ubuntu-software" peer_pid=632 peer_label="unconfined"
-                exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
-[   24.044383] audit: type=1107 audit(1614921123.525:52): pid=617 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.PolicyKit1.Authority" member="CheckAuthorization" mask="send" name=":1.7" pid=1932 label="snap.snap-store.ubuntu-software" peer_pid=632 peer_label="unconfined"
-                exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
-[   26.327278] audit: type=1400 audit(1614921125.809:53): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/gdm/greeter/applications/gnome-initial-setup.desktop" pid=1932 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
-[   26.357403] audit: type=1400 audit(1614921125.837:54): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/gdm/greeter/applications/gnome-initial-setup.desktop" pid=1932 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
-[   26.789113] audit: type=1326 audit(1614921126.269:55): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.snap-store.ubuntu-software pid=1932 comm="snap-store" exe="/snap/snap-store/518/usr/bin/snap-store" sig=0 arch=c000003e syscall=93 compat=0 ip=0x7ff9b88914e7 code=0x50000
-[   26.835398] audit: type=1107 audit(1614921126.317:56): pid=617 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.7" pid=1932 label="snap.snap-store.ubuntu-software" peer_pid=632 peer_label="unconfined"
-                exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
-[   26.836053] audit: type=1107 audit(1614921126.317:57): pid=617 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/PolicyKit1/Authority" interface="org.freedesktop.PolicyKit1.Authority" member="CheckAuthorization" mask="send" name=":1.7" pid=1932 label="snap.snap-store.ubuntu-software" peer_pid=632 peer_label="unconfined"
-                exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
-[   27.159532] audit: type=1400 audit(1614921126.641:58): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/etc/PackageKit/Vendor.conf" pid=1932 comm="snap-store" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
-[   41.232701] audit: type=1400 audit(1614921141.315:59): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/11107/usr/lib/snapd/snap-confine" pid=2783 comm="apparmor_parser"
-[   41.233604] audit: type=1400 audit(1614921141.315:60): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/11107/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=2783 comm="apparmor_parser"
-[   41.722621] audit: type=1400 audit(1614921141.803:61): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.snap-store" pid=2785 comm="apparmor_parser"
-[   41.729497] audit: type=1400 audit(1614921141.811:62): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.vlc" pid=2793 comm="apparmor_parser"
-[   41.737132] audit: type=1400 audit(1614921141.819:63): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.snap-store.hook.configure" pid=2789 comm="apparmor_parser"
-[   41.747203] audit: type=1400 audit(1614921141.831:64): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.snap-store.ubuntu-software" pid=2791 comm="apparmor_parser"
-[   41.749416] audit: type=1400 audit(1614921141.831:65): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.snap-store.ubuntu-software-local-file" pid=2792 comm="apparmor_parser"
-[   41.751708] audit: type=1400 audit(1614921141.835:66): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.vlc.vlc" pid=2794 comm="apparmor_parser"
-[   41.752789] audit: type=1400 audit(1614921141.835:67): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.snap-store.snap-store" pid=2790 comm="apparmor_parser"
-[   42.661330] audit: type=1400 audit(1614921142.743:68): apparmor="DENIED" operation="open" profile="snap.snap-store.ubuntu-software" name="/var/lib/snapd/hostfs/usr/share/gdm/greeter/applications/gnome-initial-setup.desktop" pid=1932 comm="pool-org.gnome." requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
-[   46.526074] kauditd_printk_skb: 8 callbacks suppressed
-[   46.526076] audit: type=1400 audit(1614921146.607:77): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.snap-store.ubuntu-software" pid=3094 comm="apparmor_parser"
-[   46.598528] audit: type=1400 audit(1614921146.679:78): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.vlc.vlc" pid=3097 comm="apparmor_parser"
-[   46.631272] audit: type=1400 audit(1614921146.715:79): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.snap-store.snap-store" pid=3093 comm="apparmor_parser"
-[   46.824677] audit: type=1400 audit(1614921146.907:80): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.snap-store.ubuntu-software-local-file" pid=3095 comm="apparmor_parser"
-[   46.845028] audit: type=1400 audit(1614921146.927:81): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.snap-store" pid=3091 comm="apparmor_parser"
-[   46.850586] audit: type=1400 audit(1614921146.931:82): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.code.code" pid=3100 comm="apparmor_parser"
-[   46.850633] audit: type=1400 audit(1614921146.931:83): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.code.url-handler" pid=3101 comm="apparmor_parser"
-[   46.851158] audit: type=1400 audit(1614921146.935:84): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=3102 comm="apparmor_parser"
-[   46.851468] audit: type=1400 audit(1614921146.935:85): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.code" pid=3099 comm="apparmor_parser"
-[   46.855086] audit: type=1400 audit(1614921146.939:86): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.core.hook.configure" pid=3103 comm="apparmor_parser"
-[   64.020817] pcieport 0000:00:1c.4: AER: Corrected error received: 0000:00:1c.4
-[   64.020832] pcieport 0000:00:1c.4: AER: PCIe Bus Error: severity=Corrected, type=Physical Layer, (Receiver ID)
-[   64.020844] pcieport 0000:00:1c.4: AER:   device [8086:a114] error status/mask=00000001/00002000
-[   64.020852] pcieport 0000:00:1c.4: AER:    [ 0] RxErr                 
-[   64.498909] pcieport 0000:06:02.0: can't change power state from D3cold to D0 (config space inaccessible)
-[   64.524144] xhci_hcd 0000:3b:00.0: can't change power state from D3cold to D0 (config space inaccessible)
-[   64.524170] xhci_hcd 0000:3b:00.0: can't change power state from D3hot to D0 (config space inaccessible)
-[   64.524183] xhci_hcd 0000:3b:00.0: Controller not ready at resume -19
-[   64.524184] xhci_hcd 0000:3b:00.0: PCI post-resume error -19!
-[   64.524185] xhci_hcd 0000:3b:00.0: HC died; cleaning up
-[   64.524207] xhci_hcd 0000:3b:00.0: remove, state 4
-[   64.524209] usb usb4: USB disconnect, device number 1
-[   64.524517] xhci_hcd 0000:3b:00.0: USB bus 4 deregistered
-[   64.524540] xhci_hcd 0000:3b:00.0: remove, state 4
-[   64.524542] usb usb3: USB disconnect, device number 1
-[   64.524839] xhci_hcd 0000:3b:00.0: Host halt failed, -19
-[   64.524841] xhci_hcd 0000:3b:00.0: Host not accessible, reset failed.
-[   64.524931] xhci_hcd 0000:3b:00.0: USB bus 3 deregistered
-[   65.027863] pci_bus 0000:07: busn_res: [bus 07] is released
-[   65.028092] pci_bus 0000:08: busn_res: [bus 08-3a] is released
-[   65.028658] pci_bus 0000:3b: busn_res: [bus 3b] is released
-[   65.029066] pci_bus 0000:3c: busn_res: [bus 3c-6f] is released
-[   65.029354] pci_bus 0000:06: busn_res: [bus 06-6f] is released
-[   78.499719] kauditd_printk_skb: 4 callbacks suppressed
-[   78.499720] audit: type=1400 audit(1614921178.571:91): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.code.code" pid=3408 comm="apparmor_parser"
-[   78.499724] audit: type=1400 audit(1614921178.571:92): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.code.url-handler" pid=3409 comm="apparmor_parser"
-[   78.503419] audit: type=1400 audit(1614921178.575:93): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.code" pid=3411 comm="apparmor_parser"
-[ 5123.411677] ACPI BIOS Error (bug): Failure creating named object [\_GPE._E4C.SPRT], AE_ALREADY_EXISTS (20200528/dswload2-326)
-[ 5123.411703] No Local Variables are initialized for Method [_E4C]
-[ 5123.411706] No Arguments are initialized for method [_E4C]
-[ 5123.411710] ACPI Error: AE_ALREADY_EXISTS, During name lookup/catalog (20200528/psobject-220)
-[ 5123.411718] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
-[ 5123.411731] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
-[ 5123.411749] ACPI Error: AE_ALREADY_EXISTS, while evaluating GPE method [_E4C] (20200528/evgpe-511)
-[ 5123.700556] pcieport 0000:00:1b.0: AER: Multiple Corrected error received: 0000:02:00.0
-[ 5123.700835] nvme 0000:02:00.0: AER: PCIe Bus Error: severity=Corrected, type=Transaction Layer, (Receiver ID)
-[ 5123.700838] nvme 0000:02:00.0: AER:   device [1179:010f] error status/mask=00002000/00000000
-[ 5123.700840] nvme 0000:02:00.0: AER:    [13] NonFatalErr           
-[ 5123.722617] pci 0000:05:00.0: [8086:1578] type 01 class 0x060400
-[ 5123.722700] pci 0000:05:00.0: enabling Extended Tags
-[ 5123.722818] pci 0000:05:00.0: supports D1 D2
-[ 5123.722819] pci 0000:05:00.0: PME# supported from D0 D1 D2 D3hot D3cold
-[ 5123.723209] pci 0000:06:00.0: [8086:1578] type 01 class 0x060400
-[ 5123.723265] pci 0000:06:00.0: enabling Extended Tags
-[ 5123.723344] pci 0000:06:00.0: supports D1 D2
-[ 5123.723345] pci 0000:06:00.0: PME# supported from D0 D1 D2 D3hot D3cold
-[ 5123.723449] pci 0000:06:01.0: [8086:1578] type 01 class 0x060400
-[ 5123.723507] pci 0000:06:01.0: enabling Extended Tags
-[ 5123.723588] pci 0000:06:01.0: supports D1 D2
-[ 5123.723589] pci 0000:06:01.0: PME# supported from D0 D1 D2 D3hot D3cold
-[ 5123.723712] pci 0000:06:02.0: [8086:1578] type 01 class 0x060400
-[ 5123.723792] pci 0000:06:02.0: enabling Extended Tags
-[ 5123.723904] pci 0000:06:02.0: supports D1 D2
-[ 5123.723905] pci 0000:06:02.0: PME# supported from D0 D1 D2 D3hot D3cold
-[ 5123.724065] pci 0000:06:04.0: [8086:1578] type 01 class 0x060400
-[ 5123.724150] pci 0000:06:04.0: enabling Extended Tags
-[ 5123.724264] pci 0000:06:04.0: supports D1 D2
-[ 5123.724265] pci 0000:06:04.0: PME# supported from D0 D1 D2 D3hot D3cold
-[ 5123.724428] pci 0000:05:00.0: PCI bridge to [bus 06-6f]
-[ 5123.724438] pci 0000:05:00.0:   bridge window [mem 0xb4000000-0xe20fffff]
-[ 5123.724445] pci 0000:05:00.0:   bridge window [mem 0x50000000-0x99ffffff 64bit pref]
-[ 5123.724496] pci 0000:06:00.0: PCI bridge to [bus 07]
-[ 5123.724505] pci 0000:06:00.0:   bridge window [mem 0xe2000000-0xe20fffff]
-[ 5123.724563] pci 0000:06:01.0: PCI bridge to [bus 08-3a]
-[ 5123.724574] pci 0000:06:01.0:   bridge window [mem 0xb4000000-0xcbefffff]
-[ 5123.724580] pci 0000:06:01.0:   bridge window [mem 0x50000000-0x6fffffff 64bit pref]
-[ 5123.724664] pci 0000:3b:00.0: [8086:15b6] type 00 class 0x0c0330
-[ 5123.724708] pci 0000:3b:00.0: reg 0x10: [mem 0xcbf00000-0xcbf0ffff]
-[ 5123.724806] pci 0000:3b:00.0: enabling Extended Tags
-[ 5123.724950] pci 0000:3b:00.0: supports D1 D2
-[ 5123.724951] pci 0000:3b:00.0: PME# supported from D0 D1 D2 D3hot D3cold
-[ 5123.725071] pci 0000:3b:00.0: 8.000 Gb/s available PCIe bandwidth, limited by 2.5 GT/s PCIe x4 link at 0000:06:02.0 (capable of 31.504 Gb/s with 8.0 GT/s PCIe x4 link)
-[ 5123.725216] pci 0000:06:02.0: PCI bridge to [bus 3b]
-[ 5123.725226] pci 0000:06:02.0:   bridge window [mem 0xcbf00000-0xcbffffff]
-[ 5123.725288] pci 0000:06:04.0: PCI bridge to [bus 3c-6f]
-[ 5123.725298] pci 0000:06:04.0:   bridge window [mem 0xcc000000-0xe1ffffff]
-[ 5123.725307] pci 0000:06:04.0:   bridge window [mem 0x70000000-0x99ffffff 64bit pref]
-[ 5123.725344] pci_bus 0000:06: Allocating resources
-[ 5123.725365] pci 0000:06:01.0: bridge window [io  0x1000-0x0fff] to [bus 08-3a] add_size 1000
-[ 5123.725367] pci 0000:06:04.0: bridge window [io  0x1000-0x0fff] to [bus 3c-6f] add_size 1000
-[ 5123.725368] pci 0000:05:00.0: bridge window [io  0x1000-0x0fff] to [bus 06-6f] add_size 3000
-[ 5123.725371] pci 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
-[ 5123.725372] pci 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
-[ 5123.725373] pci 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
-[ 5123.725374] pci 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
-[ 5123.725375] pci 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
-[ 5123.725376] pci 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
-[ 5123.725377] pci 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
-[ 5123.725378] pci 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
-[ 5123.725379] pci 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
-[ 5123.725379] pci 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
-[ 5123.725380] pci 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
-[ 5123.725381] pci 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
-[ 5123.725382] pci 0000:06:00.0: PCI bridge to [bus 07]
-[ 5123.725387] pci 0000:06:00.0:   bridge window [mem 0xe2000000-0xe20fffff]
-[ 5123.725398] pci 0000:06:01.0: PCI bridge to [bus 08-3a]
-[ 5123.725403] pci 0000:06:01.0:   bridge window [mem 0xb4000000-0xcbefffff]
-[ 5123.725407] pci 0000:06:01.0:   bridge window [mem 0x50000000-0x6fffffff 64bit pref]
-[ 5123.725413] pci 0000:06:02.0: PCI bridge to [bus 3b]
-[ 5123.725417] pci 0000:06:02.0:   bridge window [mem 0xcbf00000-0xcbffffff]
-[ 5123.725428] pci 0000:06:04.0: PCI bridge to [bus 3c-6f]
-[ 5123.725434] pci 0000:06:04.0:   bridge window [mem 0xcc000000-0xe1ffffff]
-[ 5123.725438] pci 0000:06:04.0:   bridge window [mem 0x70000000-0x99ffffff 64bit pref]
-[ 5123.725443] pci 0000:05:00.0: PCI bridge to [bus 06-6f]
-[ 5123.725448] pci 0000:05:00.0:   bridge window [mem 0xb4000000-0xe20fffff]
-[ 5123.725451] pci 0000:05:00.0:   bridge window [mem 0x50000000-0x99ffffff 64bit pref]
-[ 5123.726996] xhci_hcd 0000:3b:00.0: xHCI Host Controller
-[ 5123.727002] xhci_hcd 0000:3b:00.0: new USB bus registered, assigned bus number 3
-[ 5123.728131] xhci_hcd 0000:3b:00.0: hcc params 0x200077c1 hci version 0x110 quirks 0x0000000200009810
-[ 5123.728352] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.08
-[ 5123.728354] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
-[ 5123.728356] usb usb3: Product: xHCI Host Controller
-[ 5123.728357] usb usb3: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
-[ 5123.728358] usb usb3: SerialNumber: 0000:3b:00.0
-[ 5123.728530] hub 3-0:1.0: USB hub found
-[ 5123.728543] hub 3-0:1.0: 2 ports detected
-[ 5123.729052] xhci_hcd 0000:3b:00.0: xHCI Host Controller
-[ 5123.729055] xhci_hcd 0000:3b:00.0: new USB bus registered, assigned bus number 4
-[ 5123.729058] xhci_hcd 0000:3b:00.0: Host supports USB 3.1 Enhanced SuperSpeed
-[ 5123.729103] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.08
-[ 5123.729105] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
-[ 5123.729107] usb usb4: Product: xHCI Host Controller
-[ 5123.729109] usb usb4: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
-[ 5123.729110] usb usb4: SerialNumber: 0000:3b:00.0
-[ 5123.729288] hub 4-0:1.0: USB hub found
-[ 5123.729302] hub 4-0:1.0: 2 ports detected
-[ 5124.062549] usb 3-2: new high-speed USB device number 2 using xhci_hcd
-[ 5124.215859] usb 3-2: New USB device found, idVendor=05ac, idProduct=12a8, bcdDevice=13.02
-[ 5124.215868] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
-[ 5124.215873] usb 3-2: Product: iPhone
-[ 5124.215878] usb 3-2: Manufacturer: Apple Inc.
-[ 5124.215882] usb 3-2: SerialNumber: 000081010001402008E1401E
-[ 5124.314477] usbcore: registered new device driver apple-mfi-fastcharge
-[ 5124.369835] ipheth 3-2:4.2: Apple iPhone USB Ethernet device attached
-[ 5124.369933] usbcore: registered new interface driver ipheth
-[ 5124.375091] ipheth 3-2:4.2 enxa2fbc5057cae: renamed from eth0
-[ 5190.931413] apple-mfi-fastcharge 3-2: USB disconnect, device number 2
-[ 5190.951725] pcieport 0000:00:1c.4: AER: Corrected error received: 0000:00:1c.4
-[ 5190.951730] pcieport 0000:00:1c.4: AER: PCIe Bus Error: severity=Corrected, type=Physical Layer, (Receiver ID)
-[ 5190.951733] pcieport 0000:00:1c.4: AER:   device [8086:a114] error status/mask=00000001/00002000
-[ 5190.951735] pcieport 0000:00:1c.4: AER:    [ 0] RxErr                 
-[ 5190.973569] ipheth 3-2:4.2: Apple iPhone USB Ethernet now disconnected
-[ 5191.053409] xhci_hcd 0000:3b:00.0: xHCI host controller not responding, assume dead
-[ 5191.053422] xhci_hcd 0000:3b:00.0: HC died; cleaning up
-[ 5191.053522] xhci_hcd 0000:3b:00.0: Timeout while waiting for configure endpoint command
 [ 5191.478763] xhci_hcd 0000:3b:00.0: remove, state 4
 [ 5191.478766] usb usb4: USB disconnect, device number 1
 [ 5191.479029] xhci_hcd 0000:3b:00.0: USB bus 4 deregistered
@@ -2213,4 +2000,237 @@
 [22298.837594] audit: type=1400 audit(1614943399.275:181): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/net/wlp3s0/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
 [22823.726583] audit: type=1400 audit(1614943924.176:182): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/virtual/net/lo/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
 [22823.726776] audit: type=1400 audit(1614943924.176:183): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1f.6/net/enp0s31f6/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
-[22823.726920] audit: type=1400 audit(1614943924.176:184): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/net/wlp3s0/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0 $
+[22823.726920] audit: type=1400 audit(1614943924.176:184): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/net/wlp3s0/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[23085.783068] ACPI BIOS Error (bug): Failure creating named object [\_GPE._E4C.SPRT], AE_ALREADY_EXISTS (20200528/dswload2-326)
+[23085.783094] No Local Variables are initialized for Method [_E4C]
+[23085.783098] No Arguments are initialized for method [_E4C]
+[23085.783101] ACPI Error: AE_ALREADY_EXISTS, During name lookup/catalog (20200528/psobject-220)
+[23085.783110] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
+[23085.783122] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
+[23085.783141] ACPI Error: AE_ALREADY_EXISTS, while evaluating GPE method [_E4C] (20200528/evgpe-511)
+[23086.071431] pcieport 0000:00:1b.0: AER: Multiple Corrected error received: 0000:02:00.0
+[23086.071716] nvme 0000:02:00.0: AER: PCIe Bus Error: severity=Corrected, type=Transaction Layer, (Receiver ID)
+[23086.071719] nvme 0000:02:00.0: AER:   device [1179:010f] error status/mask=00002000/00000000
+[23086.071721] nvme 0000:02:00.0: AER:    [13] NonFatalErr           
+[23086.094185] pci 0000:05:00.0: [8086:1578] type 01 class 0x060400
+[23086.094241] pci 0000:05:00.0: enabling Extended Tags
+[23086.094320] pci 0000:05:00.0: supports D1 D2
+[23086.094321] pci 0000:05:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[23086.094659] pci 0000:06:00.0: [8086:1578] type 01 class 0x060400
+[23086.094717] pci 0000:06:00.0: enabling Extended Tags
+[23086.094800] pci 0000:06:00.0: supports D1 D2
+[23086.094801] pci 0000:06:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[23086.094925] pci 0000:06:01.0: [8086:1578] type 01 class 0x060400
+[23086.094985] pci 0000:06:01.0: enabling Extended Tags
+[23086.095074] pci 0000:06:01.0: supports D1 D2
+[23086.095075] pci 0000:06:01.0: PME# supported from D0 D1 D2 D3hot D3cold
+[23086.095192] pci 0000:06:02.0: [8086:1578] type 01 class 0x060400
+[23086.095248] pci 0000:06:02.0: enabling Extended Tags
+[23086.095328] pci 0000:06:02.0: supports D1 D2
+[23086.095328] pci 0000:06:02.0: PME# supported from D0 D1 D2 D3hot D3cold
+[23086.095472] pci 0000:06:04.0: [8086:1578] type 01 class 0x060400
+[23086.095532] pci 0000:06:04.0: enabling Extended Tags
+[23086.095615] pci 0000:06:04.0: supports D1 D2
+[23086.095615] pci 0000:06:04.0: PME# supported from D0 D1 D2 D3hot D3cold
+[23086.095735] pci 0000:05:00.0: PCI bridge to [bus 06-6f]
+[23086.095743] pci 0000:05:00.0:   bridge window [mem 0xb4000000-0xe20fffff]
+[23086.095747] pci 0000:05:00.0:   bridge window [mem 0x50000000-0x99ffffff 64bit pref]
+[23086.095789] pci 0000:06:00.0: PCI bridge to [bus 07]
+[23086.095797] pci 0000:06:00.0:   bridge window [mem 0xe2000000-0xe20fffff]
+[23086.095844] pci 0000:06:01.0: PCI bridge to [bus 08-3a]
+[23086.095853] pci 0000:06:01.0:   bridge window [mem 0xb4000000-0xcbefffff]
+[23086.095858] pci 0000:06:01.0:   bridge window [mem 0x50000000-0x6fffffff 64bit pref]
+[23086.095931] pci 0000:3b:00.0: [8086:15b6] type 00 class 0x0c0330
+[23086.095964] pci 0000:3b:00.0: reg 0x10: [mem 0xcbf00000-0xcbf0ffff]
+[23086.096036] pci 0000:3b:00.0: enabling Extended Tags
+[23086.096140] pci 0000:3b:00.0: supports D1 D2
+[23086.096141] pci 0000:3b:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[23086.096219] pci 0000:3b:00.0: 8.000 Gb/s available PCIe bandwidth, limited by 2.5 GT/s PCIe x4 link at 0000:06:02.0 (capable of 31.504 Gb/s with 8.0 GT/s PCIe x4 link)
+[23086.096345] pci 0000:06:02.0: PCI bridge to [bus 3b]
+[23086.096352] pci 0000:06:02.0:   bridge window [mem 0xcbf00000-0xcbffffff]
+[23086.096397] pci 0000:06:04.0: PCI bridge to [bus 3c-6f]
+[23086.096405] pci 0000:06:04.0:   bridge window [mem 0xcc000000-0xe1ffffff]
+[23086.096410] pci 0000:06:04.0:   bridge window [mem 0x70000000-0x99ffffff 64bit pref]
+[23086.096435] pci_bus 0000:06: Allocating resources
+[23086.096451] pci 0000:06:01.0: bridge window [io  0x1000-0x0fff] to [bus 08-3a] add_size 1000
+[23086.096452] pci 0000:06:04.0: bridge window [io  0x1000-0x0fff] to [bus 3c-6f] add_size 1000
+[23086.096454] pci 0000:05:00.0: bridge window [io  0x1000-0x0fff] to [bus 06-6f] add_size 3000
+[23086.096456] pci 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
+[23086.096457] pci 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
+[23086.096458] pci 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
+[23086.096459] pci 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
+[23086.096460] pci 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
+[23086.096461] pci 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
+[23086.096462] pci 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
+[23086.096462] pci 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
+[23086.096463] pci 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
+[23086.096464] pci 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
+[23086.096465] pci 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
+[23086.096466] pci 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
+[23086.096467] pci 0000:06:00.0: PCI bridge to [bus 07]
+[23086.096471] pci 0000:06:00.0:   bridge window [mem 0xe2000000-0xe20fffff]
+[23086.096478] pci 0000:06:01.0: PCI bridge to [bus 08-3a]
+[23086.096482] pci 0000:06:01.0:   bridge window [mem 0xb4000000-0xcbefffff]
+[23086.096485] pci 0000:06:01.0:   bridge window [mem 0x50000000-0x6fffffff 64bit pref]
+[23086.096490] pci 0000:06:02.0: PCI bridge to [bus 3b]
+[23086.096494] pci 0000:06:02.0:   bridge window [mem 0xcbf00000-0xcbffffff]
+[23086.096501] pci 0000:06:04.0: PCI bridge to [bus 3c-6f]
+[23086.096505] pci 0000:06:04.0:   bridge window [mem 0xcc000000-0xe1ffffff]
+[23086.096508] pci 0000:06:04.0:   bridge window [mem 0x70000000-0x99ffffff 64bit pref]
+[23086.096513] pci 0000:05:00.0: PCI bridge to [bus 06-6f]
+[23086.096516] pci 0000:05:00.0:   bridge window [mem 0xb4000000-0xe20fffff]
+[23086.096519] pci 0000:05:00.0:   bridge window [mem 0x50000000-0x99ffffff 64bit pref]
+[23086.097840] xhci_hcd 0000:3b:00.0: xHCI Host Controller
+[23086.097849] xhci_hcd 0000:3b:00.0: new USB bus registered, assigned bus number 3
+[23086.098968] xhci_hcd 0000:3b:00.0: hcc params 0x200077c1 hci version 0x110 quirks 0x0000000200009810
+[23086.099215] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.08
+[23086.099216] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[23086.099218] usb usb3: Product: xHCI Host Controller
+[23086.099220] usb usb3: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
+[23086.099221] usb usb3: SerialNumber: 0000:3b:00.0
+[23086.099402] hub 3-0:1.0: USB hub found
+[23086.099412] hub 3-0:1.0: 2 ports detected
+[23086.100077] xhci_hcd 0000:3b:00.0: xHCI Host Controller
+[23086.100081] xhci_hcd 0000:3b:00.0: new USB bus registered, assigned bus number 4
+[23086.100084] xhci_hcd 0000:3b:00.0: Host supports USB 3.1 Enhanced SuperSpeed
+[23086.100122] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.08
+[23086.100124] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[23086.100125] usb usb4: Product: xHCI Host Controller
+[23086.100126] usb usb4: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
+[23086.100127] usb usb4: SerialNumber: 0000:3b:00.0
+[23086.100414] hub 4-0:1.0: USB hub found
+[23086.100516] hub 4-0:1.0: 2 ports detected
+[23086.975260] pcieport 0000:00:1c.4: AER: Corrected error received: 0000:00:1c.4
+[23086.975270] pcieport 0000:00:1c.4: AER: PCIe Bus Error: severity=Corrected, type=Physical Layer, (Receiver ID)
+[23086.975279] pcieport 0000:00:1c.4: AER:   device [8086:a114] error status/mask=00000001/00002000
+[23086.975284] pcieport 0000:00:1c.4: AER:    [ 0] RxErr                 
+[23087.334004] pcieport 0000:06:02.0: can't change power state from D3cold to D0 (config space inaccessible)
+[23087.334063] pcieport 0000:06:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[23091.106579] ACPI BIOS Error (bug): Failure creating named object [\_GPE._E4C.SPRT], AE_ALREADY_EXISTS (20200528/dswload2-326)
+[23091.106594] No Local Variables are initialized for Method [_E4C]
+[23091.106596] No Arguments are initialized for method [_E4C]
+[23091.106598] ACPI Error: AE_ALREADY_EXISTS, During name lookup/catalog (20200528/psobject-220)
+[23091.106602] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
+[23091.106609] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
+[23091.106619] ACPI Error: AE_ALREADY_EXISTS, while evaluating GPE method [_E4C] (20200528/evgpe-511)
+[23096.202350] pcieport 0000:00:1b.0: AER: Multiple Corrected error received: 0000:02:00.0
+[23096.202632] nvme 0000:02:00.0: AER: PCIe Bus Error: severity=Corrected, type=Transaction Layer, (Receiver ID)
+[23096.202635] nvme 0000:02:00.0: AER:   device [1179:010f] error status/mask=00002000/00000000
+[23096.202636] nvme 0000:02:00.0: AER:    [13] NonFatalErr           
+[23098.281712] pcieport 0000:06:02.0: Data Link Layer Link Active not set in 1000 msec
+[23098.281747] xhci_hcd 0000:3b:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[23098.281782] xhci_hcd 0000:3b:00.0: can't change power state from D3hot to D0 (config space inaccessible)
+[23098.281814] xhci_hcd 0000:3b:00.0: Controller not ready at resume -19
+[23098.281818] xhci_hcd 0000:3b:00.0: PCI post-resume error -19!
+[23098.281821] xhci_hcd 0000:3b:00.0: HC died; cleaning up
+[23098.281905] xhci_hcd 0000:3b:00.0: remove, state 4
+[23098.281914] usb usb4: USB disconnect, device number 1
+[23098.282538] xhci_hcd 0000:3b:00.0: USB bus 4 deregistered
+[23098.282555] xhci_hcd 0000:3b:00.0: remove, state 4
+[23098.282561] usb usb3: USB disconnect, device number 1
+[23098.283101] xhci_hcd 0000:3b:00.0: Host halt failed, -19
+[23098.283108] xhci_hcd 0000:3b:00.0: Host not accessible, reset failed.
+[23098.283276] xhci_hcd 0000:3b:00.0: USB bus 3 deregistered
+[23098.284363] pci_bus 0000:06: Allocating resources
+[23098.284390] pcieport 0000:06:01.0: bridge window [io  0x1000-0x0fff] to [bus 08-3a] add_size 1000
+[23098.284395] pcieport 0000:06:04.0: bridge window [io  0x1000-0x0fff] to [bus 3c-6f] add_size 1000
+[23098.284400] pcieport 0000:05:00.0: bridge window [io  0x1000-0x0fff] to [bus 06-6f] add_size 3000
+[23098.284408] pcieport 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
+[23098.284412] pcieport 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
+[23098.284416] pcieport 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
+[23098.284418] pcieport 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
+[23098.284424] pcieport 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
+[23098.284427] pcieport 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
+[23098.284430] pcieport 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
+[23098.284433] pcieport 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
+[23098.284436] pcieport 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
+[23098.284439] pcieport 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
+[23098.284442] pcieport 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
+[23098.284445] pcieport 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
+[23101.339806] pcieport 0000:00:1b.0: AER: Multiple Corrected error received: 0000:02:00.0
+[23101.340078] nvme 0000:02:00.0: AER: PCIe Bus Error: severity=Corrected, type=Transaction Layer, (Receiver ID)
+[23101.340082] nvme 0000:02:00.0: AER:   device [1179:010f] error status/mask=00002000/00000000
+[23101.340083] nvme 0000:02:00.0: AER:    [13] NonFatalErr           
+[23101.402136] pci 0000:3b:00.0: [8086:15b6] type 00 class 0x0c0330
+[23101.402178] pci 0000:3b:00.0: reg 0x10: [mem 0xcbf00000-0xcbf0ffff]
+[23101.402263] pci 0000:3b:00.0: enabling Extended Tags
+[23101.402390] pci 0000:3b:00.0: supports D1 D2
+[23101.402392] pci 0000:3b:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[23101.402481] pci 0000:3b:00.0: 8.000 Gb/s available PCIe bandwidth, limited by 2.5 GT/s PCIe x4 link at 0000:06:02.0 (capable of 31.504 Gb/s with 8.0 GT/s PCIe x4 link)
+[23101.402785] pci_bus 0000:06: Allocating resources
+[23101.402817] pcieport 0000:06:01.0: bridge window [io  0x1000-0x0fff] to [bus 08-3a] add_size 1000
+[23101.402822] pcieport 0000:06:04.0: bridge window [io  0x1000-0x0fff] to [bus 3c-6f] add_size 1000
+[23101.402826] pcieport 0000:05:00.0: bridge window [io  0x1000-0x0fff] to [bus 06-6f] add_size 3000
+[23101.402832] pcieport 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
+[23101.402835] pcieport 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
+[23101.402839] pcieport 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
+[23101.402841] pcieport 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
+[23101.402846] pcieport 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
+[23101.402848] pcieport 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
+[23101.402851] pcieport 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
+[23101.402853] pcieport 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
+[23101.402856] pcieport 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
+[23101.402857] pcieport 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
+[23101.402859] pcieport 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
+[23101.402860] pcieport 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
+[23101.403411] xhci_hcd 0000:3b:00.0: xHCI Host Controller
+[23101.403421] xhci_hcd 0000:3b:00.0: new USB bus registered, assigned bus number 3
+[23101.404597] xhci_hcd 0000:3b:00.0: hcc params 0x200077c1 hci version 0x110 quirks 0x0000000200009810
+[23101.404996] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.08
+[23101.405001] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[23101.405004] usb usb3: Product: xHCI Host Controller
+[23101.405008] usb usb3: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
+[23101.405010] usb usb3: SerialNumber: 0000:3b:00.0
+[23101.405381] hub 3-0:1.0: USB hub found
+[23101.405401] hub 3-0:1.0: 2 ports detected
+[23101.406710] xhci_hcd 0000:3b:00.0: xHCI Host Controller
+[23101.406719] xhci_hcd 0000:3b:00.0: new USB bus registered, assigned bus number 4
+[23101.406727] xhci_hcd 0000:3b:00.0: Host supports USB 3.1 Enhanced SuperSpeed
+[23101.406814] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.08
+[23101.406818] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[23101.406821] usb usb4: Product: xHCI Host Controller
+[23101.406824] usb usb4: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
+[23101.406827] usb usb4: SerialNumber: 0000:3b:00.0
+[23101.407110] hub 4-0:1.0: USB hub found
+[23101.407130] hub 4-0:1.0: 2 ports detected
+[23101.741666] usb 3-2: new high-speed USB device number 2 using xhci_hcd
+[23101.893604] usb 3-2: New USB device found, idVendor=05ac, idProduct=12a8, bcdDevice=13.02
+[23101.893610] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[23101.893613] usb 3-2: Product: iPhone
+[23101.893616] usb 3-2: Manufacturer: Apple Inc.
+[23101.893619] usb 3-2: SerialNumber: 000081010001402008E1401E
+[23102.010801] ipheth 3-2:4.2: Apple iPhone USB Ethernet device attached
+[23102.011281] audit: type=1400 audit(1614944202.464:185): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/virtual/net/lo/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[23102.011763] audit: type=1400 audit(1614944202.464:186): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1f.6/net/enp0s31f6/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[23102.011773] audit: type=1400 audit(1614944202.464:187): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/net/wlp3s0/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[23102.050600] ipheth 3-2:4.2 enxa2fbc5057cae: renamed from eth0
+[23102.084120] audit: type=1400 audit(1614944202.536:188): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/virtual/net/lo/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[23102.084134] audit: type=1400 audit(1614944202.536:189): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1f.6/net/enp0s31f6/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[23102.084144] audit: type=1400 audit(1614944202.536:190): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/net/wlp3s0/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[23102.107393] audit: type=1400 audit(1614944202.560:191): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/virtual/net/lo/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[23102.107601] audit: type=1400 audit(1614944202.560:192): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1f.6/net/enp0s31f6/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[23102.107607] audit: type=1400 audit(1614944202.560:193): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/pci0000:00/0000:00:1c.0/0000:03:00.0/net/wlp3s0/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[23106.149727] apple-mfi-fastcharge 3-2: USB disconnect, device number 2
+[23106.152677] audit: type=1400 audit(1614944206.604:194): apparmor="DENIED" operation="open" profile="snap.skype.skype" name="/sys/devices/virtual/net/lo/speed" pid=20268 comm="skypeforlinux" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[23106.170169] pcieport 0000:00:1c.4: AER: Corrected error received: 0000:00:1c.4
+[23106.170174] pcieport 0000:00:1c.4: AER: PCIe Bus Error: severity=Corrected, type=Physical Layer, (Receiver ID)
+[23106.170177] pcieport 0000:00:1c.4: AER:   device [8086:a114] error status/mask=00000001/00002000
+[23106.170179] pcieport 0000:00:1c.4: AER:    [ 0] RxErr                 
+[23106.189620] ipheth 3-2:4.2: Apple iPhone USB Ethernet now disconnected
+[23106.309642] xhci_hcd 0000:3b:00.0: xHCI host controller not responding, assume dead
+[23106.309667] xhci_hcd 0000:3b:00.0: HC died; cleaning up
+[23106.309795] xhci_hcd 0000:3b:00.0: Timeout while waiting for configure endpoint command
+[23106.694672] xhci_hcd 0000:3b:00.0: remove, state 4
+[23106.694678] usb usb4: USB disconnect, device number 1
+[23106.694949] xhci_hcd 0000:3b:00.0: USB bus 4 deregistered
+[23106.694956] xhci_hcd 0000:3b:00.0: remove, state 1
+[23106.694958] usb usb3: USB disconnect, device number 1
+[23106.695166] xhci_hcd 0000:3b:00.0: Host halt failed, -19
+[23106.695172] xhci_hcd 0000:3b:00.0: Host not accessible, reset failed.
+[23106.695294] xhci_hcd 0000:3b:00.0: USB bus 3 deregistered
+[23106.695722] pcieport 0000:06:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[23106.696126] pci_bus 0000:07: busn_res: [bus 07] is released
+[23106.696199] pci_bus 0000:08: busn_res: [bus 08-3a] is released
+[23106.696396] pci_bus 0000:3b: busn_res: [bus 3b] is released
+[23106.696496] pci_bus 0000:3c: busn_res: [bus 3c-6f] is released
+[23106.696570] pci_bus 0000:06: busn_res: [bus 06-6f] is released $
