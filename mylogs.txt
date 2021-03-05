@@ -1,153 +1,3 @@
-[    3.575499] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
-[    3.575888] ACPI: Enabled 8 GPEs in block 00 to 7F
-[    3.577591] ACPI: Power Resource [PG01] (on)
-[    3.578063] ACPI: Power Resource [PG02] (on)
-[    3.578551] ACPI: Power Resource [PG00] (on)
-[    3.610580] ACPI: Power Resource [WRST] (on)
-[    3.611063] ACPI: Power Resource [WRST] (on)
-[    3.611536] ACPI: Power Resource [WRST] (on)
-[    3.612009] ACPI: Power Resource [WRST] (on)
-[    3.612483] ACPI: Power Resource [WRST] (on)
-[    3.613168] ACPI: Power Resource [WRST] (on)
-[    3.613634] ACPI: Power Resource [WRST] (on)
-[    3.614101] ACPI: Power Resource [WRST] (on)
-[    3.614574] ACPI: Power Resource [WRST] (on)
-[    3.615045] ACPI: Power Resource [WRST] (on)
-[    3.615510] ACPI: Power Resource [WRST] (on)
-[    3.615980] ACPI: Power Resource [WRST] (on)
-[    3.616453] ACPI: Power Resource [WRST] (on)
-[    3.616929] ACPI: Power Resource [WRST] (on)
-[    3.617398] ACPI: Power Resource [WRST] (on)
-[    3.617867] ACPI: Power Resource [WRST] (on)
-[    3.618665] ACPI: Power Resource [WRST] (on)
-[    3.619138] ACPI: Power Resource [WRST] (on)
-[    3.619608] ACPI: Power Resource [WRST] (on)
-[    3.620079] ACPI: Power Resource [WRST] (on)
-[    3.624159] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-7e])
-[    3.624166] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
-[    3.624415] acpi PNP0A08:00: _OSC: platform does not support [PCIeHotplug SHPCHotplug PME]
-[    3.624652] acpi PNP0A08:00: _OSC: OS now controls [AER PCIeCapability LTR]
-[    3.624653] acpi PNP0A08:00: FADT indicates ASPM is unsupported, using BIOS configuration
-[    3.627026] PCI host bridge to bus 0000:00
-[    3.627028] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
-[    3.627029] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
-[    3.627030] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
-[    3.627031] pci_bus 0000:00: root bus resource [mem 0x40000000-0xefffffff window]
-[    3.627032] pci_bus 0000:00: root bus resource [mem 0xfd000000-0xfe7fffff window]
-[    3.627033] pci_bus 0000:00: root bus resource [bus 00-7e]
-[    3.627042] pci 0000:00:00.0: [8086:1910] type 00 class 0x060000
-[    3.627984] pci 0000:00:01.0: [8086:1901] type 01 class 0x060400
-[    3.628029] pci 0000:00:01.0: PME# supported from D0 D3hot D3cold
-[    3.629092] pci 0000:00:14.0: [8086:a12f] type 00 class 0x0c0330
-[    3.629112] pci 0000:00:14.0: reg 0x10: [mem 0xe4420000-0xe442ffff 64bit]
-[    3.629174] pci 0000:00:14.0: PME# supported from D3hot D3cold
-[    3.630171] pci 0000:00:14.2: [8086:a131] type 00 class 0x118000
-[    3.630190] pci 0000:00:14.2: reg 0x10: [mem 0xe444b000-0xe444bfff 64bit]
-[    3.631158] pci 0000:00:16.0: [8086:a13a] type 00 class 0x078000
-[    3.631176] pci 0000:00:16.0: reg 0x10: [mem 0xe444c000-0xe444cfff 64bit]
-[    3.631237] pci 0000:00:16.0: PME# supported from D3hot
-[    3.632207] pci 0000:00:16.3: [8086:a13d] type 00 class 0x070002
-[    3.632223] pci 0000:00:16.3: reg 0x10: [io  0x6040-0x6047]
-[    3.632229] pci 0000:00:16.3: reg 0x14: [mem 0xe444a000-0xe444afff]
-[    3.633185] pci 0000:00:17.0: [8086:2822] type 00 class 0x010400
-[    3.633200] pci 0000:00:17.0: reg 0x10: [mem 0xe4448000-0xe4449fff]
-[    3.633207] pci 0000:00:17.0: reg 0x14: [mem 0xe444f000-0xe444f0ff]
-[    3.633213] pci 0000:00:17.0: reg 0x18: [io  0x6048-0x604f]
-[    3.633219] pci 0000:00:17.0: reg 0x1c: [io  0x6050-0x6053]
-[    3.633226] pci 0000:00:17.0: reg 0x20: [io  0x6000-0x601f]
-[    3.633232] pci 0000:00:17.0: reg 0x24: [mem 0xe444d000-0xe444d7ff]
-[    3.633269] pci 0000:00:17.0: PME# supported from D3hot
-[    3.634223] pci 0000:00:1b.0: [8086:a167] type 01 class 0x060400
-[    3.634303] pci 0000:00:1b.0: PME# supported from D0 D3hot D3cold
-[    3.635334] pci 0000:00:1c.0: [8086:a110] type 01 class 0x060400
-[    3.635404] pci 0000:00:1c.0: PME# supported from D0 D3hot D3cold
-[    3.636391] pci 0000:00:1c.1: [8086:a111] type 01 class 0x060400
-[    3.636464] pci 0000:00:1c.1: PME# supported from D0 D3hot D3cold
-[    3.637457] pci 0000:00:1c.4: [8086:a114] type 01 class 0x060400
-[    3.637535] pci 0000:00:1c.4: PME# supported from D0 D3hot D3cold
-[    3.638533] pci 0000:00:1f.0: [8086:a150] type 00 class 0x060100
-[    3.639543] pci 0000:00:1f.2: [8086:a121] type 00 class 0x058000
-[    3.639558] pci 0000:00:1f.2: reg 0x10: [mem 0xe4440000-0xe4443fff]
-[    3.640545] pci 0000:00:1f.3: [8086:a170] type 00 class 0x040380
-[    3.640571] pci 0000:00:1f.3: reg 0x10: [mem 0xe4444000-0xe4447fff 64bit]
-[    3.640601] pci 0000:00:1f.3: reg 0x20: [mem 0xe4430000-0xe443ffff 64bit]
-[    3.640649] pci 0000:00:1f.3: PME# supported from D3hot D3cold
-[    3.641629] pci 0000:00:1f.4: [8086:a123] type 00 class 0x0c0500
-[    3.641689] pci 0000:00:1f.4: reg 0x10: [mem 0xe444e000-0xe444e0ff 64bit]
-[    3.641758] pci 0000:00:1f.4: reg 0x20: [io  0xefa0-0xefbf]
-[    3.642770] pci 0000:00:1f.6: [8086:15b7] type 00 class 0x020000
-[    3.642796] pci 0000:00:1f.6: reg 0x10: [mem 0xe4400000-0xe441ffff]
-[    3.642901] pci 0000:00:1f.6: PME# supported from D0 D3hot D3cold
-[    3.643881] pci 0000:01:00.0: [10de:13f9] type 00 class 0x030000
-[    3.643902] pci 0000:01:00.0: reg 0x10: [mem 0xe3000000-0xe3ffffff]
-[    3.643912] pci 0000:01:00.0: reg 0x14: [mem 0xa0000000-0xafffffff 64bit pref]
-[    3.643922] pci 0000:01:00.0: reg 0x1c: [mem 0xb0000000-0xb1ffffff 64bit pref]
-[    3.643928] pci 0000:01:00.0: reg 0x24: [io  0x3000-0x307f]
-[    3.643936] pci 0000:01:00.0: reg 0x30: [mem 0xfff80000-0xffffffff pref]
-[    3.644029] pci 0000:01:00.0: 32.000 Gb/s available PCIe bandwidth, limited by 2.5 GT/s PCIe x16 link at 0000:00:01.0 (capable of 126.016 Gb/s with 8.0 GT/s PCIe x16 link)
-[    3.644482] pci 0000:01:00.1: [10de:0fbb] type 00 class 0x040300
-[    3.644498] pci 0000:01:00.1: reg 0x10: [mem 0xe4000000-0xe4003fff]
-[    3.644632] pci 0000:00:01.0: ASPM: current common clock configuration is inconsistent, reconfiguring
-[    3.654887] pci 0000:00:01.0: PCI bridge to [bus 01]
-[    3.654888] pci 0000:00:01.0:   bridge window [io  0x3000-0x3fff]
-[    3.654890] pci 0000:00:01.0:   bridge window [mem 0xe3000000-0xe40fffff]
-[    3.654893] pci 0000:00:01.0:   bridge window [mem 0xa0000000-0xb1ffffff 64bit pref]
-[    3.655198] pci 0000:02:00.0: [1179:010f] type 00 class 0x010802
-[    3.655219] pci 0000:02:00.0: reg 0x10: [mem 0xe4100000-0xe4103fff 64bit]
-[    3.655253] pci 0000:02:00.0: enabling Extended Tags
-[    3.655465] pci 0000:00:1b.0: PCI bridge to [bus 02]
-[    3.655469] pci 0000:00:1b.0:   bridge window [mem 0xe4100000-0xe41fffff]
-[    3.655804] pci 0000:03:00.0: [8086:24f3] type 00 class 0x028000
-[    3.655855] pci 0000:03:00.0: reg 0x10: [mem 0xe4200000-0xe4201fff 64bit]
-[    3.656093] pci 0000:03:00.0: PME# supported from D0 D3hot D3cold
-[    3.656731] pci 0000:00:1c.0: PCI bridge to [bus 03]
-[    3.656735] pci 0000:00:1c.0:   bridge window [mem 0xe4200000-0xe42fffff]
-[    3.656793] pci 0000:04:00.0: [10ec:525a] type 00 class 0xff0000
-[    3.656828] pci 0000:04:00.0: reg 0x14: [mem 0xe4300000-0xe4300fff]
-[    3.656943] pci 0000:04:00.0: supports D1 D2
-[    3.656944] pci 0000:04:00.0: PME# supported from D1 D2 D3hot D3cold
-[    3.657135] pci 0000:00:1c.1: PCI bridge to [bus 04]
-[    3.657137] pci 0000:00:1c.1:   bridge window [io  0x4000-0x5fff]
-[    3.657139] pci 0000:00:1c.1:   bridge window [mem 0xe4300000-0xe43fffff]
-[    3.657203] pci 0000:00:1c.4: PCI bridge to [bus 05-6f]
-[    3.657207] pci 0000:00:1c.4:   bridge window [mem 0xb4000000-0xe20fffff]
-[    3.657210] pci 0000:00:1c.4:   bridge window [mem 0x50000000-0x99ffffff 64bit pref]
-[    3.658674] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 10 *11 12 14 15)
-[    3.658737] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 *10 11 12 14 15)
-[    3.658796] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 10 *11 12 14 15)
-[    3.658858] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 10 *11 12 14 15)
-[    3.658921] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 10 *11 12 14 15)
-[    3.658981] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 10 *11 12 14 15)
-[    3.659040] ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 10 *11 12 14 15)
-[    3.659099] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 10 *11 12 14 15)
-[    3.659509] ACPI: EC: interrupt unblocked
-[    3.659510] ACPI: EC: event unblocked
-[    3.659517] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
-[    3.659517] ACPI: EC: GPE=0x6e
-[    3.659519] ACPI: \_SB_.PCI0.LPCB.EC0_: Boot DSDT EC initialization complete
-[    3.659520] ACPI: \_SB_.PCI0.LPCB.EC0_: EC: Used to handle transactions and events
-[    3.659581] iommu: Default domain type: Translated 
-[    3.659581] SCSI subsystem initialized
-[    3.659581] libata version 3.00 loaded.
-[    3.659581] pci 0000:01:00.0: vgaarb: setting as boot VGA device
-[    3.659581] pci 0000:01:00.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
-[    3.659581] pci 0000:01:00.0: vgaarb: bridge control possible
-[    3.659581] vgaarb: loaded
-[    3.659581] ACPI: bus type USB registered
-[    3.659581] usbcore: registered new interface driver usbfs
-[    3.659581] usbcore: registered new interface driver hub
-[    3.659581] usbcore: registered new device driver usb
-[    3.659581] pps_core: LinuxPPS API ver. 1 registered
-[    3.659581] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
-[    3.659581] PTP clock support registered
-[    3.659581] EDAC MC: Ver: 3.0.0
-[    3.659756] NetLabel: Initializing
-[    3.659756] NetLabel:  domain hash size = 128
-[    3.659756] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
-[    3.659756] NetLabel:  unlabeled traffic allowed by default
-[    3.659756] PCI: Using ACPI for IRQ routing
-[    3.665533] PCI: pci_cache_line_size set to 64 bytes
-[    3.666690] e820: reserve RAM buffer [mem 0x00091c00-0x0009ffff]
 [    3.666692] e820: reserve RAM buffer [mem 0x3387c000-0x33ffffff]
 [    3.666693] e820: reserve RAM buffer [mem 0x33c57000-0x33ffffff]
 [    3.666694] e820: reserve RAM buffer [mem 0x3d003000-0x3fffffff]
@@ -2497,4 +2347,127 @@
 [ 9917.456428] pci_bus 0000:08: busn_res: [bus 08-3a] is released
 [ 9917.470241] pci_bus 0000:3b: busn_res: [bus 3b] is released
 [ 9917.470381] pci_bus 0000:3c: busn_res: [bus 3c-6f] is released
-[ 9917.470447] pci_bus 0000:06: busn_res: [bus 06-6f] is released $
+[ 9917.470447] pci_bus 0000:06: busn_res: [bus 06-6f] is released
+[10096.764191] ACPI BIOS Error (bug): Failure creating named object [\_GPE._E4C.SPRT], AE_ALREADY_EXISTS (20200528/dswload2-326)
+[10096.764217] No Local Variables are initialized for Method [_E4C]
+[10096.764221] No Arguments are initialized for method [_E4C]
+[10096.764224] ACPI Error: AE_ALREADY_EXISTS, During name lookup/catalog (20200528/psobject-220)
+[10096.764232] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
+[10096.764245] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
+[10096.764264] ACPI Error: AE_ALREADY_EXISTS, while evaluating GPE method [_E4C] (20200528/evgpe-511)
+[10097.052767] pcieport 0000:00:1b.0: AER: Multiple Corrected error received: 0000:02:00.0
+[10097.053048] nvme 0000:02:00.0: AER: PCIe Bus Error: severity=Corrected, type=Transaction Layer, (Receiver ID)
+[10097.053051] nvme 0000:02:00.0: AER:   device [1179:010f] error status/mask=00002000/00000000
+[10097.053053] nvme 0000:02:00.0: AER:    [13] NonFatalErr           
+[10097.075264] pci 0000:05:00.0: [8086:1578] type 01 class 0x060400
+[10097.075319] pci 0000:05:00.0: enabling Extended Tags
+[10097.075398] pci 0000:05:00.0: supports D1 D2
+[10097.075399] pci 0000:05:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[10097.075734] pci 0000:06:00.0: [8086:1578] type 01 class 0x060400
+[10097.075791] pci 0000:06:00.0: enabling Extended Tags
+[10097.075874] pci 0000:06:00.0: supports D1 D2
+[10097.075875] pci 0000:06:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[10097.075998] pci 0000:06:01.0: [8086:1578] type 01 class 0x060400
+[10097.076058] pci 0000:06:01.0: enabling Extended Tags
+[10097.076144] pci 0000:06:01.0: supports D1 D2
+[10097.076145] pci 0000:06:01.0: PME# supported from D0 D1 D2 D3hot D3cold
+[10097.076257] pci 0000:06:02.0: [8086:1578] type 01 class 0x060400
+[10097.076313] pci 0000:06:02.0: enabling Extended Tags
+[10097.076392] pci 0000:06:02.0: supports D1 D2
+[10097.076393] pci 0000:06:02.0: PME# supported from D0 D1 D2 D3hot D3cold
+[10097.076521] pci 0000:06:04.0: [8086:1578] type 01 class 0x060400
+[10097.076581] pci 0000:06:04.0: enabling Extended Tags
+[10097.076663] pci 0000:06:04.0: supports D1 D2
+[10097.076664] pci 0000:06:04.0: PME# supported from D0 D1 D2 D3hot D3cold
+[10097.076781] pci 0000:05:00.0: PCI bridge to [bus 06-6f]
+[10097.076789] pci 0000:05:00.0:   bridge window [mem 0xb4000000-0xe20fffff]
+[10097.076794] pci 0000:05:00.0:   bridge window [mem 0x50000000-0x99ffffff 64bit pref]
+[10097.076836] pci 0000:06:00.0: PCI bridge to [bus 07]
+[10097.076844] pci 0000:06:00.0:   bridge window [mem 0xe2000000-0xe20fffff]
+[10097.076890] pci 0000:06:01.0: PCI bridge to [bus 08-3a]
+[10097.076898] pci 0000:06:01.0:   bridge window [mem 0xb4000000-0xcbefffff]
+[10097.076903] pci 0000:06:01.0:   bridge window [mem 0x50000000-0x6fffffff 64bit pref]
+[10097.076974] pci 0000:3b:00.0: [8086:15b6] type 00 class 0x0c0330
+[10097.077008] pci 0000:3b:00.0: reg 0x10: [mem 0xcbf00000-0xcbf0ffff]
+[10097.077080] pci 0000:3b:00.0: enabling Extended Tags
+[10097.077183] pci 0000:3b:00.0: supports D1 D2
+[10097.077184] pci 0000:3b:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[10097.077261] pci 0000:3b:00.0: 8.000 Gb/s available PCIe bandwidth, limited by 2.5 GT/s PCIe x4 link at 0000:06:02.0 (capable of 31.504 Gb/s with 8.0 GT/s PCIe x4 link)
+[10097.077382] pci 0000:06:02.0: PCI bridge to [bus 3b]
+[10097.077390] pci 0000:06:02.0:   bridge window [mem 0xcbf00000-0xcbffffff]
+[10097.077437] pci 0000:06:04.0: PCI bridge to [bus 3c-6f]
+[10097.077445] pci 0000:06:04.0:   bridge window [mem 0xcc000000-0xe1ffffff]
+[10097.077450] pci 0000:06:04.0:   bridge window [mem 0x70000000-0x99ffffff 64bit pref]
+[10097.077475] pci_bus 0000:06: Allocating resources
+[10097.077491] pci 0000:06:01.0: bridge window [io  0x1000-0x0fff] to [bus 08-3a] add_size 1000
+[10097.077492] pci 0000:06:04.0: bridge window [io  0x1000-0x0fff] to [bus 3c-6f] add_size 1000
+[10097.077494] pci 0000:05:00.0: bridge window [io  0x1000-0x0fff] to [bus 06-6f] add_size 3000
+[10097.077496] pci 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
+[10097.077497] pci 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
+[10097.077498] pci 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
+[10097.077499] pci 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
+[10097.077500] pci 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
+[10097.077501] pci 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
+[10097.077502] pci 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
+[10097.077503] pci 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
+[10097.077504] pci 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
+[10097.077504] pci 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
+[10097.077505] pci 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
+[10097.077506] pci 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
+[10097.077507] pci 0000:06:00.0: PCI bridge to [bus 07]
+[10097.077511] pci 0000:06:00.0:   bridge window [mem 0xe2000000-0xe20fffff]
+[10097.077518] pci 0000:06:01.0: PCI bridge to [bus 08-3a]
+[10097.077522] pci 0000:06:01.0:   bridge window [mem 0xb4000000-0xcbefffff]
+[10097.077525] pci 0000:06:01.0:   bridge window [mem 0x50000000-0x6fffffff 64bit pref]
+[10097.077530] pci 0000:06:02.0: PCI bridge to [bus 3b]
+[10097.077534] pci 0000:06:02.0:   bridge window [mem 0xcbf00000-0xcbffffff]
+[10097.077541] pci 0000:06:04.0: PCI bridge to [bus 3c-6f]
+[10097.077545] pci 0000:06:04.0:   bridge window [mem 0xcc000000-0xe1ffffff]
+[10097.077548] pci 0000:06:04.0:   bridge window [mem 0x70000000-0x99ffffff 64bit pref]
+[10097.077553] pci 0000:05:00.0: PCI bridge to [bus 06-6f]
+[10097.077557] pci 0000:05:00.0:   bridge window [mem 0xb4000000-0xe20fffff]
+[10097.077560] pci 0000:05:00.0:   bridge window [mem 0x50000000-0x99ffffff 64bit pref]
+[10097.079052] xhci_hcd 0000:3b:00.0: xHCI Host Controller
+[10097.079058] xhci_hcd 0000:3b:00.0: new USB bus registered, assigned bus number 3
+[10097.080163] xhci_hcd 0000:3b:00.0: hcc params 0x200077c1 hci version 0x110 quirks 0x0000000200009810
+[10097.080343] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.08
+[10097.080344] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[10097.080345] usb usb3: Product: xHCI Host Controller
+[10097.080346] usb usb3: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
+[10097.080347] usb usb3: SerialNumber: 0000:3b:00.0
+[10097.080512] hub 3-0:1.0: USB hub found
+[10097.080522] hub 3-0:1.0: 2 ports detected
+[10097.081087] xhci_hcd 0000:3b:00.0: xHCI Host Controller
+[10097.081091] xhci_hcd 0000:3b:00.0: new USB bus registered, assigned bus number 4
+[10097.081094] xhci_hcd 0000:3b:00.0: Host supports USB 3.1 Enhanced SuperSpeed
+[10097.081132] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.08
+[10097.081133] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[10097.081135] usb usb4: Product: xHCI Host Controller
+[10097.081136] usb usb4: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
+[10097.081137] usb usb4: SerialNumber: 0000:3b:00.0
+[10097.081261] hub 4-0:1.0: USB hub found
+[10097.081269] hub 4-0:1.0: 2 ports detected
+[10207.624379] pcieport 0000:00:1c.4: AER: Corrected error received: 0000:00:1c.4
+[10207.624390] pcieport 0000:00:1c.4: AER: PCIe Bus Error: severity=Corrected, type=Physical Layer, (Receiver ID)
+[10207.624399] pcieport 0000:00:1c.4: AER:   device [8086:a114] error status/mask=00000001/00002000
+[10207.624404] pcieport 0000:00:1c.4: AER:    [ 0] RxErr                 
+[10208.146152] pcieport 0000:06:02.0: can't change power state from D3cold to D0 (config space inaccessible)
+[10208.146172] xhci_hcd 0000:3b:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[10208.146180] xhci_hcd 0000:3b:00.0: can't change power state from D3hot to D0 (config space inaccessible)
+[10208.146195] xhci_hcd 0000:3b:00.0: Controller not ready at resume -19
+[10208.146197] xhci_hcd 0000:3b:00.0: PCI post-resume error -19!
+[10208.146198] xhci_hcd 0000:3b:00.0: HC died; cleaning up
+[10208.146233] xhci_hcd 0000:3b:00.0: remove, state 4
+[10208.146235] usb usb4: USB disconnect, device number 1
+[10208.146461] xhci_hcd 0000:3b:00.0: USB bus 4 deregistered
+[10208.146466] xhci_hcd 0000:3b:00.0: remove, state 4
+[10208.146467] usb usb3: USB disconnect, device number 1
+[10208.146684] xhci_hcd 0000:3b:00.0: Host halt failed, -19
+[10208.146686] xhci_hcd 0000:3b:00.0: Host not accessible, reset failed.
+[10208.146793] xhci_hcd 0000:3b:00.0: USB bus 3 deregistered
+[10208.147129] pcieport 0000:06:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[10208.147377] pci_bus 0000:07: busn_res: [bus 07] is released
+[10208.147423] pci_bus 0000:08: busn_res: [bus 08-3a] is released
+[10208.160850] pci_bus 0000:3b: busn_res: [bus 3b] is released
+[10208.160961] pci_bus 0000:3c: busn_res: [bus 3c-6f] is released
+[10208.161035] pci_bus 0000:06: busn_res: [bus 06-6f] is released $
