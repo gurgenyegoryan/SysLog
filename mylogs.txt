@@ -1,158 +1,3 @@
-[    4.559995] e1000e 0000:00:1f.6 eth0: Intel(R) PRO/1000 Network Connection
-[    4.560094] e1000e 0000:00:1f.6 eth0: MAC: 12, PHY: 12, PBA No: FFFFFF-0FF
-[    4.565709] e1000e 0000:00:1f.6 enp0s31f6: renamed from eth0
-[    4.643022] usb 1-7: new high-speed USB device number 2 using xhci_hcd
-[    4.643279] ata2: SATA link down (SStatus 4 SControl 300)
-[    4.824536] usb 1-7: New USB device found, idVendor=04ca, idProduct=7054, bcdDevice= 0.09
-[    4.824541] usb 1-7: New USB device strings: Mfr=3, Product=1, SerialNumber=2
-[    4.824545] usb 1-7: Product: HP HD Camera
-[    4.824548] usb 1-7: Manufacturer: DETNR019I2320G
-[    4.824551] usb 1-7: SerialNumber: 200901010001
-[    4.947042] tsc: Refined TSC clocksource calibration: 2711.971 MHz
-[    4.947058] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x27176af2e6f, max_idle_ns: 440795209338 ns
-[    4.947129] clocksource: Switched to clocksource tsc
-[    4.955026] usb 1-8: new full-speed USB device number 3 using xhci_hcd
-[    4.955043] ata4: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
-[    4.955439] ata4.00: ACPI cmd f5/00:00:00:00:00:e0 (SECURITY FREEZE LOCK) filtered out
-[    4.955445] ata4.00: ACPI cmd b1/c1:00:00:00:00:e0 (DEVICE CONFIGURATION OVERLAY) filtered out
-[    4.955744] ata4.00: ATA-11: Patriot Burst, SBFMJ1.3, max UDMA/133
-[    4.955749] ata4.00: 468862128 sectors, multi 16: LBA48 NCQ (depth 32), AA
-[    4.956275] ata4.00: ACPI cmd f5/00:00:00:00:00:e0 (SECURITY FREEZE LOCK) filtered out
-[    4.956281] ata4.00: ACPI cmd b1/c1:00:00:00:00:e0 (DEVICE CONFIGURATION OVERLAY) filtered out
-[    4.956536] ata4.00: configured for UDMA/133
-[    4.956815] scsi 3:0:0:0: Direct-Access     ATA      Patriot Burst    J1.3 PQ: 0 ANSI: 5
-[    4.957361] sd 3:0:0:0: [sda] 468862128 512-byte logical blocks: (240 GB/224 GiB)
-[    4.957366] sd 3:0:0:0: Attached scsi generic sg0 type 0
-[    4.957381] sd 3:0:0:0: [sda] Write Protect is off
-[    4.957385] sd 3:0:0:0: [sda] Mode Sense: 00 3a 00 00
-[    4.957413] sd 3:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
-[    4.975045]  sda: sda1 sda2
-[    4.976124] sd 3:0:0:0: [sda] Attached SCSI disk
-[    5.105389] usb 1-8: New USB device found, idVendor=138a, idProduct=003f, bcdDevice= 1.04
-[    5.105395] usb 1-8: New USB device strings: Mfr=0, Product=0, SerialNumber=1
-[    5.105398] usb 1-8: SerialNumber: 00a02a683c9c
-[    5.221065] input: PS/2 Generic Mouse as /devices/platform/i8042/serio2/input/input10
-[    5.235029] usb 1-12: new full-speed USB device number 4 using xhci_hcd
-[    5.384988] usb 1-12: New USB device found, idVendor=8087, idProduct=0a2b, bcdDevice= 0.01
-[    5.384993] usb 1-12: New USB device strings: Mfr=0, Product=0, SerialNumber=0
-[    5.466544] fbcon: Taking over console
-[    5.466613] Console: switching to colour frame buffer device 80x30
-[    5.474761] EXT4-fs (nvme0n1p5): mounted filesystem with ordered data mode. Opts: (null)
-[    5.574557] systemd[1]: Inserted module 'autofs4'
-[    5.585564] systemd[1]: systemd 245.4-4ubuntu3.4 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN2 -IDN +PCRE2 default-hierarchy=hybrid)
-[    5.603198] systemd[1]: Detected architecture x86-64.
-[    5.628064] systemd[1]: Set hostname to <Zbook>.
-[    5.693341] systemd[1]: /lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket → /run/dbus/system_bus_socket; please update the unit file accordingly.
-[    5.701599] systemd[1]: /lib/systemd/system/vpnagentd.service:10: PIDFile= references a path below legacy directory /var/run/, updating /var/run/vpnagentd.pid → /run/vpnagentd.pid; please update the unit file accordingly.
-[    5.735852] systemd[1]: Created slice system-modprobe.slice.
-[    5.736019] systemd[1]: Created slice system-systemd\x2dfsck.slice.
-[    5.736139] systemd[1]: Created slice User and Session Slice.
-[    5.736182] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
-[    5.736296] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
-[    5.736323] systemd[1]: Reached target User and Group Name Lookups.
-[    5.736335] systemd[1]: Reached target Remote File Systems.
-[    5.736341] systemd[1]: Reached target Slices.
-[    5.736909] systemd[1]: Listening on Syslog Socket.
-[    5.736969] systemd[1]: Listening on fsck to fsckd communication Socket.
-[    5.737003] systemd[1]: Listening on initctl Compatibility Named Pipe.
-[    5.737123] systemd[1]: Listening on Journal Audit Socket.
-[    5.737184] systemd[1]: Listening on Journal Socket (/dev/log).
-[    5.737252] systemd[1]: Listening on Journal Socket.
-[    5.737315] systemd[1]: Listening on udev Control Socket.
-[    5.737363] systemd[1]: Listening on udev Kernel Socket.
-[    5.737999] systemd[1]: Mounting Huge Pages File System...
-[    5.738664] systemd[1]: Mounting POSIX Message Queue File System...
-[    5.739490] systemd[1]: Mounting Kernel Debug File System...
-[    5.740224] systemd[1]: Mounting Kernel Trace File System...
-[    5.741714] systemd[1]: Starting Journal Service...
-[    5.742499] systemd[1]: Starting Set the console keyboard layout...
-[    5.743607] systemd[1]: Starting Create list of static device nodes for the current kernel...
-[    5.744475] systemd[1]: Starting Load Kernel Module drm...
-[    5.744931] systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
-[    5.744983] systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
-[    5.746055] systemd[1]: Starting Load Kernel Modules...
-[    5.747141] systemd[1]: Starting Remount Root and Kernel File Systems...
-[    5.748022] systemd[1]: Starting udev Coldplug all Devices...
-[    5.749127] systemd[1]: Starting Uncomplicated firewall...
-[    5.751188] systemd[1]: Mounted Huge Pages File System.
-[    5.751320] systemd[1]: Mounted POSIX Message Queue File System.
-[    5.751456] systemd[1]: Mounted Kernel Debug File System.
-[    5.751587] systemd[1]: Mounted Kernel Trace File System.
-[    5.752193] systemd[1]: Finished Create list of static device nodes for the current kernel.
-[    5.752994] systemd[1]: Finished Uncomplicated firewall.
-[    5.755253] EXT4-fs (nvme0n1p5): re-mounted. Opts: errors=remount-ro
-[    5.756588] systemd[1]: Finished Remount Root and Kernel File Systems.
-[    5.757356] systemd[1]: Activating swap /swapfile...
-[    5.758281] systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
-[    5.758339] systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
-[    5.759139] systemd[1]: Starting Load/Save Random Seed...
-[    5.760152] systemd[1]: Starting Create System Users...
-[    5.760640] systemd[1]: modprobe@drm.service: Succeeded.
-[    5.760711] lp: driver loaded but no devices found
-[    5.760972] systemd[1]: Finished Load Kernel Module drm.
-[    5.764296] ppdev: user-space parallel port driver
-[    5.768249] systemd[1]: Finished Load Kernel Modules.
-[    5.769175] systemd[1]: Mounting FUSE Control File System...
-[    5.770233] systemd[1]: Mounting Kernel Configuration File System...
-[    5.771400] systemd[1]: Starting Apply Kernel Variables...
-[    5.773641] systemd[1]: Mounted FUSE Control File System.
-[    5.773812] systemd[1]: Mounted Kernel Configuration File System.
-[    5.781456] systemd[1]: Finished Load/Save Random Seed.
-[    5.783319] systemd[1]: Finished Create System Users.
-[    5.784162] systemd[1]: Starting Create Static Device Nodes in /dev...
-[    5.786773] systemd[1]: Finished Apply Kernel Variables.
-[    5.790862] Adding 2097148k swap on /swapfile.  Priority:-2 extents:6 across:2260988k SSFS
-[    5.790921] systemd[1]: Activated swap /swapfile.
-[    5.791047] systemd[1]: Reached target Swap.
-[    5.793966] systemd[1]: Finished Create Static Device Nodes in /dev.
-[    5.794923] systemd[1]: Starting udev Kernel Device Manager...
-[    5.824665] systemd[1]: Finished Set the console keyboard layout.
-[    5.824835] systemd[1]: Reached target Local File Systems (Pre).
-[    5.826791] systemd[1]: Mounting Mount unit for code, revision 55...
-[    5.828295] systemd[1]: Mounting Mount unit for core, revision 10823...
-[    5.829682] systemd[1]: Mounting Mount unit for core18, revision 1988...
-[    5.831153] systemd[1]: Mounting Mount unit for gnome-3-34-1804, revision 66...
-[    5.832644] systemd[1]: Mounting Mount unit for gtk-common-themes, revision 1514...
-[    5.833995] systemd[1]: Mounting Mount unit for snap-store, revision 518...
-[    5.835464] systemd[1]: Mounting Mount unit for snapd, revision 11036...
-[    5.837325] systemd[1]: Mounting Mount unit for vlc, revision 2103...
-[    5.837651] systemd[1]: Started Journal Service.
-[    5.844758] systemd-journald[300]: Received client request to flush runtime journal.
-[    5.954555] psmouse serio3: synaptics: queried max coordinates: x [..5664], y [..4742]
-[    5.977132] input: HP Wireless hotkeys as /devices/virtual/input/input12
-[    5.982174] hp_accel: hardware type HPZBook17 found
-[    5.983638] psmouse serio3: synaptics: queried min coordinates: x [1280..], y [1110..]
-[    5.983645] psmouse serio3: synaptics: Your touchpad (PNP: SYN3040 SYN0100 SYN0002 PNP0f13) says it can support a different bus. If i2c-hid and hid-rmi are not used, you might want to try setting psmouse.synaptics_intertouch to 1 and report this to linux-input@vger.kernel.org.
-[    6.036475] psmouse serio3: synaptics: Touchpad model: 1, fw: 8.2, id: 0x1e2b1, caps: 0xf40223/0x840300/0x2e800/0x0, board id: 2706, fw id: 2017334
-[    6.069831] input: SynPS/2 Synaptics TouchPad as /devices/platform/i8042/serio3/input/input11
-[    6.099614] mei_me 0000:00:16.0: enabling device (0000 -> 0002)
-[    6.103810] mc: Linux media interface: v0.10
-[    6.104792] ee1004 0-0053: 512 byte EE1004-compliant SPD EEPROM, read-only
-[    6.111673] lis3lv02d: 8 bits 3DC sensor found
-[    6.117051] Bluetooth: Core ver 2.22
-[    6.117068] NET: Registered protocol family 31
-[    6.117068] Bluetooth: HCI device and connection manager initialized
-[    6.117072] Bluetooth: HCI socket layer initialized
-[    6.117074] Bluetooth: L2CAP socket layer initialized
-[    6.117091] Bluetooth: SCO socket layer initialized
-[    6.117209] videodev: Linux video capture interface: v2.00
-[    6.119551] cfg80211: Loading compiled-in X.509 certificates for regulatory database
-[    6.123652] ACPI Error: Needed [Buffer/String/Package], found [Integer] 000000005b5cbb60 (20200528/exresop-557)
-[    6.123659] ACPI Error: AE_AML_OPERAND_TYPE, While resolving operands for [Index] (20200528/dswexec-431)
-[    6.123667] 
-               Initialized Local Variables for Method [WVPO]:
-[    6.123668]   Local1: 00000000fdd12bfa <Obj>           Buffer(12) 00 00 00 00 00 00 00 00
-[    6.123677] Initialized Arguments for Method [WVPO]:  (2 arguments defined for method invocation)
-[    6.123678]   Arg0:   00000000e6156564 <Obj>           Integer 0000000000000004
-[    6.123682]   Arg1:   000000005b5cbb60 <Obj>           Integer 0000000000000000
-[    6.123688] ACPI Error: Aborting method \_SB.WMIV.WVPO due to previous error (AE_AML_OPERAND_TYPE) (20200528/psparse-529)
-[    6.123704] ACPI Error: Aborting method \_SB.WMIV.WMPV due to previous error (AE_AML_OPERAND_TYPE) (20200528/psparse-529)
-[    6.124045] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
-[    6.125598] ACPI Error: Needed [Buffer/String/Package], found [Integer] 00000000a065bfe6 (20200528/exresop-557)
-[    6.125603] ACPI Error: AE_AML_OPERAND_TYPE, While resolving operands for [Index] (20200528/dswexec-431)
-[    6.125610] 
-               Initialized Local Variables for Method [WVPO]:
-[    6.125611]   Local1: 000000001fd8063e <Obj>           Buffer(12) 00 00 00 00 00 00 00 00
 [    6.125619] Initialized Arguments for Method [WVPO]:  (2 arguments defined for method invocation)
 [    6.125620]   Arg0:   0000000034243b4c <Obj>           Integer 0000000000000004
 [    6.125624]   Arg1:   00000000a065bfe6 <Obj>           Integer 0000000000000000
@@ -2394,4 +2239,119 @@
 [14636.358257] ACPI Error: AE_ALREADY_EXISTS, During name lookup/catalog (20200528/psobject-220)
 [14636.358266] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
 [14636.358278] ACPI Error: Aborting method \_GPE._E4C due to previous error (AE_ALREADY_EXISTS) (20200528/psparse-529)
-[14636.358297] ACPI Error: AE_ALREADY_EXISTS, while evaluating GPE method [_E4C] (20200528/evgpe-511) $
+[14636.358297] ACPI Error: AE_ALREADY_EXISTS, while evaluating GPE method [_E4C] (20200528/evgpe-511)
+[14641.451354] pcieport 0000:00:1b.0: AER: Multiple Corrected error received: 0000:02:00.0
+[14641.451636] nvme 0000:02:00.0: AER: PCIe Bus Error: severity=Corrected, type=Transaction Layer, (Receiver ID)
+[14641.451639] nvme 0000:02:00.0: AER:   device [1179:010f] error status/mask=00002000/00000000
+[14641.451641] nvme 0000:02:00.0: AER:    [13] NonFatalErr           
+[14643.556957] pcieport 0000:06:02.0: Data Link Layer Link Active not set in 1000 msec
+[14643.556995] xhci_hcd 0000:3b:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[14643.557022] xhci_hcd 0000:3b:00.0: can't change power state from D3hot to D0 (config space inaccessible)
+[14643.557053] xhci_hcd 0000:3b:00.0: Controller not ready at resume -19
+[14643.557056] xhci_hcd 0000:3b:00.0: PCI post-resume error -19!
+[14643.557060] xhci_hcd 0000:3b:00.0: HC died; cleaning up
+[14643.557089] xhci_hcd 0000:3b:00.0: remove, state 4
+[14643.557095] usb usb4: USB disconnect, device number 1
+[14643.557671] xhci_hcd 0000:3b:00.0: USB bus 4 deregistered
+[14643.557688] xhci_hcd 0000:3b:00.0: remove, state 4
+[14643.557693] usb usb3: USB disconnect, device number 1
+[14643.558218] xhci_hcd 0000:3b:00.0: Host halt failed, -19
+[14643.558225] xhci_hcd 0000:3b:00.0: Host not accessible, reset failed.
+[14643.558399] xhci_hcd 0000:3b:00.0: USB bus 3 deregistered
+[14643.559475] pci_bus 0000:06: Allocating resources
+[14643.559504] pcieport 0000:06:01.0: bridge window [io  0x1000-0x0fff] to [bus 08-3a] add_size 1000
+[14643.559509] pcieport 0000:06:04.0: bridge window [io  0x1000-0x0fff] to [bus 3c-6f] add_size 1000
+[14643.559514] pcieport 0000:05:00.0: bridge window [io  0x1000-0x0fff] to [bus 06-6f] add_size 3000
+[14643.559523] pcieport 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
+[14643.559526] pcieport 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
+[14643.559530] pcieport 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
+[14643.559533] pcieport 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
+[14643.559539] pcieport 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
+[14643.559542] pcieport 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
+[14643.559545] pcieport 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
+[14643.559547] pcieport 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
+[14643.559551] pcieport 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
+[14643.559554] pcieport 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
+[14643.559557] pcieport 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
+[14643.559560] pcieport 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
+[14646.594926] pcieport 0000:00:1b.0: AER: Multiple Corrected error received: 0000:02:00.0
+[14646.595216] nvme 0000:02:00.0: AER: PCIe Bus Error: severity=Corrected, type=Transaction Layer, (Receiver ID)
+[14646.595235] nvme 0000:02:00.0: AER:   device [1179:010f] error status/mask=00002000/00000000
+[14646.595237] nvme 0000:02:00.0: AER:    [13] NonFatalErr           
+[14646.657678] pci 0000:3b:00.0: [8086:15b6] type 00 class 0x0c0330
+[14646.657742] pci 0000:3b:00.0: reg 0x10: [mem 0xcbf00000-0xcbf0ffff]
+[14646.657852] pci 0000:3b:00.0: enabling Extended Tags
+[14646.658034] pci 0000:3b:00.0: supports D1 D2
+[14646.658038] pci 0000:3b:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[14646.658147] pci 0000:3b:00.0: 8.000 Gb/s available PCIe bandwidth, limited by 2.5 GT/s PCIe x4 link at 0000:06:02.0 (capable of 31.504 Gb/s with 8.0 GT/s PCIe x4 link)
+[14646.658618] pci_bus 0000:06: Allocating resources
+[14646.658661] pcieport 0000:06:01.0: bridge window [io  0x1000-0x0fff] to [bus 08-3a] add_size 1000
+[14646.658668] pcieport 0000:06:04.0: bridge window [io  0x1000-0x0fff] to [bus 3c-6f] add_size 1000
+[14646.658673] pcieport 0000:05:00.0: bridge window [io  0x1000-0x0fff] to [bus 06-6f] add_size 3000
+[14646.658681] pcieport 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
+[14646.658684] pcieport 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
+[14646.658688] pcieport 0000:05:00.0: BAR 13: no space for [io  size 0x3000]
+[14646.658691] pcieport 0000:05:00.0: BAR 13: failed to assign [io  size 0x3000]
+[14646.658697] pcieport 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
+[14646.658699] pcieport 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
+[14646.658702] pcieport 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
+[14646.658705] pcieport 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
+[14646.658709] pcieport 0000:06:04.0: BAR 13: no space for [io  size 0x1000]
+[14646.658712] pcieport 0000:06:04.0: BAR 13: failed to assign [io  size 0x1000]
+[14646.658715] pcieport 0000:06:01.0: BAR 13: no space for [io  size 0x1000]
+[14646.658717] pcieport 0000:06:01.0: BAR 13: failed to assign [io  size 0x1000]
+[14646.659492] xhci_hcd 0000:3b:00.0: xHCI Host Controller
+[14646.659504] xhci_hcd 0000:3b:00.0: new USB bus registered, assigned bus number 3
+[14646.660680] xhci_hcd 0000:3b:00.0: hcc params 0x200077c1 hci version 0x110 quirks 0x0000000200009810
+[14646.661594] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.08
+[14646.661599] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[14646.661602] usb usb3: Product: xHCI Host Controller
+[14646.661605] usb usb3: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
+[14646.661608] usb usb3: SerialNumber: 0000:3b:00.0
+[14646.661956] hub 3-0:1.0: USB hub found
+[14646.661975] hub 3-0:1.0: 2 ports detected
+[14646.663244] xhci_hcd 0000:3b:00.0: xHCI Host Controller
+[14646.663252] xhci_hcd 0000:3b:00.0: new USB bus registered, assigned bus number 4
+[14646.663258] xhci_hcd 0000:3b:00.0: Host supports USB 3.1 Enhanced SuperSpeed
+[14646.663337] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.08
+[14646.663340] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[14646.663343] usb usb4: Product: xHCI Host Controller
+[14646.663346] usb usb4: Manufacturer: Linux 5.8.0-44-generic xhci-hcd
+[14646.663349] usb usb4: SerialNumber: 0000:3b:00.0
+[14646.663694] hub 4-0:1.0: USB hub found
+[14646.663711] hub 4-0:1.0: 2 ports detected
+[14647.000857] usb 3-2: new high-speed USB device number 2 using xhci_hcd
+[14647.152761] usb 3-2: New USB device found, idVendor=05ac, idProduct=12a8, bcdDevice=13.02
+[14647.152767] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[14647.152770] usb 3-2: Product: iPhone
+[14647.152773] usb 3-2: Manufacturer: Apple Inc.
+[14647.152776] usb 3-2: SerialNumber: 000081010001402008E1401E
+[14647.228445] ipheth 3-2:4.2: Apple iPhone USB Ethernet device attached
+[14647.236642] ipheth 3-2:4.2 enxa2fbc5057cae: renamed from eth0
+[14767.074439] apple-mfi-fastcharge 3-2: USB disconnect, device number 2
+[14767.094991] pcieport 0000:00:1c.4: AER: Corrected error received: 0000:00:1c.4
+[14767.094996] pcieport 0000:00:1c.4: AER: PCIe Bus Error: severity=Corrected, type=Physical Layer, (Receiver ID)
+[14767.094998] pcieport 0000:00:1c.4: AER:   device [8086:a114] error status/mask=00000001/00002000
+[14767.095000] pcieport 0000:00:1c.4: AER:    [ 0] RxErr                 
+[14767.123268] ipheth 3-2:4.2: Apple iPhone USB Ethernet now disconnected
+[14767.191323] xhci_hcd 0000:3b:00.0: xHCI host controller not responding, assume dead
+[14767.191344] xhci_hcd 0000:3b:00.0: HC died; cleaning up
+[14767.191463] xhci_hcd 0000:3b:00.0: Timeout while waiting for configure endpoint command
+[14767.624412] xhci_hcd 0000:3b:00.0: remove, state 4
+[14767.624415] usb usb4: USB disconnect, device number 1
+[14767.624623] xhci_hcd 0000:3b:00.0: USB bus 4 deregistered
+[14767.624628] xhci_hcd 0000:3b:00.0: remove, state 1
+[14767.624631] usb usb3: USB disconnect, device number 1
+[14767.624873] xhci_hcd 0000:3b:00.0: Host halt failed, -19
+[14767.624875] xhci_hcd 0000:3b:00.0: Host not accessible, reset failed.
+[14767.624970] xhci_hcd 0000:3b:00.0: USB bus 3 deregistered
+[14767.625339] pcieport 0000:06:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[14767.625622] pci_bus 0000:07: busn_res: [bus 07] is released
+[14767.625691] pci_bus 0000:08: busn_res: [bus 08-3a] is released
+[14767.643406] pci_bus 0000:3b: busn_res: [bus 3b] is released
+[14767.643829] pci_bus 0000:3c: busn_res: [bus 3c-6f] is released
+[14767.644227] pci_bus 0000:06: busn_res: [bus 06-6f] is released
+[14770.988794] pcieport 0000:00:1c.4: AER: Corrected error received: 0000:00:1c.4
+[14770.988805] pcieport 0000:00:1c.4: AER: PCIe Bus Error: severity=Corrected, type=Physical Layer, (Receiver ID)
+[14770.988813] pcieport 0000:00:1c.4: AER:   device [8086:a114] error status/mask=00000001/00002000
+[14770.988820] pcieport 0000:00:1c.4: AER:    [ 0] RxErr                  $
